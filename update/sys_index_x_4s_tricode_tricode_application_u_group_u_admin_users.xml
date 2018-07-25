@@ -18,7 +18,7 @@
         <sys_update_name>sys_index_x_4s_tricode_tricode_application_u_group_u_admin_users</sys_update_name>
         <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
         <sys_updated_on>2018-04-30 02:28:51</sys_updated_on>
-        <table display_value="Tricode Application - Primary" name="x_4s_tricode_tricode_application">667b1742db4dd7801bfdef92ca96190b</table>
+        <table/>
         <unique_index>false</unique_index>
     </sys_index>
 </record_update>

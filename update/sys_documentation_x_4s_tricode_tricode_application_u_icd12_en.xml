@@ -4,25 +4,25 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_icd12</element>
             <help/>
-            <hint>ICD 12 (u_icd12)</hint>
+            <hint/>
             <label>ICD 12</label>
             <language>en</language>
             <name>x_4s_tricode_tricode_application</name>
             <plural>ICD 12s</plural>
             <sys_class_name>sys_documentation</sys_class_name>
-            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
-            <sys_created_on>2018-03-27 15:27:26</sys_created_on>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-07-10 20:17:08</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>70ac852adb491b801bfdef92ca9619b9</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>90ed3e1813d793c031b855912244b0c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_name>ICD 12</sys_name>
             <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
             <sys_update_name>sys_documentation_x_4s_tricode_tricode_application_u_icd12_en</sys_update_name>
-            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
-            <sys_updated_on>2018-04-12 19:14:06</sys_updated_on>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-07-10 20:17:08</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -52,10 +52,10 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
-        <sys_created_on>2018-04-10 03:17:11</sys_created_on>
+        <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+        <sys_created_on>2018-07-10 19:58:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>f09ba6f6db1553c01bfdef92ca96193f</sys_id>
+        <sys_id>2809725413d793c031b855912244b0a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Category Type</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
@@ -63,8 +63,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_dictionary_x_4s_tricode_tricode_application_u_categorytype</sys_update_name>
-        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
-        <sys_updated_on>2018-04-10 03:17:11</sys_updated_on>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-10 19:58:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

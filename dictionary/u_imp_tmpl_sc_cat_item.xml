@@ -159,7 +159,7 @@
         <element attributes="edge_encryption_enabled=true" label="EM 3" max_length="40" name="u_em_3" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="FMP" max_length="40" name="u_fmp" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Group" max_length="40" name="u_group" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label=" ICD 1" max_length="40" name="u_icd_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ICD 1" max_length="40" name="u_icd_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ICD 10" max_length="40" name="u_icd_10" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ICD 11" max_length="40" name="u_icd_11" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ICD 12" max_length="40" name="u_icd_12" type="string"/>

@@ -40,8 +40,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>parent_number</field>
         <field_list>number,parent_number</field_list>
-        <filter table="x_4s_tricode_tricode_application_child">parent_number.u_active=true^EQ^GROUPBYparent_number^TRENDBYu_closed_date,week<item endquery="false" field="parent_number.u_active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter table="x_4s_tricode_tricode_application_child">parent_number.u_active=true^EQ^GROUPBYparent_number^TRENDBYu_closed_date,week<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
             <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="parent_number"/>
             <item endquery="false" field="" goto="false" newquery="false" operator="TRENDBY" or="false" value="u_closed_date,week"/>
         </filter>

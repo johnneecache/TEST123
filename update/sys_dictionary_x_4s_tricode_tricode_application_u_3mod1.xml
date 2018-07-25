@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>3MOD1</column_label>
+        <column_label>3 MOD1</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -24,9 +24,8 @@
         <dependent/>
         <dependent_on_field/>
         <display>false</display>
-        <dynamic_creation>true</dynamic_creation>
-        <dynamic_creation_script>current.u_modifier_code = value;
-current.insert();</dynamic_creation_script>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <element>u_3mod1</element>
@@ -46,28 +45,26 @@ current.insert();</dynamic_creation_script>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>u_modifier_codeISNOTEMPTY^EQ</reference_qual>
-        <reference_qual_condition table="x_4s_tricode_tricode_cpt_modifiers">u_modifier_codeISNOTEMPTY^EQ<item endquery="false" field="u_modifier_code" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
-        <sys_created_on>2018-03-26 19:02:50</sys_created_on>
+        <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+        <sys_created_on>2018-07-10 18:14:31</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>09f2b056db011b801bfdef92ca961924</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>3MOD1</sys_name>
+        <sys_id>4411e254139793c031b855912244b089</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3 MOD1</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_dictionary_x_4s_tricode_tricode_application_u_3mod1</sys_update_name>
-        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
-        <sys_updated_on>2018-05-23 00:35:53</sys_updated_on>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-10 18:14:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

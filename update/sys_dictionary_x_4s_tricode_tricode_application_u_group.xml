@@ -45,20 +45,17 @@
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>name=Tricode Admin^ORname=Tricode Index^EQ</reference_qual>
-        <reference_qual_condition table="sys_user_group">name=Tricode Admin^ORname=Tricode Index^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="=" or="false" value="Tricode Admin"/>
-            <item endquery="false" field="name" goto="false" newquery="false" operator="=" or="true" value="Tricode Index"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
-        <sys_created_on>2018-04-25 19:24:48</sys_created_on>
+        <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+        <sys_created_on>2018-07-10 20:15:02</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>0288d7b7dba15300e3a506e2ca961922</sys_id>
+        <sys_id>9d1dbad413d793c031b855912244b006</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Group</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
@@ -66,8 +63,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_dictionary_x_4s_tricode_tricode_application_u_group</sys_update_name>
-        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
-        <sys_updated_on>2018-04-25 19:24:48</sys_updated_on>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-10 20:15:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

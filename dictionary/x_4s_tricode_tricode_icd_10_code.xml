@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="TriCode ICD-10 Code" max_length="40" name="x_4s_tricode_tricode_icd_10_code" sizeclass="71704" type="collection">
+    <element label="TriCode ICD-10 Code" max_length="40" name="x_4s_tricode_tricode_icd_10_code" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
         <element display="true" label="Code" max_length="40" name="u_code" type="string"/>

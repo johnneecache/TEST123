@@ -55,16 +55,16 @@
         <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
         <sys_created_on>2018-03-26 15:11:40</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>354f7fc6db8dd7801bfdef92ca961956</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_id>270cf709dba35b00a159591e5e961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Clinic</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_dictionary_x_4s_tricode_tricode_clinic_u_clinic</sys_update_name>
-        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
-        <sys_updated_on>2018-03-26 18:30:49</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-07-25 19:06:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

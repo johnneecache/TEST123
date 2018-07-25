@@ -5,7 +5,7 @@
         <element display="true" label="Clinic" max_length="255" name="u_clinic" type="string"/>
         <element label="Coded?" max_length="40" name="u_coded" type="boolean"/>
         <element label="DMIS Code" max_length="40" name="u_dmis_code" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="MEPRS Name" max_length="40" name="u_meprs_name" type="string"/>
+        <element label="MEPRS Name" max_length="40" name="u_meprs_name" type="string"/>
         <element label="Not Coded?" max_length="40" name="u_not_coded" type="boolean"/>
     </element>
 </database>

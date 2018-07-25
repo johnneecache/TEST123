@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="TriCode Specialty Provider" max_length="40" name="x_4s_tricode_tricode_speciality_provider" type="collection">
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="HCPCS Code" max_length="40" name="hcpcs_code" type="string"/>
+        <element label="HCPCS Code" max_length="40" name="hcpcs_code" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element display="true" label="Description of Provider Speciality" max_length="255" name="u_description_of_provider_speciality" type="string"/>
         <element label="Description of Provider Type" max_length="255" name="u_description_of_provider_type" type="string"/>

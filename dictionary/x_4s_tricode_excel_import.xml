@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="sys_import_set_row" label="Tricode Attachment" max_length="40" name="x_4s_tricode_excel_import" sizeclass="5055" type="collection">
+    <element extends="sys_import_set_row" label="Tricode Attachment" max_length="40" name="x_4s_tricode_excel_import" type="collection">
         <element attributes="import_attribute_name=10MOD1" label="10MOD1" max_length="40" name="u_10mod1" type="integer"/>
         <element attributes="import_attribute_name=11MOD1" label="11MOD1" max_length="40" name="u_11mod1" type="integer"/>
         <element attributes="import_attribute_name=12MOD1" label="12MOD1" max_length="40" name="u_12mod1" type="integer"/>
@@ -169,7 +169,7 @@
         <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="u_first_name" type="string"/>
         <element attributes="import_attribute_name=FMP,edge_encryption_enabled=true" label="FMP" max_length="40" name="u_fmp" type="string"/>
         <element attributes="import_attribute_name=Group,edge_encryption_enabled=true" label="Group" max_length="40" name="u_group" type="string"/>
-        <element attributes="import_attribute_name= ICD 1,edge_encryption_enabled=true" label=" ICD 1" max_length="40" name="u_icd_1" type="string"/>
+        <element attributes="import_attribute_name= ICD 1,edge_encryption_enabled=true" label="ICD 1" max_length="40" name="u_icd_1" type="string"/>
         <element attributes="import_attribute_name=ICD 10,edge_encryption_enabled=true" label="ICD 10" max_length="40" name="u_icd_10" type="string"/>
         <element attributes="import_attribute_name=ICD 11,edge_encryption_enabled=true" label="ICD 11" max_length="40" name="u_icd_11" type="string"/>
         <element attributes="import_attribute_name=ICD 12,edge_encryption_enabled=true" label="ICD 12" max_length="40" name="u_icd_12" type="string"/>

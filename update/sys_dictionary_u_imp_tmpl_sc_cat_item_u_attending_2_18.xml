@@ -50,7 +50,7 @@
         <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
         <sys_created_on>2018-04-24 22:06:39</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>29843a67db291300e3a506e2ca961910</sys_id>
+        <sys_id>e40cb309dba35b00a159591e5e961993</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Attending 2.18</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
@@ -58,8 +58,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_dictionary_u_imp_tmpl_sc_cat_item_u_attending_2_18</sys_update_name>
-        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
-        <sys_updated_on>2018-04-24 22:06:39</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-07-25 19:02:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

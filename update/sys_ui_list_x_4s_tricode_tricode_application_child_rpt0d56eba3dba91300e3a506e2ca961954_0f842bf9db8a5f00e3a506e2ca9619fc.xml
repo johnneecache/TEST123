@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="x_4s_tricode_tricode_application_child" version="2" view="RPT0d56eba3dba91300e3a506e2ca961954">
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_4s_tricode_tricode_application_child</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>tvernon-watson@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-05-14 11:38:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>0f842bf9db8a5f00e3a506e2ca9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_4s_tricode_tricode_application_child</sys_name>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_ui_list_x_4s_tricode_tricode_application_child_RPT0d56eba3dba91300e3a506e2ca961954_0f842bf9db8a5f00e3a506e2ca9619fc</sys_update_name>
+            <sys_updated_by>tvernon-watson@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-05-14 11:38:29</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt0d56eba3dba91300e3a506e2ca961954" name="RPT0d56eba3dba91300e3a506e2ca961954">dabd7b8ddba35b00a159591e5e961930</view>
+            <view_name/>
+        </sys_ui_list>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_4s_tricode_tricode_application_child</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>tvernon-watson@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-05-14 11:38:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>0f842bf9db8a5f00e3a506e2ca9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_4s_tricode_tricode_application_child</sys_name>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_ui_list_x_4s_tricode_tricode_application_child_RPT0d56eba3dba91300e3a506e2ca961954_0f842bf9db8a5f00e3a506e2ca9619fc</sys_update_name>
+            <sys_updated_by>tvernon-watson@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-05-14 11:38:29</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt0d56eba3dba91300e3a506e2ca961954" name="RPT0d56eba3dba91300e3a506e2ca961954">dabd7b8ddba35b00a159591e5e961930</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

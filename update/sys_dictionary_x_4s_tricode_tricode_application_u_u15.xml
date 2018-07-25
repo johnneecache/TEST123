@@ -45,28 +45,26 @@
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>u_pla_idISNOTEMPTY^EQ</reference_qual>
-        <reference_qual_condition table="x_4s_tricode_tricode_cpt_pla">u_pla_idISNOTEMPTY^EQ<item endquery="false" field="u_pla_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>rtrevino@tricorp-itsolutions.com</sys_created_by>
-        <sys_created_on>2018-03-28 01:53:29</sys_created_on>
+        <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+        <sys_created_on>2018-07-10 20:31:17</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>a9db972edb8d1b801bfdef92ca961947</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_id>82a0079813d793c031b855912244b066</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>U15</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_dictionary_x_4s_tricode_tricode_application_u_u15</sys_update_name>
-        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
-        <sys_updated_on>2018-05-23 01:11:51</sys_updated_on>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-10 20:31:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

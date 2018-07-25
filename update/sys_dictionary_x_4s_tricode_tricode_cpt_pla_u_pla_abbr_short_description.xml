@@ -55,7 +55,7 @@
         <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
         <sys_created_on>2018-05-22 20:48:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>04aeaeacdb9a97401bfdef92ca9619f7</sys_id>
+        <sys_id>f60cb709dba35b00a159591e5e961911</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>PLA Abbreviated Short Description</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
@@ -63,8 +63,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_dictionary_x_4s_tricode_tricode_cpt_pla_u_pla_abbr_short_description</sys_update_name>
-        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
-        <sys_updated_on>2018-05-22 20:48:28</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-07-25 19:06:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

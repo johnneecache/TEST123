@@ -50,7 +50,7 @@
         <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
         <sys_created_on>2018-05-01 14:36:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>a790ddf1db311b001bfdef92ca96191e</sys_id>
+        <sys_id>060c7709dba35b00a159591e5e961935</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Attending 2.12</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
@@ -58,8 +58,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_dictionary_x_4s_tricode_excel_import_u_attending_2_12</sys_update_name>
-        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
-        <sys_updated_on>2018-05-01 14:36:29</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-07-25 19:04:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

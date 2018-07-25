@@ -2,7 +2,7 @@
 <record_update table="sys_index">
     <sys_index action="INSERT_OR_UPDATE">
         <col_name_string>u_pla_id</col_name_string>
-        <index_col_name element="u_pla_id" name="x_4s_tricode_tricode_cpt_pla">aa7b662cdb9a97401bfdef92ca961941</index_col_name>
+        <index_col_name>aa7b662cdb9a97401bfdef92ca961941</index_col_name>
         <logical_table_name>x_4s_tricode_tricode_cpt_pla</logical_table_name>
         <sys_class_name>sys_index</sys_class_name>
         <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
@@ -18,7 +18,7 @@
         <sys_update_name>sys_index_x_4s_tricode_tricode_cpt_pla_u_pla_id</sys_update_name>
         <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
         <sys_updated_on>2018-05-22 21:18:10</sys_updated_on>
-        <table display_value="TriCode CPT PLA" name="x_4s_tricode_tricode_cpt_pla">609e5a24db9a97401bfdef92ca961970</table>
+        <table/>
         <unique_index>false</unique_index>
     </sys_index>
 </record_update>
