@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="f512d3841375130031b855912244b0be" table="sys_app_application">
+<record_update sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="sys_app_application">
     <sys_app_application action="INSERT_OR_UPDATE">
         <active>true</active>
         <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
@@ -13,20 +13,20 @@
         <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
         <sys_created_on>2018-05-22 21:47:25</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+        <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
         <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
         <sys_id>825c3668dbda97401bfdef92ca961963</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Tricode Related</sys_name>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TriCode Related</sys_name>
         <sys_overrides/>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_app_application_825c3668dbda97401bfdef92ca961963</sys_update_name>
-        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-        <sys_updated_on>2018-07-25 12:02:56</sys_updated_on>
-        <title>Tricode Related</title>
+        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-05-22 21:47:25</sys_updated_on>
+        <title>TriCode Related</title>
         <view_name/>
     </sys_app_application>
 </record_update>

@@ -2,10 +2,11 @@
 <database>
     <element audit="true" label="TriCode Application - Secondary" max_length="40" name="x_4s_tricode_tricode_application_child" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" hint="Number (number)" label="Secondary Number" max_length="40" name="number" type="string"/>
+        <element hint="Primary Number (parent_number)" label="Primary Number" max_length="32" name="parent_number" reference="x_4s_tricode_tricode_application" type="reference"/>
         <element label="State" max_length="32" name="state" type="integer"/>
         <element label="Tricode State" max_length="40" name="tricode_state" type="integer"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="10MOD1" max_length="32" name="u_10mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
-        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="11MOD1" max_length="32" name="u_11mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="11MOD1" max_length="32" name="u_11mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="12MOD1" max_length="32" name="u_12mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="13MOD1" max_length="32" name="u_13mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="14MOD1" max_length="32" name="u_14mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
@@ -25,50 +26,16 @@
         <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="8MOD1" max_length="32" name="u_8mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="9MOD1" max_length="32" name="u_9mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
         <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
-        <element default="Tricode Admin" hint="Admin Assignment Queue (u_admin_assignment_queue)" label="Admin Assignment Queue" max_length="32" name="u_admin_assignment_queue" reference="sys_user_group" reference_qual="name=Tricode Admin^ORname=Tricode Index^EQ" reference_qual_condition="name=Tricode Admin^ORname=Tricode Index^EQ" type="reference"/>
-        <element dependent="u_group" dependent_on_field="u_group" hint="Admin Users (u_admin_users)" label="Assigned Admin" max_length="32" name="u_admin_users" reference="sys_user" type="reference" use_dependent_field="true"/>
-        <element label="AIEN" max_length="254" name="u_aien_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 10" max_length="254" name="u_anesthesiologist_10_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 11" max_length="254" name="u_anesthesiologist_11_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 12" max_length="254" name="u_anesthesiologist_12_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 13" max_length="254" name="u_anesthesiologist_13_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 14" max_length="254" name="u_anesthesiologist_14_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 15" max_length="254" name="u_anesthesiologist_15_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 16" max_length="254" name="u_anesthesiologist_16_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 17" max_length="254" name="u_anesthesiologist_17_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 18" max_length="254" name="u_anesthesiologist_18_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 19" max_length="254" name="u_anesthesiologist_19_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 1" max_length="254" name="u_anesthesiologist_1_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 20" max_length="254" name="u_anesthesiologist_20_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 2" max_length="254" name="u_anesthesiologist_2_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 3" max_length="254" name="u_anesthesiologist_3_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 4" max_length="254" name="u_anesthesiologist_4_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 5" max_length="254" name="u_anesthesiologist_5_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 6" max_length="254" name="u_anesthesiologist_6_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 7" max_length="254" name="u_anesthesiologist_7_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 8" max_length="254" name="u_anesthesiologist_8_s" type="glide_encrypted"/>
-        <element label="Anesthesiologist 9" max_length="254" name="u_anesthesiologist_9_s" type="glide_encrypted"/>
-        <element label="Assigned to" max_length="40" name="u_assigned_to" type="string"/>
-        <element label="Attending 10" max_length="254" name="u_attending1_10_s" type="glide_encrypted"/>
-        <element label="Attending 11" max_length="254" name="u_attending1_11_s" type="glide_encrypted"/>
-        <element label="Attending 12" max_length="254" name="u_attending1_12_s" type="glide_encrypted"/>
-        <element label="Attending 13" max_length="254" name="u_attending1_13_s" type="glide_encrypted"/>
-        <element label="Attending 14" max_length="254" name="u_attending1_14_s" type="glide_encrypted"/>
-        <element label="Attending 15" max_length="254" name="u_attending1_15_s" type="glide_encrypted"/>
-        <element label="Attending 16" max_length="254" name="u_attending1_16_s" type="glide_encrypted"/>
-        <element label="Attending 17" max_length="254" name="u_attending1_17_s" type="glide_encrypted"/>
-        <element label="Attending 18" max_length="254" name="u_attending1_18_s" type="glide_encrypted"/>
-        <element label="Attending 19" max_length="254" name="u_attending1_19_s" type="glide_encrypted"/>
-        <element label="Attending 1" max_length="254" name="u_attending1_1_s" type="glide_encrypted"/>
-        <element label="Attending 20" max_length="254" name="u_attending1_20_s" type="glide_encrypted"/>
-        <element label="Attending 2" max_length="254" name="u_attending1_2_s" type="glide_encrypted"/>
-        <element label="Attending 3" max_length="254" name="u_attending1_3_s" type="glide_encrypted"/>
-        <element label="Attending 4" max_length="254" name="u_attending1_4_s" type="glide_encrypted"/>
-        <element label="Attending 5" max_length="254" name="u_attending1_5_s" type="glide_encrypted"/>
-        <element label="Attending 6" max_length="254" name="u_attending1_6_s" type="glide_encrypted"/>
-        <element label="Attending 7" max_length="254" name="u_attending1_7_s" type="glide_encrypted"/>
-        <element label="Attending 8" max_length="254" name="u_attending1_8_s" type="glide_encrypted"/>
-        <element label="Attending 9" max_length="254" name="u_attending1_9_s" type="glide_encrypted"/>
+        <element default="TriCode Admin" hint="Admin Assignment Queue (u_admin_assignment_queue)" label="Admin Assignment Queue" max_length="32" name="u_admin_assignment_queue" reference="sys_user_group" reference_qual="name=TriCode Admin^ORname=Tricode Index^EQ" reference_qual_condition="name=TriCode Admin^ORname=Tricode Index^EQ" type="reference"/>
+        <element dependent="u_admin_assignment_queue" dependent_on_field="u_admin_assignment_queue" hint="Admin Users (u_admin_users)" label="Admin Users" max_length="32" name="u_admin_users" reference="sys_user" reference_qual="title=Coder/PM^EQ" reference_qual_condition="title=Coder/PM^EQ" type="reference" use_dependent_field="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="AIEN" max_length="254" name="u_aien_s" type="glide_encrypted"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Anesthesiologist" max_length="254" name="u_anesthesiologist_1_s" type="glide_encrypted"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Assigned to" max_length="40" name="u_assigned_to" read_only="true" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Attending 1" max_length="254" name="u_attending1_1_s" type="glide_encrypted"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Attending 2" max_length="254" name="u_attending1_2_s" type="glide_encrypted"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Attending 3" max_length="254" name="u_attending1_3_s" type="glide_encrypted"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Attending 4" max_length="254" name="u_attending1_4_s" type="glide_encrypted"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Attending 5" max_length="254" name="u_attending1_5_s" type="glide_encrypted"/>
         <element choice="1" hint="CAPER Status (u_caper_status)" label="CAPER Status" max_length="40" name="u_caper_status" type="choice">
             <choice>
                 <element label="Original (initial after encounter)" sequence="10" value="Original (initial after encounter)"/>
@@ -80,12 +47,12 @@
                 <element label="IBWA" sequence="3" value="3"/>
             </choice>
         </element>
-        <element label="CIEN" max_length="254" name="u_cien_s" type="glide_encrypted"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="CIEN" max_length="254" name="u_cien_s" type="glide_encrypted"/>
         <element hint="Name of Clinic (u_clinic)" label="Name of Clinic" max_length="32" name="u_clinic" reference="x_4s_tricode_tricode_clinic" reference_qual="u_clinicISNOTEMPTY^EQ" reference_qual_condition="u_clinicISNOTEMPTY^EQ" type="reference"/>
-        <element label="Closed by" max_length="40" name="u_closed_by" type="string"/>
-        <element label="Closed Date" max_length="40" name="u_closed_date" type="glide_date_time"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Closed by" max_length="40" name="u_closed_by" read_only="true" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Closed Date" max_length="40" name="u_closed_date" type="glide_date_time"/>
         <element default="TriCode Coder" hint="Coder Assignment Queue (u_coder_assignment_queue)" label="Coder Assignment Queue" max_length="32" name="u_coder_assignment_queue" reference="sys_user_group" reference_qual="name=TriCode Coder^EQ" reference_qual_condition="name=TriCode Coder^EQ" type="reference"/>
-        <element hint="Coder Users (u_coder_users)" label="Assigned Coder" max_length="32" name="u_coder_users" reference="sys_user" reference_qual="titleLIKECoder^EQ" reference_qual_condition="titleLIKECoder^EQ" type="reference"/>
+        <element hint="Coder Users (u_coder_users)" label="Coder Users" max_length="32" name="u_coder_users" reference="sys_user" reference_qual="title=Coder^EQ" reference_qual_condition="title=Coder^EQ" type="reference"/>
         <element label="Comments" max_length="4000" name="u_comments" type="string"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 1" max_length="32" name="u_cpt_1" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 10" max_length="32" name="u_cpt_10" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
@@ -109,7 +76,6 @@
         <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 9" max_length="32" name="u_cpt_9" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
         <element choice="1" hint="What Day ? (u_day)" label="What Day ?" max_length="40" name="u_day" type="choice">
             <choice>
-                <element label="Day 1" sequence="1" value="day 1"/>
                 <element label="Day 2" sequence="2" value="day 2"/>
                 <element label="Day 3" sequence="3" value="day 3"/>
                 <element label="Day 4" sequence="4" value="day 4"/>
@@ -131,9 +97,10 @@
                 <element label="Day 20" sequence="20" value="day 20"/>
             </choice>
         </element>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="DMIS Code" max_length="40" name="u_dmis" type="string"/>
+        <element label="DMIS Code" max_length="40" name="u_dmis_code" reference_qual="u_dmis_codeISNOTEMPTY^EQ" reference_qual_condition="u_dmis_codeISNOTEMPTY^EQ" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Data of Birth" max_length="254" name="u_dob_s" type="glide_encrypted"/>
         <element label="Date of Service (DOS)" max_length="40" name="u_dos_1" type="glide_date"/>
-        <element label="Diagnosis Related groups (DRG)" max_length="254" name="u_drg_s" type="glide_encrypted"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Diagnosis Related groups (DRG)" max_length="254" name="u_drg_s" type="glide_encrypted"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 1" max_length="32" name="u_dx1" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 10" max_length="32" name="u_dx10" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 11" max_length="32" name="u_dx11" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
@@ -161,7 +128,6 @@
         <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="EM 3" max_length="32" name="u_em3" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="EM3MOD1" max_length="32" name="u_em3mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
         <element hint="FMP (u_fmp)" label="FMP" max_length="40" name="u_fmp" type="string"/>
-        <element label="Admin Assignment Queue" max_length="32" name="u_group" reference="sys_user_group" reference_qual="name=Tricode Admin^ORname=Tricode Index^EQ" reference_qual_condition="name=Tricode Admin^ORname=Tricode Index^EQ" type="reference"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="ICD 1" max_length="32" name="u_icd_1" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 10" max_length="32" name="u_icd_10" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 11" max_length="32" name="u_icd_11" reference="x_4s_tricode_tricode_icd_10_code" type="reference"/>
@@ -177,13 +143,13 @@
         <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 20" max_length="32" name="u_icd_20" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 3" max_length="32" name="u_icd_3" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 4" max_length="32" name="u_icd_4" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
-        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 5" max_length="32" name="u_icd_5" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 5 " max_length="32" name="u_icd_5" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 6" max_length="32" name="u_icd_6" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 7" max_length="32" name="u_icd_7" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 8" max_length="32" name="u_icd_8" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
         <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 9" max_length="32" name="u_icd_9" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
-        <element label="IEN" max_length="254" name="u_ien_s" type="glide_encrypted"/>
-        <element attributes="Assigned" choice="1" choice_field="u_lifecycle" choice_table="x_4s_tricode_tricode_application_child" default="1" label="Life-cycle_s" max_length="40" name="u_lifecycle" type="choice">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="IEN" max_length="254" name="u_ien_s" type="glide_encrypted"/>
+        <element attributes="Assigned" choice="1" choice_field="u_lifecycle" choice_table="x_4s_tricode_tricode_application_child" default="1" label="Secondary Life Cycle" max_length="40" name="u_lifecycle" type="choice">
             <choice>
                 <element label="New" sequence="10" value="1"/>
                 <element label="Assigned" sequence="20" value="2"/>
@@ -196,9 +162,8 @@
             </choice>
         </element>
         <element hint="MEPRS (u_meprs)" label="MEPRS" max_length="40" name="u_meprs" type="string"/>
-        <element label="Patient DOB" max_length="254" name="u_patient_dob_s" type="glide_encrypted"/>
-        <element label="Patient Name" max_length="32" name="u_patient_name_s" type="glide_encrypted"/>
-        <element label="Patient Number" max_length="254" name="u_patient_number_s" type="glide_encrypted"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Patient Name" max_length="254" name="u_patient_name_s" type="glide_encrypted"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Patient SSN" max_length="254" name="u_patient_ssn_s" type="glide_encrypted"/>
         <element label="Present on Admission (POA) 1" max_length="40" name="u_poa1" type="boolean"/>
         <element label="Present on Admission (POA) 10" max_length="40" name="u_poa10" type="boolean"/>
         <element label="Present on Admission (POA) 11" max_length="40" name="u_poa11" type="boolean"/>
@@ -219,26 +184,11 @@
         <element label="Present on Admission (POA) 7" max_length="40" name="u_poa7" type="boolean"/>
         <element label="Present on Admission (POA) 8" max_length="40" name="u_poa8" type="boolean"/>
         <element label="Present on Admission (POA) 9" max_length="40" name="u_poa9" type="boolean"/>
-        <element label="Medical Procedure 10" max_length="254" name="u_proc10_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 11" max_length="254" name="u_proc11_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 12" max_length="254" name="u_proc12_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 13" max_length="254" name="u_proc13_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 14" max_length="254" name="u_proc14_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 15" max_length="254" name="u_proc15_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 16" max_length="254" name="u_proc16_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 17" max_length="254" name="u_proc17_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 18" max_length="254" name="u_proc18_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 19" max_length="254" name="u_proc19_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 1" max_length="254" name="u_proc1_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 20" max_length="254" name="u_proc20_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 2" max_length="254" name="u_proc2_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 3" max_length="254" name="u_proc3_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 4" max_length="254" name="u_proc4_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 5" max_length="254" name="u_proc5_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 6" max_length="254" name="u_proc6_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 7" max_length="254" name="u_proc7_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 8" max_length="254" name="u_proc8_s" type="glide_encrypted"/>
-        <element label="Medical Procedure 9" max_length="254" name="u_proc9_s" type="glide_encrypted"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Medical Procedure 1" max_length="254" name="u_proc1_s" type="glide_encrypted"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Medical Procedure 2" max_length="254" name="u_proc2_s" type="glide_encrypted"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Medical Procedure 3" max_length="254" name="u_proc3_s" type="glide_encrypted"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Medical Procedure 4" max_length="254" name="u_proc4_s" type="glide_encrypted"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Medical Procedure 5" max_length="254" name="u_proc5_s" type="glide_encrypted"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Provider" max_length="254" name="u_provider_s" type="glide_encrypted"/>
         <element hint="Provider Speciality (u_provider_speciality)" label="Provider Speciality" max_length="32" name="u_provider_speciality" reference="x_4s_tricode_tricode_speciality_provider" reference_qual="u_description_of_provider_specialityISNOTEMPTY^EQ" reference_qual_condition="u_description_of_provider_specialityISNOTEMPTY^EQ" type="reference"/>
         <element choice="1" label="Reason for Pending or Hold" max_length="40" name="u_reason_for_pending" type="string">
@@ -249,13 +199,13 @@
                 <element label="Eligibility Verification" sequence="40" value="Eligibility Verification"/>
                 <element label="Incorrect coding used" sequence="50" value="Incorrect coding used"/>
                 <element label="Medical coding errors" sequence="60" value="Medical coding errors"/>
-                <element label="Pre-existing conditions verification" sequence="70" value="Pre-existing conditions verification"/>
+                <element label="Preexisting conditions verification" sequence="70" value="Preexisting conditions verification"/>
                 <element label="Verification of other insurance coverage" sequence="80" value="Verification of other insurance coverage"/>
             </choice>
         </element>
         <element hint="Reg Number (u_reg_number)" label="Reg Number" max_length="40" name="u_reg_number" type="string"/>
-        <element label="Re-Open Date" max_length="40" name="u_reopen_date" type="string"/>
-        <element choice="1" label="Re-Open Reason" max_length="100" name="u_reopen_reason" type="choice">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Re-Open Date" max_length="40" name="u_reopen_date" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Re-Open Reason" max_length="100" name="u_reopen_reason" type="choice">
             <choice>
                 <element label="Accident details" sequence="10" value="Accident details"/>
                 <element label="Additional Medical Information is required" sequence="20" value="Additional Medical Information is required"/>
@@ -263,14 +213,15 @@
                 <element label="Eligibility Verification" sequence="40" value="Eligibility Verification"/>
                 <element label="Incorrect coding used" sequence="50" value="Incorrect coding used"/>
                 <element label="Medical coding errors" sequence="60" value="Medical coding errors"/>
-                <element label="Pre-existing conditions verification" sequence="70" value="Pre-existing conditions verification"/>
-                <element label="Verification of other insurance coverage" sequence="80" value="Verification of other insurance coverage"/>
+                <element label="Preexisting conditions verification" sequence="70" value="Preexisting conditions verification"/>
+                <element label="Verification of other insurance coverage" sequence="70" value="Verification of other insurance coverage"/>
             </choice>
         </element>
-        <element choice="3" default="1" label="Type" max_length="40" name="u_type" type="choice">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Telephone Number" max_length="254" name="u_telephone_s" type="glide_encrypted"/>
+        <element choice="3" default="Standard" label="Type" max_length="40" name="u_type" type="choice">
             <choice>
-                <element label="Standard" sequence="10" value="Standard"/>
-                <element label="Re-Open" sequence="20" value="Re-Open"/>
+                <element label="Standard" sequence="10" value="1"/>
+                <element label="Re-Open" sequence="20" value="2"/>
             </choice>
         </element>
         <element label="U1" max_length="32" name="u_u1" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
@@ -294,7 +245,184 @@
         <element label="U8" max_length="32" name="u_u8" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
         <element label="U9" max_length="32" name="u_u9" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
         <index name="index">
-            <element name="u_group"/>
+            <element name="u_dmis_code"/>
+        </index>
+        <index name="index2">
+            <element name="u_admin_users"/>
+        </index>
+        <index name="index3">
+            <element name="u_clinic"/>
+        </index>
+        <index name="index4">
+            <element name="u_cpt_7"/>
+        </index>
+        <index name="index5">
+            <element name="u_icd_12"/>
+        </index>
+        <index name="index6">
+            <element name="u_icd_13"/>
+        </index>
+        <index name="index7">
+            <element name="u_cpt_9"/>
+        </index>
+        <index name="index8">
+            <element name="u_icd_14"/>
+        </index>
+        <index name="index9">
+            <element name="u_icd_15"/>
+        </index>
+        <index name="index10">
+            <element name="u_cpt_3"/>
+        </index>
+        <index name="index11">
+            <element name="u_icd_16"/>
+        </index>
+        <index name="index12">
+            <element name="u_cpt_2"/>
+        </index>
+        <index name="index13">
+            <element name="u_dx10"/>
+        </index>
+        <index name="index14">
+            <element name="u_icd_17"/>
+        </index>
+        <index name="index15">
+            <element name="u_cpt_5"/>
+        </index>
+        <index name="index16">
+            <element name="u_dx11"/>
+        </index>
+        <index name="index17">
+            <element name="u_icd_18"/>
+        </index>
+        <index name="index18">
+            <element name="u_cpt_4"/>
+        </index>
+        <index name="index19">
+            <element name="u_dx12"/>
+        </index>
+        <index name="index20">
+            <element name="u_icd_19"/>
+        </index>
+        <index name="index21">
+            <element name="u_icd_9"/>
+        </index>
+        <index name="index22">
+            <element name="u_cpt_1"/>
+        </index>
+        <index name="index23">
+            <element name="u_icd_8"/>
+        </index>
+        <index name="index24">
+            <element name="u_icd_7"/>
+        </index>
+        <index name="index25">
+            <element name="u_provider_speciality"/>
+        </index>
+        <index name="index26">
+            <element name="u_icd_20"/>
+        </index>
+        <index name="index27">
+            <element name="u_icd_2"/>
+        </index>
+        <index name="index28">
+            <element name="u_icd_1"/>
+        </index>
+        <index name="index29">
+            <element name="u_icd_6"/>
+        </index>
+        <index name="index30">
+            <element name="u_icd_5"/>
+        </index>
+        <index name="index31">
+            <element name="u_icd_4"/>
+        </index>
+        <index name="index32">
+            <element name="u_icd_3"/>
+        </index>
+        <index name="index33">
+            <element name="u_dx7"/>
+        </index>
+        <index name="index34">
+            <element name="u_dx6"/>
+        </index>
+        <index name="index35">
+            <element name="u_dx9"/>
+        </index>
+        <index name="index36">
+            <element name="u_dx8"/>
+        </index>
+        <index name="index37">
+            <element name="u_dx3"/>
+        </index>
+        <index name="index38">
+            <element name="u_dx2"/>
+        </index>
+        <index name="index39">
+            <element name="u_dx5"/>
+        </index>
+        <index name="index40">
+            <element name="u_dx4"/>
+        </index>
+        <index name="index41">
+            <element name="u_dx20"/>
+        </index>
+        <index name="index42">
+            <element name="u_dx1"/>
+        </index>
+        <index name="index43">
+            <element name="u_dx13"/>
+        </index>
+        <index name="index44">
+            <element name="u_dx14"/>
+        </index>
+        <index name="index45">
+            <element name="parent_number"/>
+        </index>
+        <index name="index46">
+            <element name="u_dx15"/>
+        </index>
+        <index name="index47">
+            <element name="u_dx16"/>
+        </index>
+        <index name="index48">
+            <element name="u_dx17"/>
+        </index>
+        <index name="index49">
+            <element name="u_dx18"/>
+        </index>
+        <index name="index50">
+            <element name="u_coder_users"/>
+        </index>
+        <index name="index51">
+            <element name="u_dx19"/>
+        </index>
+        <index name="index52">
+            <element name="u_icd_10"/>
+        </index>
+        <index name="index53">
+            <element name="u_icd_11"/>
+        </index>
+        <index name="index54">
+            <element name="u_cpt_18"/>
+        </index>
+        <index name="index55">
+            <element name="u_cpt_17"/>
+        </index>
+        <index name="index56">
+            <element name="u_cpt_12"/>
+        </index>
+        <index name="index57">
+            <element name="u_cpt_11"/>
+        </index>
+        <index name="index58">
+            <element name="u_cpt_14"/>
+        </index>
+        <index name="index59">
+            <element name="u_coder_assignment_queue"/>
+        </index>
+        <index name="index60">
+            <element name="u_admin_assignment_queue"/>
         </index>
     </element>
 </database>

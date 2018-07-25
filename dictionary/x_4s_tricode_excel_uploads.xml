@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Excel Uploads" max_length="40" name="x_4s_tricode_excel_uploads" type="collection"/>
+    <element label="Excel Uploads" max_length="40" name="x_4s_tricode_excel_uploads" type="collection">
+        <element display="true" label="Upload Number" max_length="32" name="upload_number" type="string"/>
+    </element>
 </database>

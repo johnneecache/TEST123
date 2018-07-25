@@ -6,32 +6,13 @@
             <element>u_day</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Day 1</label>
-            <language>en</language>
-            <name>x_4s_tricode_tricode_application_child</name>
-            <sequence>1</sequence>
-            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
-            <sys_created_on>2018-07-14 16:15:07</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
-            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
-            <sys_id>e9cce6e1db1b1700e3a506e2ca96191e</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
-            <sys_updated_on>2018-07-14 16:15:25</sys_updated_on>
-            <value>day 1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_day</element>
-            <hint/>
-            <inactive>false</inactive>
             <label>Day 2</label>
             <language>en</language>
             <name>x_4s_tricode_tricode_application_child</name>
             <sequence>2</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:22:32</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>891892c1dbd95f801bfdef92ca9619ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
@@ -50,7 +31,7 @@
             <sequence>3</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:22:51</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>cc481a81dbd95f801bfdef92ca9619db</sys_id>
             <sys_mod_count>0</sys_mod_count>
@@ -69,7 +50,7 @@
             <sequence>4</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:23:17</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>dd585a81dbd95f801bfdef92ca96192a</sys_id>
             <sys_mod_count>2</sys_mod_count>
@@ -88,7 +69,7 @@
             <sequence>5</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:23:44</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>226816c1dbd95f801bfdef92ca961969</sys_id>
             <sys_mod_count>2</sys_mod_count>
@@ -107,7 +88,7 @@
             <sequence>6</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:24:05</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>7c8816c1dbd95f801bfdef92ca961946</sys_id>
             <sys_mod_count>2</sys_mod_count>
@@ -126,7 +107,7 @@
             <sequence>7</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:24:25</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>0e985a81dbd95f801bfdef92ca96192e</sys_id>
             <sys_mod_count>2</sys_mod_count>
@@ -145,7 +126,7 @@
             <sequence>8</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:24:38</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>faa81281dbd95f801bfdef92ca961914</sys_id>
             <sys_mod_count>2</sys_mod_count>
@@ -164,7 +145,7 @@
             <sequence>9</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:24:49</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>7db89a81dbd95f801bfdef92ca961957</sys_id>
             <sys_mod_count>2</sys_mod_count>
@@ -183,7 +164,7 @@
             <sequence>10</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:24:58</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>74c81ac1dbd95f801bfdef92ca96194f</sys_id>
             <sys_mod_count>2</sys_mod_count>
@@ -202,7 +183,7 @@
             <sequence>11</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:25:07</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>f6c89281dbd95f801bfdef92ca9619db</sys_id>
             <sys_mod_count>2</sys_mod_count>
@@ -221,7 +202,7 @@
             <sequence>12</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:25:17</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>d1d816c1dbd95f801bfdef92ca96196a</sys_id>
             <sys_mod_count>2</sys_mod_count>
@@ -240,7 +221,7 @@
             <sequence>13</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:25:29</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>77d81ac1dbd95f801bfdef92ca9619fa</sys_id>
             <sys_mod_count>2</sys_mod_count>
@@ -259,7 +240,7 @@
             <sequence>14</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:25:38</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>26e8d6c1dbd95f801bfdef92ca96195e</sys_id>
             <sys_mod_count>2</sys_mod_count>
@@ -278,7 +259,7 @@
             <sequence>15</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:25:50</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>70f81ac1dbd95f801bfdef92ca9619e3</sys_id>
             <sys_mod_count>2</sys_mod_count>
@@ -297,7 +278,7 @@
             <sequence>16</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:25:59</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>7ff8d6c1dbd95f801bfdef92ca96195e</sys_id>
             <sys_mod_count>2</sys_mod_count>
@@ -316,7 +297,7 @@
             <sequence>17</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:26:19</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>8a091ac1dbd95f801bfdef92ca9619e3</sys_id>
             <sys_mod_count>2</sys_mod_count>
@@ -335,7 +316,7 @@
             <sequence>18</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:26:34</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>12191ec1dbd95f801bfdef92ca96197b</sys_id>
             <sys_mod_count>2</sys_mod_count>
@@ -354,7 +335,7 @@
             <sequence>19</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:26:46</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>8a29dac1dbd95f801bfdef92ca961934</sys_id>
             <sys_mod_count>2</sys_mod_count>
@@ -373,7 +354,7 @@
             <sequence>20</sequence>
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:26:55</sys_created_on>
-            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
             <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
             <sys_id>59391ec1dbd95f801bfdef92ca96197b</sys_id>
             <sys_mod_count>2</sys_mod_count>
@@ -388,16 +369,16 @@
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-04 15:22:32</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>06e0f9c4db5f1300e3a506e2ca9619ec</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>87385281dbd95f801bfdef92ca9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_name>u_day</sys_name>
             <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
             <sys_update_name>sys_choice_x_4s_tricode_tricode_application_child_u_day</sys_update_name>
-            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-            <sys_updated_on>2018-07-25 11:51:27</sys_updated_on>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-04-04 15:22:32</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

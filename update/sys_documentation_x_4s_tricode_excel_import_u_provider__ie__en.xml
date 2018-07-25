@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_provider__ie_" label="Provider (IE)" language="en" table="x_4s_tricode_excel_import">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_provider__ie_</element>
+            <help/>
+            <hint/>
+            <label>Provider (IE)</label>
+            <language>en</language>
+            <name>x_4s_tricode_excel_import</name>
+            <plural>Provider (IE)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>israel.alatorre@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-08 12:55:05</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7a8cfcc8db4e1f001bfdef92ca96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Provider (IE)</sys_name>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_documentation_x_4s_tricode_excel_import_u_provider__ie__en</sys_update_name>
+            <sys_updated_by>israel.alatorre@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-08 12:55:05</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

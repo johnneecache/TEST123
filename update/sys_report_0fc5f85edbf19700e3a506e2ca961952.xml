@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="f512d3841375130031b855912244b0be" table="sys_report">
+<record_update sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby/>
         <aggregate>COUNT</aggregate>
@@ -25,7 +25,7 @@
         <column>trs_u_admin_users</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="">8db7475adbbc13801bfdef92ca961953</created_by_user>
+        <created_by_user display_value="Rick Trevino">8db7475adbbc13801bfdef92ca961953</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config/>
@@ -100,10 +100,10 @@
         <sys_created_by>rtrevino@tricorp-itsolutions.com</sys_created_by>
         <sys_created_on>2018-05-03 01:56:15</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+        <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
         <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
         <sys_id>0fc5f85edbf19700e3a506e2ca961952</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Weekly Closed Report for Admins</sys_name>
         <sys_overrides/>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
@@ -111,8 +111,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_report_0fc5f85edbf19700e3a506e2ca961952</sys_update_name>
-        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-        <sys_updated_on>2018-07-25 11:51:51</sys_updated_on>
+        <sys_updated_by>rtrevino@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-05-07 03:08:36</sys_updated_on>
         <table>x_4s_tricode_trijoin</table>
         <title>Weekly Closed Report for Admins</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

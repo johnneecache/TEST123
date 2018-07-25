@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>u_coder_assignment_queue,u_coder_users</col_name_string>
+        <index_col_name>0459674adb4dd7801bfdef92ca9619c5,e8e7c45edb8dd7801bfdef92ca96199d</index_col_name>
+        <logical_table_name>x_4s_tricode_tricode_application</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+        <sys_created_on>2018-04-30 02:29:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6ab02dd5db351700e3a506e2ca9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_4s_tricode_tricode_application</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_index_x_4s_tricode_tricode_application_u_coder_assignment_queue_u_coder_users</sys_update_name>
+        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-04-30 02:29:53</sys_updated_on>
+        <table display_value="Tricode Application - Primary" name="x_4s_tricode_tricode_application">667b1742db4dd7801bfdef92ca96190b</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

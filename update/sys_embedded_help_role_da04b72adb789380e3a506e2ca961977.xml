@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="sn_dd_tricode_allmetadata" name="sn_dd_tricode_allmetadata">d204b72adb789380e3a506e2ca961976</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>Carlos.Jimenez@4thsource.com</sys_created_by>
+        <sys_created_on>2018-03-15 17:23:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>da04b72adb789380e3a506e2ca961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d204b72adb789380e3a506e2ca961976</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_embedded_help_role_da04b72adb789380e3a506e2ca961977</sys_update_name>
+        <sys_updated_by>Carlos.Jimenez@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-03-15 17:23:06</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

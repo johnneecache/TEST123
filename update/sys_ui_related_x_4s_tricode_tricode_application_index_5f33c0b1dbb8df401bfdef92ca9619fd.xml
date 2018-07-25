@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="x_4s_tricode_tricode_application" version="2" view="index">
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Tricode Application - Primary - Index</calculated_name>
+            <filter/>
+            <name>x_4s_tricode_tricode_application</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-04-17 17:05:11</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>e16ce5d9db29d7c0e3a506e2ca96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>TriCode Application - Primary - Index</sys_name>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_ui_related_x_4s_tricode_tricode_application_index_5f33c0b1dbb8df401bfdef92ca9619fd</sys_update_name>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-04-17 17:05:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Index" name="index">bbb41552db811b801bfdef92ca96195b</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

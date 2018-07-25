@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="TriCode Sample Updates" max_length="40" name="x_4s_tricode_import_set_row_sample" type="collection">
+        <element attributes="import_attribute_name=Admin Assignment Queue,edge_encryption_enabled=true" label="Admin Assignment Queue" max_length="40" name="u_admin_assignment_queue" type="string"/>
+        <element attributes="import_attribute_name=Admin Users,edge_encryption_enabled=true" label="Admin Users" max_length="40" name="u_admin_users" type="string"/>
+        <element attributes="import_attribute_name=AIEN,edge_encryption_enabled=true" label="AIEN" max_length="40" name="u_aien" type="string"/>
+        <element attributes="import_attribute_name=Category Type,edge_encryption_enabled=true" label="Category Type" max_length="40" name="u_category_type" type="string"/>
+        <element attributes="import_attribute_name=Coder Assignment Queue,edge_encryption_enabled=true" label="Coder Assignment Queue" max_length="40" name="u_coder_assignment_queue" type="string"/>
+        <element attributes="import_attribute_name=Coder Users,edge_encryption_enabled=true" label="Coder Users" max_length="40" name="u_coder_users" type="string"/>
+        <element attributes="import_attribute_name=Comments,edge_encryption_enabled=true" label="Comments" max_length="40" name="u_comments" type="string"/>
+        <element attributes="import_attribute_name=Date of Birth" label="Date of Birth" max_length="40" name="u_date_of_birth" type="glide_date"/>
+        <element attributes="import_attribute_name=FMP,edge_encryption_enabled=true" label="FMP" max_length="40" name="u_fmp" type="string"/>
+        <element attributes="import_attribute_name=IEN,edge_encryption_enabled=true" label="IEN" max_length="40" name="u_ien" type="string"/>
+        <element attributes="import_attribute_name=Lifecycle Status,edge_encryption_enabled=true" label="Lifecycle Status" max_length="40" name="u_lifecycle_status" type="string"/>
+        <element attributes="import_attribute_name=MEPRS,edge_encryption_enabled=true" label="MEPRS" max_length="40" name="u_meprs" type="string"/>
+        <element attributes="import_attribute_name=Name of Clinic,edge_encryption_enabled=true" label="Name of Clinic" max_length="40" name="u_name_of_clinic" type="string"/>
+        <element attributes="import_attribute_name=Patient Name,edge_encryption_enabled=true" label="Patient Name" max_length="40" name="u_patient_name" type="string"/>
+        <element attributes="import_attribute_name=Patient SSN" label="Patient SSN" max_length="40" name="u_patient_ssn" type="integer"/>
+        <element attributes="import_attribute_name=Provider,edge_encryption_enabled=true" label="Provider" max_length="40" name="u_provider" type="string"/>
+        <element attributes="import_attribute_name=Reg Number (Impatient #)" label="Reg Number (Impatient #)" max_length="40" name="u_reg_number__impatient___" type="integer"/>
+        <element attributes="import_attribute_name=Telephone Number,edge_encryption_enabled=true" label="Telephone Number" max_length="40" name="u_telephone_number" type="string"/>
+        <element attributes="import_attribute_name=Type,edge_encryption_enabled=true" label="Type" max_length="40" name="u_type" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="TriCode CPT PLA Updates" max_length="40" name="x_4s_tricode_tricode_cpt_pla_updates" type="collection">
+        <element attributes="import_attribute_name=labName,edge_encryption_enabled=true" label="labName" max_length="60" name="u_labname" type="string"/>
+        <element attributes="import_attribute_name=manufacturerName,edge_encryption_enabled=true" label="manufacturerName" max_length="63" name="u_manufacturername" type="string"/>
+        <element attributes="import_attribute_name=plaCode,edge_encryption_enabled=true" label="plaCode" max_length="40" name="u_placode" type="string"/>
+        <element attributes="import_attribute_name=PLA Abbreviated Short Description,edge_encryption_enabled=true" label="PLA Abbreviated Short Description" max_length="40" name="u_pla_abbrevia_rt_description" type="string"/>
+        <element attributes="import_attribute_name=PLA Description,edge_encryption_enabled=true" label="PLA Description" max_length="336" name="u_pla_description" type="string"/>
+        <element attributes="import_attribute_name=PLA Id" label="PLA Id" max_length="40" name="u_pla_id" type="integer"/>
+        <element attributes="import_attribute_name=PLA Short Description,edge_encryption_enabled=true" label="PLA Short Description" max_length="48" name="u_pla_short_description" type="string"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=testName,edge_encryption_enabled=true" label="testName" max_length="80" name="u_testname" type="string"/>
+    </element>
+</database>

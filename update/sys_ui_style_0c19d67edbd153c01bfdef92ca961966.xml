@@ -4,21 +4,21 @@
         <alt/>
         <element>u_lifecycle</element>
         <name>x_4s_tricode_tricode_application_child</name>
-        <style>background-color:lightgrey</style>
+        <style>background-color:tomato</style>
         <sys_class_name>sys_ui_style</sys_class_name>
         <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
         <sys_created_on>2018-04-10 01:55:42</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0c19d67edbd153c01bfdef92ca961966</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>x_4s_tricode_tricode_application_child</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_ui_style_0c19d67edbd153c01bfdef92ca961966</sys_update_name>
-        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-        <sys_updated_on>2018-07-25 11:51:41</sys_updated_on>
-        <value>cancelled</value>
+        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-04-29 16:49:59</sys_updated_on>
+        <value>8</value>
     </sys_ui_style>
 </record_update>

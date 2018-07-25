@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Hide the Admin tab on the Default view.</description>
+        <field>u_category_type</field>
+        <global>true</global>
+        <messages/>
+        <name>Hide Admin tab</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+var sections = g_form.getSections();
+	if(!g_user.hasRole('admin')){
+       g_form.setSectionDisplay('admin',false);
+   } else {
+   g_form.setSectionDisplay('admin',true);
+	   
+   }
+
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+        <sys_created_on>2018-03-29 14:10:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_id>c4bd070fdbcd5b801bfdef92ca961925</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Hide Admin tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_script_client_c4bd070fdbcd5b801bfdef92ca961925</sys_update_name>
+        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-04-10 19:55:07</sys_updated_on>
+        <table>x_4s_tricode_tricode_application</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

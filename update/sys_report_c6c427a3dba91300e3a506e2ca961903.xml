@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="f512d3841375130031b855912244b0be" table="sys_report">
+<record_update sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby/>
         <aggregate>COUNT</aggregate>
@@ -25,7 +25,7 @@
         <column>u_10mod1</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="">8db7475adbbc13801bfdef92ca961953</created_by_user>
+        <created_by_user display_value="Rick Trevino">8db7475adbbc13801bfdef92ca961953</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config/>
@@ -39,9 +39,8 @@
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
         <field>u_coder_users</field>
-        <field_list>number,state,tricode_state,u_10mod1,u_11mod1,u_12mod1,u_13mod1,u_14mod1,u_15mod1,u_16mod1</field_list>
-        <filter table="x_4s_tricode_tricode_application_child">u_lifecycle=7^u_closed_dateBETWEENjavascript:gs.dateGenerate('2018-06-16','00:00:00')@javascript:gs.dateGenerate('2018-06-30','23:59:59')<item endquery="false" field="u_lifecycle" goto="false" newquery="false" operator="=" or="false" value="7"/>
-            <item endquery="false" field="u_closed_date" goto="false" newquery="false" operator="BETWEEN" or="false" value="javascript:gs.dateGenerate('2018-06-16','00:00:00')@javascript:gs.dateGenerate('2018-06-30','23:59:59')"/>
+        <field_list/>
+        <filter table="x_4s_tricode_tricode_application_child">^GROUPBYu_coder_users<item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="u_coder_users"/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -92,15 +91,15 @@
         <show_zero>false</show_zero>
         <source_type/>
         <start_time/>
-        <sumfield>state</sumfield>
+        <sumfield>u_admin_assignment_queue...</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>rtrevino@tricorp-itsolutions.com</sys_created_by>
         <sys_created_on>2018-04-25 01:37:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+        <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
         <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
         <sys_id>c6c427a3dba91300e3a506e2ca961903</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Bi-Weekly 16-31 Closed Records for Coder Users </sys_name>
         <sys_overrides/>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
@@ -108,14 +107,14 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_report_c6c427a3dba91300e3a506e2ca961903</sys_update_name>
-        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-        <sys_updated_on>2018-07-25 12:08:51</sys_updated_on>
+        <sys_updated_by>rtrevino@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-05-23 02:40:00</sys_updated_on>
         <table>x_4s_tricode_tricode_application_child</table>
         <title>Bi-Weekly 16-31 Closed Records for Coder Users </title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>u_closed_date</trend_field>
+        <trend_field>u_admin_assignment_queue...</trend_field>
         <type>list</type>
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>reporting</category>
+        <content><![CDATA[ <h1 class="title topictitle1">Chart color scheme list</h1>  <div class="body conbody">  <div class="p">Chart color schemes enable you to predefine and reuse a set of colors in reports.<ol class="ol" id="pa_chart_color_schemes_list-normal__ol_rkr_4ml_d1b"><li class="li"><span class="ph">Click the column headers to search, sort, filter, and    edit data. </span></li><li class="li">Click the name of a color scheme to view and edit its properties and color definitions.</li><li class="li">Click the name of a color scheme to view and edit its properties.</li></ol></div> </div> <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Lists&amp;version&#61;jakarta" target="_blank" rel="nofollow">Lists</a></div></div></div></div>]]></content>
+        <last_sync>2018-05-12 12:55:07</last_sync>
+        <modifier>normal</modifier>
+        <name>pa_chart_color_schemes_list-normal</name>
+        <page>pa_chart_color_schemes_list</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-04-12 12:54:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b2f287efdb1117c0e3a506e2ca961901</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>pa_chart_color_schemes_list-normal</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_embedded_help_content_b2f287efdb1117c0e3a506e2ca961901</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-05-12 12:55:07</sys_updated_on>
+        <version>j</version>
+    </sys_embedded_help_content>
+</record_update>

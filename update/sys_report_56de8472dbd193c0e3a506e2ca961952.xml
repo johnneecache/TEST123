@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="f512d3841375130031b855912244b0be" table="sys_report">
+<record_update sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby>u_lifecycle</additional_groupby>
         <aggregate>COUNT</aggregate>
@@ -25,7 +25,7 @@
         <column>u_1mod1</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="">3117075adbbc13801bfdef92ca9619f4</created_by_user>
+        <created_by_user display_value="Robert Thomas">3117075adbbc13801bfdef92ca9619f4</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config/>
@@ -97,10 +97,10 @@
         <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
         <sys_created_on>2018-04-09 15:51:39</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+        <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
         <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
         <sys_id>56de8472dbd193c0e3a506e2ca961952</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Category Type Count by Child</sys_name>
         <sys_overrides/>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
@@ -108,8 +108,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_report_56de8472dbd193c0e3a506e2ca961952</sys_update_name>
-        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-        <sys_updated_on>2018-07-25 11:57:45</sys_updated_on>
+        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-04-10 18:46:47</sys_updated_on>
         <table>x_4s_tricode_tricode_application_child</table>
         <title>Category Type Count by Child</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

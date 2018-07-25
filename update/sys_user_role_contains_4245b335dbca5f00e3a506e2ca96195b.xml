@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="view_changer" name="view_changer">8a454be00a0a0b8c00de7dae26869165</contains>
+        <role display_value="x_4s_tricode.user" name="x_4s_tricode.user">0112bb6adb789380e3a506e2ca9619f5</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+        <sys_created_on>2018-05-14 12:51:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4245b335dbca5f00e3a506e2ca96195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view_changer.x_4s_tricode.user</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_user_role_contains_4245b335dbca5f00e3a506e2ca96195b</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-05-14 12:51:36</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

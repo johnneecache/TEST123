@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Admin Queue for Administrators">a8181301db311700e3a506e2ca961982</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_4s_tricode_tricode_application">u_group=f7271096dbcdd7801bfdef92ca961909^life_cycle=1^EQ<item display_table="sys_user_group" display_value="Tricode Admin" endquery="false" field="u_group" goto="false" newquery="false" operator="=" or="false" value="f7271096dbcdd7801bfdef92ca961909"/>
+            <item endquery="false" field="life_cycle" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>New requests for Admin Queue</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Admin Queue</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_4s_tricode_tricode_application</name>
+        <order>10</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_4s_tricode.user</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+        <sys_created_on>2018-04-29 16:39:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_id>5ee81b01db311700e3a506e2ca9619b1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Admin Queue</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_app_module_5ee81b01db311700e3a506e2ca9619b1</sys_update_name>
+        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-04-30 19:49:27</sys_updated_on>
+        <timeline_page/>
+        <title>Admin Queue</title>
+        <uncancelable>false</uncancelable>
+        <view_name>default_view</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>

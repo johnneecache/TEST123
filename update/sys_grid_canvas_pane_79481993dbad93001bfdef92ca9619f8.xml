@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_grid_canvas_pane">
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
-        <grid_canvas display_value="">3f3251dfdb6d93001bfdef92ca961963</grid_canvas>
+        <grid_canvas display_value="PA New Tab">3f3251dfdb6d93001bfdef92ca961963</grid_canvas>
         <height>4</height>
-        <portal_widget display_value="">39481993dbad93001bfdef92ca9619f6</portal_widget>
+        <portal_widget display_value="Created 2018-04-23 15:45:08">39481993dbad93001bfdef92ca9619f6</portal_widget>
         <posx>0</posx>
         <posy>8</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
@@ -11,15 +11,15 @@
         <sys_created_on>2018-04-23 20:45:08</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>79481993dbad93001bfdef92ca9619f8</sys_id>
-        <sys_mod_count>55</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_name>3f3251dfdb6d93001bfdef92ca961963</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_grid_canvas_pane_79481993dbad93001bfdef92ca9619f8</sys_update_name>
-        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-        <sys_updated_on>2018-07-25 12:00:51</sys_updated_on>
+        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-05-11 13:29:07</sys_updated_on>
         <width>1</width>
     </sys_grid_canvas_pane>
 </record_update>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="405ac128dbce9b00e3a506e2ca961963" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="x_4s_tricode_tricode_application" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 03:12:13</sys_created_on>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>005ac128dbce9b00e3a506e2ca961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_4s_tricode_tricode_application" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">405ac128dbce9b00e3a506e2ca961963</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">dc756f56dbb95b001bfdef92ca961996</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 03:12:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 03:12:14</sys_created_on>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>085ac928dbce9b00e3a506e2ca961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_4s_tricode_tricode_application" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">405ac128dbce9b00e3a506e2ca961963</sys_ui_form>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 03:12:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 03:12:33</sys_created_on>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>b46a8928dbce9b00e3a506e2ca96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_4s_tricode_tricode_application" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">405ac128dbce9b00e3a506e2ca961963</sys_ui_form>
+            <sys_ui_section caption="DX" display_value="DX" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">7c6a8928dbce9b00e3a506e2ca96195a</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 03:12:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 03:12:42</sys_created_on>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>9f6ac928dbce9b00e3a506e2ca9619f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_4s_tricode_tricode_application" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">405ac128dbce9b00e3a506e2ca961963</sys_ui_form>
+            <sys_ui_section caption="EM" display_value="EM" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">d36a4128dbce9b00e3a506e2ca96194b</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 03:12:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 03:12:55</sys_created_on>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>967ac528dbce9b00e3a506e2ca9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_4s_tricode_tricode_application" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">405ac128dbce9b00e3a506e2ca961963</sys_ui_form>
+            <sys_ui_section caption="CPT" display_value="CPT" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">c27ac528dbce9b00e3a506e2ca9619e4</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 03:12:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_4s_tricode_tricode_application</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 03:12:13</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>405ac128dbce9b00e3a506e2ca961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_4s_tricode_tricode_application</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_ui_form_sections_405ac128dbce9b00e3a506e2ca961963</sys_update_name>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 03:12:13</sys_updated_on>
+            <sys_user/>
+            <view display_value="Dev" name="dev">7bb46392dbb95b001bfdef92ca96197e</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

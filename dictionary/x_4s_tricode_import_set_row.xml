@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="TriCode Clinic Updates" max_length="40" name="x_4s_tricode_import_set_row" type="collection">
+        <element attributes="import_attribute_name=Coded,edge_encryption_enabled=true" label="Coded" max_length="40" name="u_coded" type="string"/>
+        <element attributes="import_attribute_name=DMIS Code,edge_encryption_enabled=true" label="DMIS Code" max_length="40" name="u_dmis_code" type="string"/>
+        <element attributes="import_attribute_name=Name of Clinic,edge_encryption_enabled=true" label="Name of Clinic" max_length="40" name="u_name_of_clinic" type="string"/>
+        <element attributes="import_attribute_name=Not Coded,edge_encryption_enabled=true" label="Not Coded" max_length="40" name="u_not_coded" type="string"/>
+    </element>
+</database>

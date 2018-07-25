@@ -9,14 +9,14 @@
         <sys_created_on>2018-05-04 18:51:15</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>38b7693edbf59b001bfdef92ca96191c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_4s_tricode.azure_auth_string.Tricode integration</sys_name>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_4s_tricode.AzureAuthString.Tricode integration</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_properties_category_m2m_38b7693edbf59b001bfdef92ca96191c</sys_update_name>
-        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-        <sys_updated_on>2018-07-25 11:55:59</sys_updated_on>
+        <sys_updated_by>azanias.sanchez@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-05-04 18:51:15</sys_updated_on>
     </sys_properties_category_m2m>
 </record_update>

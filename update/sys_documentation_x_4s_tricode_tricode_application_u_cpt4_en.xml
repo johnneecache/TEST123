@@ -4,16 +4,16 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_cpt4</element>
             <help/>
-            <hint/>
+            <hint>CPT 4 (u_cpt4)</hint>
             <label>CPT 4</label>
             <language>en</language>
             <name>x_4s_tricode_tricode_application</name>
             <plural>CPT 4s</plural>
             <sys_class_name>sys_documentation</sys_class_name>
-            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
-            <sys_created_on>2018-07-10 20:04:10</sys_created_on>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-03-26 18:16:23</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>8eea7a9413d793c031b855912244b08b</sys_id>
+            <sys_id>86b9a412db011b801bfdef92ca9619b4</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_name>CPT 4</sys_name>
             <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
@@ -21,8 +21,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
             <sys_update_name>sys_documentation_x_4s_tricode_tricode_application_u_cpt4_en</sys_update_name>
-            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-            <sys_updated_on>2018-07-25 12:03:53</sys_updated_on>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-04-03 19:57:52</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

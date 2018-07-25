@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>GetPDFs</name>
+        <run_as display_value="Azure Import">9ada81c6db8e13401bfdef92ca961955</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 00:02:00</run_period>
+        <run_start>2018-05-03 20:15:00</run_start>
+        <run_time>1970-01-01 06:00:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[gs.debug("Tricorp - PDF start");
+
+var _validFileExtensions = [".pdf"];
+var fileList = new AzureUtils().getFileList(gs.getProperty('x_4s_tricode.pdf_directory'), _validFileExtensions);
+
+for (var i = 0; i < fileList.length; i++) {
+	var gr = new GlideRecord('x_4s_tricode_tricode_application');
+	
+	gr.initialize();
+	gr.u_comments = "Created from Azure file";
+	gr.life_cycle = 1;
+	var newTicket = gr.insert();
+	
+	gs.debug("Tricorp - PDF -" + gr.number);
+	
+	var fileInsert = new AzureUtils().getFile(fileList[i], gs.getProperty('x_4s_tricode.pdf_directory'), "x_4s_tricode_tricode_application", newTicket);
+	var fileUpdate = new global.TricorpGlobalHelper().updateContentType("x_4s_tricode_tricode_application", newTicket);
+	
+	if(fileInsert == 200)
+		var fileDelete = new AzureUtils().deleteFile(fileList[i], gs.getProperty('x_4s_tricode.pdf_directory'));
+}
+
+gs.debug("Tricorp - PDF end");]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>azanias.sanchez@4thsource.com</sys_created_by>
+        <sys_created_on>2018-05-04 20:25:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>73da353adb399b001bfdef92ca9619a2</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>GetPDFs</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sysauto_script_73da353adb399b001bfdef92ca9619a2</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-05-22 19:25:15</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="f512d3841375130031b855912244b0be" table="sys_report">
+<record_update sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby>TRI_u_coder_users,TRC_u_coder_users</additional_groupby>
         <aggregate>COUNT</aggregate>
@@ -38,11 +38,9 @@
         <donut_width_percent>50</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>parent_number</field>
-        <field_list>number,parent_number</field_list>
-        <filter table="x_4s_tricode_tricode_application_child">^GROUPBYparent_number^TRENDBYu_admin_assignment_queue...,week<item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="parent_number"/>
-            <item endquery="false" field="" goto="false" newquery="false" operator="TRENDBY" or="false" value="u_admin_assignment_queue...,week"/>
-        </filter>
+        <field/>
+        <field_list>number,u_lifecycle,u_closed_date,parent_number,parent_number.life_cycle,parent_number.u_closed_date</field_list>
+        <filter/>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
@@ -71,7 +69,7 @@
         <report_drilldown/>
         <report_source/>
         <roles>x_4s_tricode.user</roles>
-        <row>parent_number,number</row>
+        <row>u_10mod1</row>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
         <sc_stackby_item_id/>
@@ -97,10 +95,10 @@
         <sys_created_by>john.duchock@4thsource.com</sys_created_by>
         <sys_created_on>2018-04-20 13:36:32</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+        <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
         <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
         <sys_id>5e69509edb6d13001bfdef92ca9619ef</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Johnny's Report for Closed Tickets</sys_name>
         <sys_overrides/>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
@@ -109,18 +107,18 @@
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_report_5e69509edb6d13001bfdef92ca9619ef</sys_update_name>
         <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-        <sys_updated_on>2018-07-25 11:59:03</sys_updated_on>
+        <sys_updated_on>2018-05-02 10:31:00</sys_updated_on>
         <table>x_4s_tricode_tricode_application_child</table>
         <title>Johnny's Report for Closed Tickets</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>u_admin_assignment_queue...</trend_field>
-        <type>pivot_v2</type>
+        <trend_field>u_closed_date</trend_field>
+        <type>list</type>
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>
         <use_color_palette>false</use_color_palette>
-        <user>group</user>
+        <user>GLOBAL</user>
         <x_axis_display_grid>true</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>
         <x_axis_grid_dotted>true</x_axis_grid_dotted>

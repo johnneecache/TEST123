@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="TriCode CPT Code" max_length="40" name="x_4s_tricode_tricode_cpt_code" sizeclass="10016" type="collection">
+    <element label="TriCode CPT Code" max_length="40" name="x_4s_tricode_tricode_cpt_code" sizeclass="27067" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
-        <element label="Clinician Descriptor Id" max_length="40" name="u_clinician_descriptor_id" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Clinician Descriptor Id" max_length="40" name="u_clinician_descriptor_id" type="string"/>
         <element display="true" label="CPT Code" max_length="40" name="u_code" type="string"/>
         <element label="Clinician Descriptor" max_length="1000" name="u_code_description" type="string"/>
-        <element label="Concept Id" max_length="40" name="u_concept_id" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Concept Id" max_length="40" name="u_concept_id" type="string"/>
         <element hint="Proprietary Laboratory Analyses (PLA) codes describe proprietary clinical laboratory analyses and can be either provided by a single (&quot;sole-source&quot;) laboratory or licensed or marketed to multiple providing laboratories (eg, cleared or approved by the Food and Drug Administration (FDA)." label="CPT PLA Codes" max_length="40" name="u_laboratory_certification_lc" type="string"/>
         <element hint="A modifier provides the means to report or indicate that a service or procedure that has been performed has been &#13;&#10;altered by some specific circumstance but not changed in its definition or code. Modifiers also enable health care &#13;&#10;professionals to effectively respond to payment policy requirements established by other entities. " label="Modifier" max_length="40" name="u_mod" type="string"/>
         <index name="index">

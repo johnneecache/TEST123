@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>reporting</category>
+        <content><![CDATA[ <h1 class="title topictitle1">Report Range list</h1>  <div class="body conbody">  <p class="p"><span class="ph">Use a report range to define data   intervals that are used in bar and pie charts.</span></p>  <p class="p"><span class="ph">Click the column headers to search, sort, filter, and    edit data. </span></p>  <p class="p">Click <span class="ph uicontrol">New</span> to create a new report range.</p><div class="section">   <div class="p">The Report Range list has the following columns:<ul class="ul" id="sys_report_range_list-normal__ul_fhr_gtj_dz"><li class="li">Dates – Using the <span class="ph uicontrol">Created field</span> in the Incidents table: Same Day, 2            Days, 2–5 Days, 5–7 Days, 1–2 Weeks, 2–4 Weeks, 1–2 Months, &gt; 2 Months </li><li class="li">Lists – Using the <span class="ph uicontrol">Priority</span> field in the Incidents table: Low,            Moderate, High, Critical, Planning </li><li class="li">Integers – Using the <span class="ph uicontrol">Count</span> field in the Incidents table: Overloaded,            Optimized, Under Utilized</li></ul></div>   <p class="p"><span class="ph">Report ranges can be globally applied to all date type fields (date,          due date, duration, date/time, date time), or you can limit report ranges to a specific          table.</span> Report ranges work with elements that hold only dates, lists, or integers.</p>  </div> </div>]]></content>
+        <last_sync>2018-05-11 01:33:04</last_sync>
+        <modifier>normal</modifier>
+        <name>sys_report_range_list-normal</name>
+        <page>sys_report_range_list</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-04-26 01:32:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>952dec0cdb755300e3a506e2ca961964</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sys_report_range_list-normal</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_embedded_help_content_952dec0cdb755300e3a506e2ca961964</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-05-11 01:33:04</sys_updated_on>
+        <version>j</version>
+    </sys_embedded_help_content>
+</record_update>

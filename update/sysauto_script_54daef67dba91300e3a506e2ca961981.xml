@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>TRICODE Procecss Excel-DELETE</name>
+        <run_as display_value="Robert Thomas">3117075adbbc13801bfdef92ca9619f4</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-04-25 02:03:51</run_start>
+        <run_time>1970-01-01 06:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[var gr = new GlideRecord("sys_attachment");
+gr.addQuery('table_name','x_4s_tricode_excel_uploads');
+gr.addQuery('table_sys_id', 'ba09af27dba91300e3a506e2ca961905');
+gr.query();
+
+gs.info(' ROW COUNT = ' + gr.getRowCount());
+if (gr.next()) {
+	// gs.info( ' File Name = ' gr.);
+	
+	var gr = new GlideRecord("sys_data_source");
+	gr.addQuery("name", "value");
+	gr.query();
+	if (gr.next()) {
+		
+	}
+	
+	
+	//GlideSysAttachment.copy('sys_attachment', String sourceID, 'sys_data_source', '5c943e67db291300e3a506e2ca961974');
+	
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+        <sys_created_on>2018-04-25 02:04:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>54daef67dba91300e3a506e2ca961981</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>TRICODE Procecss Excel-DELETE</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sysauto_script_54daef67dba91300e3a506e2ca961981</sys_update_name>
+        <sys_updated_by>ravala@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-04-25 03:23:29</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

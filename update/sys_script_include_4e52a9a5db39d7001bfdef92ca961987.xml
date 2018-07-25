@@ -35,10 +35,10 @@ AzureUtils.prototype = {
 			if (n.getNodeName() == "File") {
 				var firstChild = n.getFirstChild();
 				var fileName = "" + firstChild.getTextContent();
-				//gs.debug(fileExt.length);
+				gs.debug(fileExt.length);
 				//var extFile = fileName.toLowerCase();
-				if (fileExt.length > 0) {
-					for (var j = 0; j < fileExt.length; j++) {
+				if (fileExt.length> 0) {
+					for (var j = 0; j < fileExt.length; j++){
 						var sCurExtension = fileExt[j];
 						if (fileName.substr(fileName.length - sCurExtension.length, sCurExtension.length).toLowerCase() == sCurExtension.toLowerCase()) {
 							fileArray.push(fileName);
@@ -60,9 +60,8 @@ AzureUtils.prototype = {
 		
 		request.saveResponseBodyAsAttachment(tableName, recordSysID, fileName);
 		var response = request.execute();
-		gs.info(response.getStatusCode(), "Tricorp integration");
 		return response.getStatusCode();
-		
+		//gs.debug(response.getStatusCode(), "Tricorp integration");
 	},
 	
 	deleteFile: function(fileName, directory) {
@@ -74,7 +73,7 @@ AzureUtils.prototype = {
 		
 		var response = request.execute();
 		
-		gs.info(response.getStatusCode(), "Tricorp integration");
+		gs.debug(response.getStatusCode(), "Tricorp integration");
 	},
 	
 	type: 'AzureUtils'
@@ -84,14 +83,14 @@ AzureUtils.prototype = {
         <sys_created_on>2018-04-30 21:15:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4e52a9a5db39d7001bfdef92ca961987</sys_id>
-        <sys_mod_count>83</sys_mod_count>
+        <sys_mod_count>77</sys_mod_count>
         <sys_name>AzureUtils</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
         <sys_policy>read</sys_policy>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_script_include_4e52a9a5db39d7001bfdef92ca961987</sys_update_name>
-        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-        <sys_updated_on>2018-07-25 11:57:24</sys_updated_on>
+        <sys_updated_by>azanias.sanchez@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-05-04 22:30:55</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA New Tab">3f3251dfdb6d93001bfdef92ca961963</grid_canvas>
+        <height>4</height>
+        <portal_widget display_value="Created 2018-04-24 08:36:38">becff8ebdb65d3001bfdef92ca9619f1</portal_widget>
+        <posx>0</posx>
+        <posy>4</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+        <sys_created_on>2018-04-24 13:36:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b2cff8ebdb65d3001bfdef92ca9619f4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>3f3251dfdb6d93001bfdef92ca961963</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_b2cff8ebdb65d3001bfdef92ca9619f4</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-04-24 13:47:47</sys_updated_on>
+        <width>2</width>
+    </sys_grid_canvas_pane>
+</record_update>

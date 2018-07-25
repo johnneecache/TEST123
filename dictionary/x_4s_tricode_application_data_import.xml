@@ -86,6 +86,11 @@
         <element attributes="import_attribute_name=Attending Anesthesiologist 2,edge_encryption_enabled=true" label="Attending Anesthesiologist 2" max_length="40" name="u_attending_anesthesiologist_2" type="string"/>
         <element attributes="import_attribute_name=CAPER Status,edge_encryption_enabled=true" label="CAPER Status" max_length="40" name="u_caper_status" type="string"/>
         <element attributes="import_attribute_name=CIEN,edge_encryption_enabled=true" label="CIEN" max_length="40" name="u_cien" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="column1" max_length="40" name="u_column1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="column2" max_length="40" name="u_column2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="column3" max_length="40" name="u_column3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="column4" max_length="40" name="u_column4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="column5" max_length="40" name="u_column5" type="string"/>
         <element attributes="import_attribute_name=Comments,edge_encryption_enabled=true" label="Comments" max_length="40" name="u_comments" type="string"/>
         <element attributes="import_attribute_name=CPT 1,edge_encryption_enabled=true" label="CPT 1" max_length="40" name="u_cpt_1" type="string"/>
         <element attributes="import_attribute_name=CPT 10,edge_encryption_enabled=true" label="CPT 10" max_length="40" name="u_cpt_10" type="string"/>
@@ -159,7 +164,7 @@
         <element attributes="import_attribute_name=EM 3,edge_encryption_enabled=true" label="EM 3" max_length="40" name="u_em_3" type="string"/>
         <element attributes="import_attribute_name=FMP,edge_encryption_enabled=true" label="FMP" max_length="40" name="u_fmp" type="string"/>
         <element attributes="import_attribute_name=Group,edge_encryption_enabled=true" label="Group" max_length="40" name="u_group" type="string"/>
-        <element attributes="import_attribute_name= ICD 1,edge_encryption_enabled=true" label="ICD 1" max_length="40" name="u_icd_1" type="string"/>
+        <element attributes="import_attribute_name= ICD 1,edge_encryption_enabled=true" label=" ICD 1" max_length="40" name="u_icd_1" type="string"/>
         <element attributes="import_attribute_name=ICD 10,edge_encryption_enabled=true" label="ICD 10" max_length="40" name="u_icd_10" type="string"/>
         <element attributes="import_attribute_name=ICD 11,edge_encryption_enabled=true" label="ICD 11" max_length="40" name="u_icd_11" type="string"/>
         <element attributes="import_attribute_name=ICD 12,edge_encryption_enabled=true" label="ICD 12" max_length="40" name="u_icd_12" type="string"/>

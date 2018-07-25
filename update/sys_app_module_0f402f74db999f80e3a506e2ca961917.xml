@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="f512d3841375130031b855912244b0be" table="sys_app_module">
+<record_update sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="">4340ab74db999f80e3a506e2ca96193c</application>
+        <application/>
         <assessment/>
         <content_page/>
         <device_type/>
@@ -26,21 +26,21 @@
         <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
         <sys_created_on>2018-04-04 01:58:53</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+        <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
         <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
         <sys_id>0f402f74db999f80e3a506e2ca961917</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>TriCode Speciality Providers</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>TriCode Specialty Providers</sys_name>
         <sys_overrides/>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_app_module_0f402f74db999f80e3a506e2ca961917</sys_update_name>
-        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-        <sys_updated_on>2018-07-25 11:51:51</sys_updated_on>
+        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-04-30 15:43:42</sys_updated_on>
         <timeline_page/>
-        <title>TriCode Speciality Providers</title>
+        <title>TriCode Specialty Providers</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

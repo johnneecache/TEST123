@@ -29,14 +29,14 @@ this._hasher;e=d.finalize(e);d.reset();return d.finalize(this._oKey.clone().conc
         <sys_created_on>2018-05-03 16:19:52</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>bd7bb7d2dbf95b001bfdef92ca961973</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>CryptoJS</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
         <sys_policy>read</sys_policy>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_script_include_bd7bb7d2dbf95b001bfdef92ca961973</sys_update_name>
-        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-        <sys_updated_on>2018-07-25 12:08:08</sys_updated_on>
+        <sys_updated_by>azanias.sanchez@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-05-03 16:19:52</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="770d8d26dbbd5b001bfdef92ca961944" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="incident" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-03 22:16:22</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!#/</sys_domain_path>
+            <sys_id>3b0d8d26dbbd5b001bfdef92ca961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="incident" name="incident" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">770d8d26dbbd5b001bfdef92ca961944</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">7b0d8d26dbbd5b001bfdef92ca961942</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-03 22:16:22</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-03 22:16:22</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!#/</sys_domain_path>
+            <sys_id>b70d8d26dbbd5b001bfdef92ca961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="incident" name="incident" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">770d8d26dbbd5b001bfdef92ca961944</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="incident" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">0837eb524fac6600355297dd0210c75d</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-03 22:16:22</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-03 22:16:22</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!#/</sys_domain_path>
+            <sys_id>bb0d8d26dbbd5b001bfdef92ca961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="incident" name="incident" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">770d8d26dbbd5b001bfdef92ca961944</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="incident" sys_domain="global" view="Default view">991fec850a0006417c9edda2d4e9c487</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-03 22:16:22</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-03 22:16:22</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!#/</sys_domain_path>
+            <sys_id>370d8d26dbbd5b001bfdef92ca961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="incident" name="incident" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">770d8d26dbbd5b001bfdef92ca961944</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="incident" sys_domain="global" view="Default view">992099dd0a0006413c77c9a4b7d410c0</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-03 22:16:22</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-03 22:16:22</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>770d8d26dbbd5b001bfdef92ca961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>incident</sys_name>
+            <sys_overrides display_value="incident" name="incident" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">86272f524fac6600355297dd0210c7a8</sys_overrides>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_ui_form_sections_770d8d26dbbd5b001bfdef92ca961944</sys_update_name>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-03 22:16:22</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

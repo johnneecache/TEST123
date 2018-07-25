@@ -10,19 +10,19 @@
             <name>x_4s_tricode_tricode_app_import</name>
             <plural>Name of Clinics</plural>
             <sys_class_name>sys_documentation</sys_class_name>
-            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
-            <sys_created_on>2018-07-09 19:06:47</sys_created_on>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-04-24 05:49:52</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>48346108dbdb1300e3a506e2ca9619b5</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>5df4d3d3dba1d3001bfdef92ca961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_name>Name of Clinic</sys_name>
-            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
             <sys_update_name>sys_documentation_x_4s_tricode_tricode_app_import_u_name_of_clinic_en</sys_update_name>
-            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-            <sys_updated_on>2018-07-25 11:57:00</sys_updated_on>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-04-24 05:49:52</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_grid_canvas" unload_date="2018-07-25 18:24:35">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Assignments - Secondary">915618e3db25d3001bfdef92ca96194c</legacy_page>
+        <name>PA New Tab 2</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+        <sys_created_on>2018-04-24 10:35:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>915618e3db25d3001bfdef92ca96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA New Tab 2</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_grid_canvas_915618e3db25d3001bfdef92ca96194d</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-04-24 10:35:30</sys_updated_on>
+        <related_items_node>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA New Tab 2">915618e3db25d3001bfdef92ca96194d</grid_canvas>
+                <height>10</height>
+                <portal_widget display_value="Created 2018-04-24 13:53:23">ea4886e7db29d3001bfdef92ca96193e</portal_widget>
+                <posx>0</posx>
+                <posy>0</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                <sys_created_on>2018-04-24 18:53:23</sys_created_on>
+                <sys_customer_update>false</sys_customer_update>
+                <sys_id>6e4886e7db29d3001bfdef92ca961940</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_name>915618e3db25d3001bfdef92ca96194d</sys_name>
+                <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+                <sys_policy/>
+                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_6e4886e7db29d3001bfdef92ca961940</sys_update_name>
+                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                <sys_updated_on>2018-04-24 18:53:23</sys_updated_on>
+                <width>12</width>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone/>
+                        <offset/>
+                        <page display_value="PA Assignments - Secondary">915618e3db25d3001bfdef92ca96194c</page>
+                        <summary>Johnny's Report for Closed Tickets</summary>
+                        <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                        <sys_created_on>2018-04-24 18:53:23</sys_created_on>
+                        <sys_id>ea4886e7db29d3001bfdef92ca96193e</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2018-04-24 18:53:23</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA New Tab 2">915618e3db25d3001bfdef92ca96194d</grid_canvas>
+                                <height>10</height>
+                                <portal_widget display_value="Created 2018-04-24 13:53:23">ea4886e7db29d3001bfdef92ca96193e</portal_widget>
+                                <posx>0</posx>
+                                <posy>0</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 18:53:23</sys_created_on>
+                                <sys_customer_update>false</sys_customer_update>
+                                <sys_id>6e4886e7db29d3001bfdef92ca961940</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_name>915618e3db25d3001bfdef92ca96194d</sys_name>
+                                <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+                                <sys_policy/>
+                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                                <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_6e4886e7db29d3001bfdef92ca961940</sys_update_name>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 18:53:23</sys_updated_on>
+                                <width>12</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 2018-04-24 13:53:23">ea4886e7db29d3001bfdef92ca96193e</portal_section>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 18:53:23</sys_created_on>
+                                <sys_id>224886e7db29d3001bfdef92ca96193f</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 18:53:23</sys_updated_on>
+                                <value>5e69509edb6d13001bfdef92ca9619ef</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>report_type</name>
+                                <portal_section display_value="Created 2018-04-24 13:53:23">ea4886e7db29d3001bfdef92ca96193e</portal_section>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 18:53:23</sys_created_on>
+                                <sys_id>224886e7db29d3001bfdef92ca961940</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 18:53:23</sys_updated_on>
+                                <value>pivot_v2</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>can_subscribe</name>
+                                <portal_section display_value="Created 2018-04-24 13:53:23">ea4886e7db29d3001bfdef92ca96193e</portal_section>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 18:53:23</sys_created_on>
+                                <sys_id>6e4886e7db29d3001bfdef92ca96193f</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 18:53:23</sys_updated_on>
+                                <value>true</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>help_text_window</name>
+                                <portal_section display_value="Created 2018-04-24 13:53:23">ea4886e7db29d3001bfdef92ca96193e</portal_section>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 18:53:23</sys_created_on>
+                                <sys_id>aa4886e7db29d3001bfdef92ca96193f</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 18:53:23</sys_updated_on>
+                                <value>report_widget_description</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 2018-04-24 13:53:23">ea4886e7db29d3001bfdef92ca96193e</portal_section>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 18:53:23</sys_created_on>
+                                <sys_id>e24886e7db29d3001bfdef92ca961940</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 18:53:23</sys_updated_on>
+                                <value>Johnny's Report for Closed Tickets</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 2018-04-24 13:53:23">ea4886e7db29d3001bfdef92ca96193e</portal_section>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 18:53:23</sys_created_on>
+                                <sys_id>e64886e7db29d3001bfdef92ca96193f</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 18:53:23</sys_updated_on>
+                                <value>com.glide.ui.portal.RenderReport</value>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone/>
+                        <offset/>
+                        <page display_value="PA Assignments - Secondary">915618e3db25d3001bfdef92ca96194c</page>
+                        <summary>Active parents with Active children</summary>
+                        <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                        <sys_created_on>2018-04-24 18:53:07</sys_created_on>
+                        <sys_id>363802e7db29d3001bfdef92ca961943</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2018-04-24 18:53:07</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA New Tab 2">915618e3db25d3001bfdef92ca96194d</grid_canvas>
+                                <height>10</height>
+                                <portal_widget display_value="Created 2018-04-24 13:53:07">363802e7db29d3001bfdef92ca961943</portal_widget>
+                                <posx>0</posx>
+                                <posy>10</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 18:53:07</sys_created_on>
+                                <sys_customer_update>false</sys_customer_update>
+                                <sys_id>b23802e7db29d3001bfdef92ca961947</sys_id>
+                                <sys_mod_count>1</sys_mod_count>
+                                <sys_name>915618e3db25d3001bfdef92ca96194d</sys_name>
+                                <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+                                <sys_policy/>
+                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                                <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_b23802e7db29d3001bfdef92ca961947</sys_update_name>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 18:53:23</sys_updated_on>
+                                <width>12</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>help_text_window</name>
+                                <portal_section display_value="Created 2018-04-24 13:53:07">363802e7db29d3001bfdef92ca961943</portal_section>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 18:53:07</sys_created_on>
+                                <sys_id>363802e7db29d3001bfdef92ca961945</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 18:53:07</sys_updated_on>
+                                <value>report_widget_description</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 2018-04-24 13:53:07">363802e7db29d3001bfdef92ca961943</portal_section>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 18:53:07</sys_created_on>
+                                <sys_id>723802e7db29d3001bfdef92ca961945</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 18:53:07</sys_updated_on>
+                                <value>com.glide.ui.portal.RenderReport</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 2018-04-24 13:53:07">363802e7db29d3001bfdef92ca961943</portal_section>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 18:53:07</sys_created_on>
+                                <sys_id>7e3802e7db29d3001bfdef92ca961945</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 18:53:07</sys_updated_on>
+                                <value>Active parents with Active children</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 2018-04-24 13:53:07">363802e7db29d3001bfdef92ca961943</portal_section>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 18:53:07</sys_created_on>
+                                <sys_id>b23802e7db29d3001bfdef92ca961944</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 18:53:07</sys_updated_on>
+                                <value>543d989edb6d13001bfdef92ca961977</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>report_type</name>
+                                <portal_section display_value="Created 2018-04-24 13:53:07">363802e7db29d3001bfdef92ca961943</portal_section>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 18:53:07</sys_created_on>
+                                <sys_id>ba3802e7db29d3001bfdef92ca961945</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 18:53:07</sys_updated_on>
+                                <value>pivot_v2</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>can_subscribe</name>
+                                <portal_section display_value="Created 2018-04-24 13:53:07">363802e7db29d3001bfdef92ca961943</portal_section>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 18:53:07</sys_created_on>
+                                <sys_id>f63802e7db29d3001bfdef92ca961945</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 18:53:07</sys_updated_on>
+                                <value>true</value>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone/>
+                        <offset/>
+                        <page display_value="PA Assignments - Secondary">915618e3db25d3001bfdef92ca96194c</page>
+                        <summary>Under Construction</summary>
+                        <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                        <sys_created_on>2018-04-24 13:24:51</sys_created_on>
+                        <sys_id>821dfc6bdb65d3001bfdef92ca961990</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2018-04-24 13:24:51</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA New Tab 2">915618e3db25d3001bfdef92ca96194d</grid_canvas>
+                                <height>3</height>
+                                <portal_widget display_value="Created 2018-04-24 08:24:51">821dfc6bdb65d3001bfdef92ca961990</portal_widget>
+                                <posx>0</posx>
+                                <posy>20</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 13:24:51</sys_created_on>
+                                <sys_customer_update>false</sys_customer_update>
+                                <sys_id>ca1dfc6bdb65d3001bfdef92ca961991</sys_id>
+                                <sys_mod_count>3</sys_mod_count>
+                                <sys_name>915618e3db25d3001bfdef92ca96194d</sys_name>
+                                <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+                                <sys_policy/>
+                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                                <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_ca1dfc6bdb65d3001bfdef92ca961991</sys_update_name>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 18:53:23</sys_updated_on>
+                                <width>3</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 2018-04-24 08:24:51">821dfc6bdb65d3001bfdef92ca961990</portal_section>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 13:24:51</sys_created_on>
+                                <sys_id>421dfc6bdb65d3001bfdef92ca961991</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 13:24:51</sys_updated_on>
+                                <value>Under Construction</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 2018-04-24 08:24:51">821dfc6bdb65d3001bfdef92ca961990</portal_section>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 13:24:51</sys_created_on>
+                                <sys_id>8e1dfc6bdb65d3001bfdef92ca961990</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 13:24:51</sys_updated_on>
+                                <value>com.glide.cms.RenderBlock</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 2018-04-24 08:24:51">821dfc6bdb65d3001bfdef92ca961990</portal_section>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 13:24:51</sys_created_on>
+                                <sys_id>c61dfc6bdb65d3001bfdef92ca961990</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 13:24:51</sys_updated_on>
+                                <value>c9dcbc6bdb65d3001bfdef92ca961971</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>type</name>
+                                <portal_section display_value="Created 2018-04-24 08:24:51">821dfc6bdb65d3001bfdef92ca961990</portal_section>
+                                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                                <sys_created_on>2018-04-24 13:24:51</sys_created_on>
+                                <sys_id>c61dfc6bdb65d3001bfdef92ca961991</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                                <sys_updated_on>2018-04-24 13:24:51</sys_updated_on>
+                                <value>content_block_static</value>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+            </sys_grid_canvas_pane>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA New Tab 2">915618e3db25d3001bfdef92ca96194d</grid_canvas>
+                <height>10</height>
+                <portal_widget display_value="Created 2018-04-24 13:53:07">363802e7db29d3001bfdef92ca961943</portal_widget>
+                <posx>0</posx>
+                <posy>10</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                <sys_created_on>2018-04-24 18:53:07</sys_created_on>
+                <sys_customer_update>false</sys_customer_update>
+                <sys_id>b23802e7db29d3001bfdef92ca961947</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_name>915618e3db25d3001bfdef92ca96194d</sys_name>
+                <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+                <sys_policy/>
+                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_b23802e7db29d3001bfdef92ca961947</sys_update_name>
+                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                <sys_updated_on>2018-04-24 18:53:23</sys_updated_on>
+                <width>12</width>
+            </sys_grid_canvas_pane>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA New Tab 2">915618e3db25d3001bfdef92ca96194d</grid_canvas>
+                <height>3</height>
+                <portal_widget display_value="Created 2018-04-24 08:24:51">821dfc6bdb65d3001bfdef92ca961990</portal_widget>
+                <posx>0</posx>
+                <posy>20</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+                <sys_created_on>2018-04-24 13:24:51</sys_created_on>
+                <sys_customer_update>false</sys_customer_update>
+                <sys_id>ca1dfc6bdb65d3001bfdef92ca961991</sys_id>
+                <sys_mod_count>3</sys_mod_count>
+                <sys_name>915618e3db25d3001bfdef92ca96194d</sys_name>
+                <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+                <sys_policy/>
+                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_ca1dfc6bdb65d3001bfdef92ca961991</sys_update_name>
+                <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+                <sys_updated_on>2018-04-24 18:53:23</sys_updated_on>
+                <width>3</width>
+            </sys_grid_canvas_pane>
+        </related_items_node>
+    </sys_grid_canvas>
+</record_update>

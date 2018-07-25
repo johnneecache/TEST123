@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="f512d3841375130031b855912244b0be" table="sys_script_client">
+<record_update sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description>Phone Number format</description>
-        <field>u_telephone</field>
+        <field>u_telephone_s</field>
         <global>true</global>
         <messages/>
         <name>Phone Number Format</name>
@@ -15,21 +15,21 @@
  return;
                            }
                          
-		g_form.hideFieldMsg('u_telephone');
+		g_form.hideFieldMsg('u_telephone_s');
  var pattern = /^\(\d{3}\)\s\d{3}-\d{4}$/; //(xxx) xxx-xxxx
- var phone = g_form.getValue('u_telephone');
+ var phone = g_form.getValue('u_telephone_s');
                          
       if(!pattern.test(phone)){
 			phone = phone.replace(/\D/g,'');
  var regex = /^\d{10}$/;
  var is_valid = regex.test(phone);
       if(!is_valid){
-            g_form.clearValue('u_telephone');
-            g_form.showFieldMsg('u_telephone', "Please enter 10 digits", 'error');
+            g_form.clearValue('u_telephone_s');
+            g_form.showFieldMsg('u_telephone_s', "Please enter 10 digits", 'error');
      }else{
             phone = '(' + phone.slice(0,3) + ') ' + phone.slice(3,6)+'-' + phone.slice(6,10);
-            g_form.setValue('u_telephone', phone);
-            g_form.showFieldMsg('u_telephone', "Phone number formatted", 'info');
+            g_form.setValue('u_telephone_s', phone);
+            g_form.showFieldMsg('u_telephone_s', "Phone number formatted", 'info');
  }
  }
                          
@@ -39,7 +39,7 @@
         <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
         <sys_created_on>2018-04-05 21:59:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+        <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
         <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
         <sys_id>2c7c3c65db599f801bfdef92ca96192a</sys_id>
         <sys_mod_count>3</sys_mod_count>
@@ -50,8 +50,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_script_client_2c7c3c65db599f801bfdef92ca96192a</sys_update_name>
-        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-        <sys_updated_on>2018-07-25 11:53:01</sys_updated_on>
+        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-04-30 14:36:02</sys_updated_on>
         <table>x_4s_tricode_tricode_application_child</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

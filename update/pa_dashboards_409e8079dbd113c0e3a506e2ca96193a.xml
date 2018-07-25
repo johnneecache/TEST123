@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="f512d3841375130031b855912244b0be" table="pa_dashboards">
+<record_update sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="pa_dashboards">
     <pa_dashboards action="INSERT_OR_UPDATE">
         <active>false</active>
         <breakdown_source/>
@@ -11,7 +11,7 @@
         <name>CMDB Completeness Dashboard</name>
         <no_tabs>false</no_tabs>
         <order>530</order>
-        <owner display_value="">3117075adbbc13801bfdef92ca9619f4</owner>
+        <owner display_value="Robert Thomas">3117075adbbc13801bfdef92ca9619f4</owner>
         <restrict_to_roles>pa_viewer,pa_contributor</restrict_to_roles>
         <role_override>true</role_override>
         <roles>asset,itil</roles>
@@ -20,10 +20,10 @@
         <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
         <sys_created_on>2018-04-06 13:16:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+        <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
         <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
         <sys_id>409e8079dbd113c0e3a506e2ca96193a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>CMDB Completeness Dashboard</sys_name>
         <sys_overrides display_value="CMDB Completeness Dashboard">0fd2d590eb102200f6f44d3df106fe1d</sys_overrides>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
@@ -31,8 +31,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>pa_dashboards_409e8079dbd113c0e3a506e2ca96193a</sys_update_name>
-        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-        <sys_updated_on>2018-07-25 11:56:36</sys_updated_on>
+        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-04-06 16:13:39</sys_updated_on>
         <users/>
         <visible_to>2</visible_to>
     </pa_dashboards>

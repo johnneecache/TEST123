@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>JPEG</format>
+        <height>100</height>
+        <image/>
+        <name>dx_100.jpg</name>
+        <size_bytes>4043</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+        <sys_created_on>2018-05-10 04:23:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>699a51a0db02db00e3a506e2ca9619c7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>dx_100.jpg</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>db_image_699a51a0db02db00e3a506e2ca9619c7</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-05-10 04:24:05</sys_updated_on>
+        <thumbnail/>
+        <width>100</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#22bfac</average_image_color>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>image</file_name>
+        <image_height>100</image_height>
+        <image_width>100</image_width>
+        <size_bytes>4043</size_bytes>
+        <size_compressed>3835</size_compressed>
+        <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+        <sys_created_on>2018-05-10 04:24:05</sys_created_on>
+        <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_id>34ca51a0db02db00e3a506e2ca96196f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-05-10 04:24:05</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>699a51a0db02db00e3a506e2ca9619c7</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="34ca51a0db02db00e3a506e2ca96196f">34ca51a0db02db00e3a506e2ca96196f</sys_attachment>
+        <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+        <sys_created_on>2018-05-10 04:24:05</sys_created_on>
+        <sys_id>74ca51a0db02db00e3a506e2ca96196f</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3736</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="34ca51a0db02db00e3a506e2ca96196f">34ca51a0db02db00e3a506e2ca96196f</sys_attachment>
+        <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+        <sys_created_on>2018-05-10 04:24:05</sys_created_on>
+        <sys_id>f4ca51a0db02db00e3a506e2ca96196f</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>0ogX6a2Fp8suQDM/ihx4k3oPRhkKndrL8szNSIhTvfEQVXZrYq9JnUxN6DB3bA+vXbqqkj/la1F/9g4uylPRuKdvfrjxgHgVjl1PYj9Oqut10PrxPCzjozEX24XzIqFeqByZU+yCqqSplfk/OJO67TBzOy5x0c1yUGFMrVIrK/vBNRDgERCq2SpqhA+evC9EuPGdPnuqG0VplWZLD+3Pxgyv3ZJvCOjIFnU7+K3I8EF9rIG1AiR6lhDgRYZtO3J90VxPbDvsaDq4TjBSipoJeojY8xhO4qXaWRQ+nY0sbaKsY/hFg3tty20JfWa53+q2nHHtfC79jMpP1Kom/onr5F6u/iqPtGxkptmmypHl1O2CRd/MzhXylLKvKV2f/eTMqMX9j3fyJL+swpZj2V2iA3h4u5aWvVhKU1gH0iIP8dJ3xdA4lTFGf6knFRAhKme0cX9qBrftKeW8FrTzgs8TwS7/PRQE5Ov7t/8ojtttPYns392XzHlumj/iw8TSRTDmO04I21bsJ1vkKh8IPG1ZdnOjWNdGYa3Rc7vy9m6M/UQQQK7yIyfVK0DgFTqPM5zds+5Tnb264aq1B+VUC7R/N+mw8jAIKGVNTJiThV0IZkvNttBkajPzBf8S7ElxnMwfxE6OydjbsVtshmJS+7Fyw6Gei5YGbzzWRC5bGUlGgECzROukdDEd3hVyX65ve620aVnjpkannnis9dewBmr/yLu02KpHk9+lyKVGUuod79cvvs9gh2dj6pziZTePNofxa3OViQr2UXCHNCoqUTIvKsu7kMkMKqdFtrCFn7ulWZ2tcFSEjtF/RoPAiWm9Q3ysZW2u6JRbVlvhafiGvZuhRlaI41dWQ8Z8FCJD/fZqq/z81swvROBal5QXnS/4qQoG9qmJfxSNKZxbKBSaRjeNTIOADKfL25Al2nIOQu0AQBs4ACDM7ir3BPtV3y03EeTXmEQpr7Ur0wb8ud3LqhJ5yE5oUtmbNwI88zQ2rUT87q13g0sXUZ8o704MDGgb+2b4aKyEfP2iF26zHZnncmote/L3ea0crvUn+N6sZoMDRJtoWRDYomB3/Rt8XVjk3c0SFHMoR2yplq5ZRhQZLyAvm3CAeKPydhnP15NBIHHgf0RDDkYOp5cxe87Ju6zksSQb9kGW1Q5Va44zqkgS2ML7/wlKShJ08IHMKsTOFqIWnr/6ywL/l4XtJpuvMr2amDo9QgCBabvP71wrWIwXL0lXyij+TeFSLDEiPo5pkSF3LfKhODn7W1rkIuQivjCLcdzDkaIEFL4CYIDQ72chi0ovScymHqbdDNX1kF+D0+YzZw3quUhtY62GxZSaheOvy/zehlV/qUCCI/8BdZ6S0ssPAAA=</data>
+        <length>1368</length>
+        <position>2</position>
+        <sys_attachment display_value="image" sys_id="34ca51a0db02db00e3a506e2ca96196f">34ca51a0db02db00e3a506e2ca96196f</sys_attachment>
+        <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+        <sys_created_on>2018-05-10 04:24:05</sys_created_on>
+        <sys_id>34cad1a0db02db00e3a506e2ca96199f</sys_id>
+    </sys_attachment_doc>
+</record_update>

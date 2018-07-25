@@ -15,14 +15,14 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Assigned Admin</column_label>
+        <column_label>Admin Users</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent>u_group</dependent>
-        <dependent_on_field>u_group</dependent_on_field>
+        <dependent>u_admin_assignment_queue</dependent>
+        <dependent_on_field>u_admin_assignment_queue</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -45,8 +45,10 @@
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>title=Coder/PM^EQ</reference_qual>
+        <reference_qual_condition table="sys_user">title=Coder/PM^EQ<item endquery="false" field="title" goto="false" newquery="false" operator="=" or="false" value="Coder/PM"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
@@ -56,15 +58,15 @@
         <sys_created_on>2018-04-04 16:38:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c759a60ddbd95f801bfdef92ca961940</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>Assigned Admin</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Admin Users</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_dictionary_x_4s_tricode_tricode_application_child_u_admin_users</sys_update_name>
-        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-        <sys_updated_on>2018-07-25 12:08:53</sys_updated_on>
+        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-04-30 14:41:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

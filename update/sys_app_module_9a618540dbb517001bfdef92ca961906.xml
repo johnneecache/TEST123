@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="f512d3841375130031b855912244b0be" table="sys_app_module">
+<record_update sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
         <application display_value="My Work">b42ba8bedbdd13c01bfdef92ca96197b</application>
@@ -18,7 +18,7 @@
         <order>95</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
-        <report display_value="Bi-Weekly 1-16 Closed Records for Coder Users ">0d56eba3dba91300e3a506e2ca961954</report>
+        <report display_value="Bi-Weekly 1-15 Closed Records for Coder Users">0d56eba3dba91300e3a506e2ca961954</report>
         <roles>x_4s_tricode.user</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
@@ -26,21 +26,21 @@
         <sys_created_by>rtrevino@tricorp-itsolutions.com</sys_created_by>
         <sys_created_on>2018-04-26 03:03:05</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+        <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
         <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
         <sys_id>9a618540dbb517001bfdef92ca961906</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Bi-Weekly Closed Rpt 1-16</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Bi-Weekly Closed Rpt 1-15</sys_name>
         <sys_overrides/>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_app_module_9a618540dbb517001bfdef92ca961906</sys_update_name>
-        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-        <sys_updated_on>2018-07-25 12:04:49</sys_updated_on>
+        <sys_updated_by>rtrevino@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-05-14 02:20:48</sys_updated_on>
         <timeline_page/>
-        <title>Bi-Weekly Closed Rpt 1-16</title>
+        <title>Bi-Weekly Closed Rpt 1-15</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

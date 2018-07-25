@@ -174,7 +174,7 @@
         <element attributes="import_attribute_name=FMP,edge_encryption_enabled=true" label="FMP" max_length="40" name="u_fmp" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Group" max_length="40" name="u_group" type="string"/>
         <element attributes="import_attribute_name=Has records,edge_encryption_enabled=true" label="Has records" max_length="40" name="u_has_records" type="string"/>
-        <element attributes="import_attribute_name= ICD 1,edge_encryption_enabled=true" label="ICD 1" max_length="40" name="u_icd_1" type="string"/>
+        <element attributes="import_attribute_name= ICD 1,edge_encryption_enabled=true" label=" ICD 1" max_length="40" name="u_icd_1" type="string"/>
         <element attributes="import_attribute_name=ICD 10,edge_encryption_enabled=true" label="ICD 10" max_length="40" name="u_icd_10" type="string"/>
         <element attributes="import_attribute_name=ICD 11,edge_encryption_enabled=true" label="ICD 11" max_length="40" name="u_icd_11" type="string"/>
         <element attributes="import_attribute_name=ICD 12,edge_encryption_enabled=true" label="ICD 12" max_length="40" name="u_icd_12" type="string"/>

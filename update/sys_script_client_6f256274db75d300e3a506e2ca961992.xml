@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_type</field>
+        <global>true</global>
+        <messages/>
+        <name>set Reopen Date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+  //If the page isn't loading
+  if (!isLoading) {
+    //If the new value isn't blank
+    if(newValue == 2 );
+	  //if(newValue != '') {
+	  {
+     // var dateSection = g_form.getValue('sys_updated_on').split(' ')[0]; //Gets the Date
+     // var timeSection = g_form.getValue('sys_updated_on').split(' ')[1]; //Gets the Time
+      //Set the value of the Date field with the date from the Date/Time field
+		 // alert("newValue");
+		  var getDate = new GlideAjax('global.ClientDateTimeUtils');
+		  getDate.addParam('sysparm_name','getNowDateTime');
+		  getDate.getXML(setValueofDate);
+		 function setValueofDate(response)
+		  {
+			var answer = response.responseXML.documentElement.getAttribute("answer");
+			//  alert(answer);
+			  g_form.setValue('u_reopen_date',answer);
+			  
+		  }
+     // g_form.setValue('u_reopen_date', dateSection);
+	  }
+    }
+  
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+        <sys_created_on>2018-04-28 18:14:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_id>6f256274db75d300e3a506e2ca961992</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>set Reopen Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_script_client_6f256274db75d300e3a506e2ca961992</sys_update_name>
+        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-04-28 18:15:14</sys_updated_on>
+        <table>x_4s_tricode_tricode_application</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

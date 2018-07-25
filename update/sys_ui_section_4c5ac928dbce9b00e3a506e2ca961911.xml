@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="ICD" section_id="4c5ac928dbce9b00e3a506e2ca961911" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="x_4s_tricode_tricode_application" version="3" view="dev">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>75b329e4db02db00e3a506e2ca9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <text>&lt;ol style="list-style: none; font-size: 18px; line-height: 32px; font-weight: bold;"&gt;
+&lt;li style="clear: both;"&gt;
+&lt;table style="width: 735px; height: 97px;"&gt;
+&lt;tbody&gt;
+&lt;tr style="height: 17.5938px;"&gt;
+&lt;td style="width: 121.477px; height: 17.5938px;"&gt;&lt;img style="font-size: 18px; display: block; margin-left: auto; margin-right: auto;" src="https://4thsourcetest.service-now.com/icd10_100.jpg" alt="html table div" width="45" /&gt;&lt;/td&gt;
+&lt;td style="width: 597.841px; height: 17.5938px;"&gt;
+&lt;h2 style="text-align: left;"&gt;&lt;em&gt;&lt;span style="color: #0000ff;"&gt;International Classification of Diseases (ICD-10)&lt;/span&gt;&lt;/em&gt;&lt;/h2&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>79b329e4db02db00e3a506e2ca9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <text>* Save record to refresh .PDF file if needed.</text>
+            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>75b329e4db02db00e3a506e2ca9619b3</element>
+            <position>0</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>3db329e4db02db00e3a506e2ca9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>bdb329e4db02db00e3a506e2ca9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd1</element>
+            <position>2</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>31b329e4db02db00e3a506e2ca9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd2</element>
+            <position>3</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>b1b329e4db02db00e3a506e2ca9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd3</element>
+            <position>4</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>35b329e4db02db00e3a506e2ca9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd4</element>
+            <position>5</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>b5b329e4db02db00e3a506e2ca9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd5</element>
+            <position>6</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>39b329e4db02db00e3a506e2ca9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd6</element>
+            <position>7</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>b9b329e4db02db00e3a506e2ca9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd7</element>
+            <position>8</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>3db329e4db02db00e3a506e2ca9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd8</element>
+            <position>9</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>bdb329e4db02db00e3a506e2ca9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd9</element>
+            <position>10</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>31b329e4db02db00e3a506e2ca9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd10</element>
+            <position>11</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>b1b329e4db02db00e3a506e2ca9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd11</element>
+            <position>12</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>35b329e4db02db00e3a506e2ca9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd12</element>
+            <position>13</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>b5b329e4db02db00e3a506e2ca9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd13</element>
+            <position>14</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>39b329e4db02db00e3a506e2ca9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd14</element>
+            <position>15</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>b9b329e4db02db00e3a506e2ca9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd15</element>
+            <position>16</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>3db329e4db02db00e3a506e2ca9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd16</element>
+            <position>17</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>bdb329e4db02db00e3a506e2ca9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd17</element>
+            <position>18</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>31b329e4db02db00e3a506e2ca9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd18</element>
+            <position>19</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>b1b329e4db02db00e3a506e2ca9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd19</element>
+            <position>20</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>35b329e4db02db00e3a506e2ca9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icd20</element>
+            <position>21</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>b5b329e4db02db00e3a506e2ca9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>22</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>39b329e4db02db00e3a506e2ca9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>79b329e4db02db00e3a506e2ca9619b3</element>
+            <position>23</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>b9b329e4db02db00e3a506e2ca9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_4s_tricode_inline_pdf.xml</element>
+            <position>24</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>3db329e4db02db00e3a506e2ca9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Inline PDF">ab0ecee5db2513001bfdef92ca9619d2</sys_ui_formatter>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>25</position>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 05:03:12</sys_created_on>
+            <sys_id>71b329e4db02db00e3a506e2ca9619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="7bb46392dbb95b001bfdef92ca96197e">4c5ac928dbce9b00e3a506e2ca961911</sys_ui_section>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 05:03:12</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>ICD</caption>
+            <header>false</header>
+            <name>x_4s_tricode_tricode_application</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-05-10 03:12:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>4c5ac928dbce9b00e3a506e2ca961911</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ICD</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_ui_section_4c5ac928dbce9b00e3a506e2ca961911</sys_update_name>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 03:12:14</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Dev" name="dev">7bb46392dbb95b001bfdef92ca96197e</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

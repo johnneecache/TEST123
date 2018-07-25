@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="1325285edbcdd7801bfdef92ca9619aa" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="x_4s_tricode_tricode_application" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-03-26 23:27:01</sys_created_on>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>88d0b112dbc11b801bfdef92ca961924</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_4s_tricode_tricode_application" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">1325285edbcdd7801bfdef92ca9619aa</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">c0d0fddedb811b801bfdef92ca961995</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-03-26 23:27:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-03-27 21:48:41</sys_created_on>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>65e36eeadb0d1b801bfdef92ca961987</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_4s_tricode_tricode_application" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">1325285edbcdd7801bfdef92ca9619aa</sys_ui_form>
+            <sys_ui_section caption="Services" display_value="Services" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">25e36eeadb0d1b801bfdef92ca961981</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-04-03 14:29:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-03-26 22:10:56</sys_created_on>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>b16fd996db811b801bfdef92ca9619f5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_4s_tricode_tricode_application" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">1325285edbcdd7801bfdef92ca9619aa</sys_ui_form>
+            <sys_ui_section caption="DX" display_value="DX" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">ad6fd996db811b801bfdef92ca9619c1</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-04-03 14:29:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-03-26 21:43:19</sys_created_on>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>8d19d5d2db811b801bfdef92ca96197c</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_4s_tricode_tricode_application" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">1325285edbcdd7801bfdef92ca9619aa</sys_ui_form>
+            <sys_ui_section caption="ICD" display_value="ICD" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">0d1955d2db811b801bfdef92ca96193b</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-04-03 02:27:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-03-26 22:23:04</sys_created_on>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>1f22a51adb811b801bfdef92ca96192a</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_4s_tricode_tricode_application" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">1325285edbcdd7801bfdef92ca9619aa</sys_ui_form>
+            <sys_ui_section caption="EM" display_value="EM" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">db22a51adb811b801bfdef92ca961909</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-04-03 02:27:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-03-26 22:15:06</sys_created_on>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>b65065d6db811b801bfdef92ca961927</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_4s_tricode_tricode_application" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">1325285edbcdd7801bfdef92ca9619aa</sys_ui_form>
+            <sys_ui_section caption="CPT" display_value="CPT" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">ae50e1d6db811b801bfdef92ca96195f</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-04-03 02:27:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-03-28 21:29:49</sys_created_on>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>3e29ebbedbc55b801bfdef92ca9619e6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_4s_tricode_tricode_application" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">1325285edbcdd7801bfdef92ca9619aa</sys_ui_form>
+            <sys_ui_section caption="All Codes" display_value="All Codes" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">a629abbedbc55b801bfdef92ca961943</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-04-03 02:27:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-04-04 01:38:03</sys_created_on>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>398bd3b0db999f80e3a506e2ca9619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_4s_tricode_tricode_application" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">1325285edbcdd7801bfdef92ca9619aa</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">b18bd3b0db999f80e3a506e2ca9619e1</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-04-04 01:38:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-05-23 02:08:00</sys_created_on>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>c648f360dbde97401bfdef92ca961956</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_4s_tricode_tricode_application" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">1325285edbcdd7801bfdef92ca9619aa</sys_ui_form>
+            <sys_ui_section caption="Date/Time Information" display_value="Date/Time Information" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">ce48b360dbde97401bfdef92ca96199f</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-05-23 02:08:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>9</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-04-16 18:26:50</sys_created_on>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>8085b445dbad97c0e3a506e2ca961956</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_4s_tricode_tricode_application" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">1325285edbcdd7801bfdef92ca9619aa</sys_ui_form>
+            <sys_ui_section caption="Admin" display_value="Admin" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="Default view">7f753445dbad97c0e3a506e2ca961964</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-05-23 02:08:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_4s_tricode_tricode_application</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-03-26 17:56:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>1325285edbcdd7801bfdef92ca9619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_4s_tricode_tricode_application</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_ui_form_sections_1325285edbcdd7801bfdef92ca9619aa</sys_update_name>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-03-26 17:56:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

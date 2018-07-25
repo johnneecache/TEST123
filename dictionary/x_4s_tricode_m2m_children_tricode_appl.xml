@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Tricode M2m Children Tricode Appl" max_length="40" name="x_4s_tricode_m2m_children_tricode_appl" type="collection">
+        <element label="Child" max_length="32" name="child" reference="sc_cat_item_children" type="reference"/>
+        <element label="TriCode Application" max_length="32" name="tricode_application" reference="x_4s_tricode_tricode_application" type="reference"/>
+        <index name="index">
+            <element name="tricode_application"/>
+        </index>
+        <index name="index2">
+            <element name="child"/>
+        </index>
+    </element>
+</database>

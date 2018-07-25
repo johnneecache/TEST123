@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Total Number of Records by Coder in Pending / Hold Status">a3a8a303db9d53c01bfdef92ca961923</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>rtrevino@tricorp-itsolutions.com</sys_created_by>
+        <sys_created_on>2018-04-11 02:21:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bba8a303db9d53c01bfdef92ca961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a3a8a303db9d53c01bfdef92ca961923</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_report_users_groups_bba8a303db9d53c01bfdef92ca961925</sys_update_name>
+        <sys_updated_by>rtrevino@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-04-11 02:21:52</sys_updated_on>
+        <user_id display_value="Robert Thomas">3117075adbbc13801bfdef92ca9619f4</user_id>
+    </sys_report_users_groups>
+</record_update>

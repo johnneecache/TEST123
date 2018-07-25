@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="pa_chart_color_schemes">
+    <pa_chart_color_schemes action="INSERT_OR_UPDATE">
+        <color_1 display_value="Green">65b302aea9fe3dba00a530d65ecc2106</color_1>
+        <color_10/>
+        <color_11/>
+        <color_12/>
+        <color_13/>
+        <color_14/>
+        <color_15/>
+        <color_16/>
+        <color_17/>
+        <color_18/>
+        <color_19/>
+        <color_2 display_value="GreenYellow">65b302aea9fe3dba013c0cefbf6d76df</color_2>
+        <color_20/>
+        <color_21/>
+        <color_22/>
+        <color_23/>
+        <color_24/>
+        <color_25/>
+        <color_26/>
+        <color_27/>
+        <color_28/>
+        <color_29/>
+        <color_3/>
+        <color_30/>
+        <color_31/>
+        <color_32/>
+        <color_4/>
+        <color_5/>
+        <color_6/>
+        <color_7/>
+        <color_8/>
+        <color_9/>
+        <description/>
+        <name>Green</name>
+        <sys_class_name>pa_chart_color_schemes</sys_class_name>
+        <sys_created_by>rtrevino@tricorp-itsolutions.com</sys_created_by>
+        <sys_created_on>2018-04-13 02:13:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
+        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_id>28d97573db5917c0e3a506e2ca9619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Green</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>pa_chart_color_schemes_28d97573db5917c0e3a506e2ca9619b9</sys_update_name>
+        <sys_updated_by>rtrevino@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-04-13 02:13:30</sys_updated_on>
+    </pa_chart_color_schemes>
+</record_update>
