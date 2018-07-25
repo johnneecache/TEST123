@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id display_value="">f7271096dbcdd7801bfdef92ca961909</group_id>
+        <report_id display_value="Weekly Closed-Coder Rpt">38fa304cdb7517001bfdef92ca96199b</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>rtrevino@tricorp-itsolutions.com</sys_created_by>
+        <sys_created_on>2018-04-26 02:33:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bf3bfc0cdb7517001bfdef92ca96195f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>38fa304cdb7517001bfdef92ca96199b</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_report_users_groups_bf3bfc0cdb7517001bfdef92ca96195f</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-25 12:08:15</sys_updated_on>
+        <user_id/>
+    </sys_report_users_groups>
+</record_update>

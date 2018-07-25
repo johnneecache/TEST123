@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_type" table="x_4s_tricode_tricode_application_child" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Standard</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_application_child</name>
+            <sequence>10</sequence>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-04-04 15:38:22</sys_created_on>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>a6cb5645dbd95f801bfdef92ca961938</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-15 01:30:15</sys_updated_on>
+            <value>Standard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Re-Open</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_application_child</name>
+            <sequence>20</sequence>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-04-04 15:39:04</sys_created_on>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>0ceb5645dbd95f801bfdef92ca96193b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-15 01:30:28</sys_updated_on>
+            <value>Re-Open</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_type</element>
+            <name>x_4s_tricode_tricode_application_child</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-04-04 15:38:22</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1ae03dc4db5f1300e3a506e2ca961957</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>u_type</sys_name>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_choice_x_4s_tricode_tricode_application_child_u_type</sys_update_name>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:52:16</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

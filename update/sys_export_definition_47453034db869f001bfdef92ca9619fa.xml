@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_export_definition">
+    <sys_export_definition action="INSERT_OR_UPDATE">
+        <field_list>sys_created_on,application,type,view,target_name,name,action,update_set,remote_update_set,sys_updated_by,comments</field_list>
+        <filter table="sys_update_xml">application.nameSTARTSWITHTricode<item endquery="false" field="application.name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="Tricode"/>
+        </filter>
+        <name>ed_t_sys_update_xml</name>
+        <sys_class_name>sys_export_definition</sys_class_name>
+        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+        <sys_created_on>2018-05-10 20:18:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>47453034db869f001bfdef92ca9619fa</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>ed_t_sys_update_xml</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_export_definition_47453034db869f001bfdef92ca9619fa</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-25 11:56:55</sys_updated_on>
+        <table_name>sys_update_xml</table_name>
+        <view display_value="Exp_d47453034db869f001bfdef92ca9619fa" name="exp_d47453034db869f001bfdef92ca9619fa">4b453034db869f001bfdef92ca9619fb</view>
+    </sys_export_definition>
+</record_update>

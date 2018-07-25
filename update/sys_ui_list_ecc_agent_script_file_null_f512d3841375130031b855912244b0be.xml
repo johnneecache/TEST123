@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="f512d3841375130031b855912244b0be" table="ecc_agent_script_file" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="ecc_agent_script_file" element="NULL" name="ecc_agent_script_file" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fc044755376001006b882d465abe5d99</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>jimmy.yuan</sys_created_by>
+            <sys_created_on>2013-04-04 16:44:48</sys_created_on>
+            <sys_id>fc044755376001006b882d465abe5d9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jimmy.yuan</sys_updated_by>
+            <sys_updated_on>2013-04-04 16:44:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="ecc_agent_script_file" element="NULL" name="ecc_agent_script_file" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fc044755376001006b882d465abe5d99</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>jimmy.yuan</sys_created_by>
+            <sys_created_on>2013-04-04 16:44:48</sys_created_on>
+            <sys_id>70044755376001006b882d465abe5d9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jimmy.yuan</sys_updated_by>
+            <sys_updated_on>2013-04-04 16:44:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="ecc_agent_script_file" element="NULL" name="ecc_agent_script_file" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fc044755376001006b882d465abe5d99</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>jimmy.yuan</sys_created_by>
+            <sys_created_on>2013-04-04 16:44:48</sys_created_on>
+            <sys_id>f0044755376001006b882d465abe5d9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jimmy.yuan</sys_updated_by>
+            <sys_updated_on>2013-04-04 16:44:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>directory</element>
+            <list_id display_value="ecc_agent_script_file" element="NULL" name="ecc_agent_script_file" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fc044755376001006b882d465abe5d99</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>jimmy.yuan</sys_created_by>
+            <sys_created_on>2013-04-04 16:44:48</sys_created_on>
+            <sys_id>74044755376001006b882d465abe5d9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jimmy.yuan</sys_updated_by>
+            <sys_updated_on>2013-04-04 16:44:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>parent</element>
+            <list_id display_value="ecc_agent_script_file" element="NULL" name="ecc_agent_script_file" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fc044755376001006b882d465abe5d99</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>jimmy.yuan</sys_created_by>
+            <sys_created_on>2013-04-04 16:44:48</sys_created_on>
+            <sys_id>f4044755376001006b882d465abe5d9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jimmy.yuan</sys_updated_by>
+            <sys_updated_on>2013-04-04 16:44:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>ecc_agent_script_file</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-17 16:20:32</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>3eda4e62db9f9700e3a506e2ca9619a3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>ecc_agent_script_file</sys_name>
+            <sys_package/>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_ui_list_ecc_agent_script_file_null_f512d3841375130031b855912244b0be</sys_update_name>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:56:25</sys_updated_on>
+            <sys_user display_value="Robert Thomas">81024838db179300e3a506e2ca9619a6</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

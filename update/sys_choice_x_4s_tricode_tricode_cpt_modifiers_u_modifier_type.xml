@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_modifier_type" table="x_4s_tricode_tricode_cpt_modifiers" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_modifier_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Appendix A (CPT 2018 codes)</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_cpt_modifiers</name>
+            <sequence>1</sequence>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-05-22 15:34:55</sys_created_on>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>8c476524db12d340e3a506e2ca9619e3</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-05-22 17:16:56</sys_updated_on>
+            <value>Appendix A</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_modifier_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Physical Status</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_cpt_modifiers</name>
+            <sequence>2</sequence>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-05-22 15:33:42</sys_created_on>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>05076924db12d340e3a506e2ca96191f</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-05-22 15:57:44</sys_updated_on>
+            <value>Physical Status</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_modifier_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved for Ambulatory Surgery Center (ASC)</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_cpt_modifiers</name>
+            <sequence>3</sequence>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-05-22 15:38:42</sys_created_on>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>fe28e5a0db12d340e3a506e2ca961940</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-05-22 15:58:02</sys_updated_on>
+            <value>Approved for Ambulatory Surgery Center (ASC)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_modifier_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Category II</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_cpt_modifiers</name>
+            <sequence>4</sequence>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-05-22 16:41:40</sys_created_on>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>c896b56cdb12d340e3a506e2ca9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-05-22 16:41:40</sys_updated_on>
+            <value>Category II</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_modifier_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Level II (HCPCS/National)</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_cpt_modifiers</name>
+            <sequence>5</sequence>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-05-22 16:50:23</sys_created_on>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>a69879acdb12d340e3a506e2ca96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-05-22 16:50:23</sys_updated_on>
+            <value>Level II (HCPCS/National)</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_modifier_type</element>
+            <name>x_4s_tricode_tricode_cpt_modifiers</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-05-22 15:33:42</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b6e07dc4db5f1300e3a506e2ca961971</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_modifier_type</sys_name>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_choice_x_4s_tricode_tricode_cpt_modifiers_u_modifier_type</sys_update_name>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-07-25 12:07:40</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

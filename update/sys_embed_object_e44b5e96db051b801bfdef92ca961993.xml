@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embed_object">
+    <sys_embed_object action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <clsid>5775dc16dbcdd7801bfdef92ca96192c</clsid>
+        <codebase/>
+        <embed_type>application/pdf</embed_type>
+        <extension>pdf</extension>
+        <pluginspage/>
+        <sys_class_name>sys_embed_object</sys_class_name>
+        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+        <sys_created_on>2018-03-27 02:45:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e44b5e96db051b801bfdef92ca961993</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>pdf</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_embed_object_e44b5e96db051b801bfdef92ca961993</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-25 12:11:40</sys_updated_on>
+    </sys_embed_object>
+</record_update>

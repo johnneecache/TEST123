@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="TriCode Clinic" max_length="40" name="x_4s_tricode_tricode_clinic" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Clinic" max_length="255" name="u_clinic" type="string"/>
+        <element label="Coded?" max_length="40" name="u_coded" type="boolean"/>
+        <element label="DMIS Code" max_length="40" name="u_dmis_code" type="string"/>
+        <element label="MEPRS Name" max_length="40" name="u_meprs_name" type="string"/>
+        <element label="Not Coded?" max_length="40" name="u_not_coded" type="boolean"/>
+    </element>
+</database>

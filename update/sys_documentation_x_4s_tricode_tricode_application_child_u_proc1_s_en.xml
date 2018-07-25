@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_proc1_s" label="Medical Procedure 1" language="en" table="x_4s_tricode_tricode_application_child">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_proc1_s</element>
+            <help/>
+            <hint/>
+            <label>Medical Procedure 1</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_application_child</name>
+            <plural>Medical Procedure 1s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-05-02 12:45:28</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>97c0068edb7d1b001bfdef92ca96191f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Medical Procedure 1</sys_name>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_documentation_x_4s_tricode_tricode_application_child_u_proc1_s_en</sys_update_name>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-07-25 12:04:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

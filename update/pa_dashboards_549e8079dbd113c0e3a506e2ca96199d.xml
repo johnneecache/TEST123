@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="f512d3841375130031b855912244b0be" table="pa_dashboards">
+    <pa_dashboards action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <breakdown_source/>
+        <group display_value="CMDB Dashboard">1d76d453eb1122007c074d3df106fe50</group>
+        <groups/>
+        <is_breakdown>false</is_breakdown>
+        <managed_breakdown/>
+        <managed_publisher/>
+        <name>CMDB Service Correctness Dashboard</name>
+        <no_tabs>false</no_tabs>
+        <order>550</order>
+        <owner display_value="">3117075adbbc13801bfdef92ca9619f4</owner>
+        <restrict_to_roles>pa_viewer,pa_contributor</restrict_to_roles>
+        <role_override>true</role_override>
+        <roles>asset,itil</roles>
+        <should_migrate_permissions>false</should_migrate_permissions>
+        <sys_class_name>pa_dashboards</sys_class_name>
+        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+        <sys_created_on>2018-04-06 13:16:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_id>549e8079dbd113c0e3a506e2ca96199d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>CMDB Service Correctness Dashboard</sys_name>
+        <sys_overrides display_value="CMDB Service Correctness Dashboard">72473c5febb3120078e44d3df106fecc</sys_overrides>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>pa_dashboards_549e8079dbd113c0e3a506e2ca96199d</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-25 11:57:39</sys_updated_on>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_dashboards>
+</record_update>

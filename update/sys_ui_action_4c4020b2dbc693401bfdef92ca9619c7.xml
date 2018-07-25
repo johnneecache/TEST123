@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="f512d3841375130031b855912244b0be" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>true</client>
+        <comments>Export listview to excel. </comments>
+        <condition/>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint>Export listview to excel.</hint>
+        <list_action>true</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>true</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Export to Excel</name>
+        <onclick>exporttoExcel()</onclick>
+        <order>100</order>
+        <script><![CDATA[function exporttoExcel() {
+
+
+
+                               var sysparm_rows = g_list.grandTotalRows;
+
+
+                               var num_rows = parseInt(sysparm_rows);
+
+
+                             
+
+
+                               var selSysIds = g_list.getChecked(); // This will return the sys_id of the selected records
+
+
+                               var sysIdList = selSysIds.split(',');
+
+
+                             
+
+
+                             
+
+
+                             
+
+
+
+                               var sysparm_query = "";
+
+
+                               for(var i=0;   i<sysIdList.length; i++) {
+
+
+                                                               if(sysparm_query   != "") {
+
+
+                                                                                               sysparm_query =   sysparm_query +"^OR" +"sys_id=" +sysIdList[i]; // Passing sys_ids to sysparm_query
+
+
+                                                               }   else {
+
+
+                                                                                               sysparm_query =   "sys_id=" +sysIdList[i];
+
+
+                                                               }
+
+
+                                                             
+
+
+                               }
+
+
+                             
+
+
+
+                               var tableName = 'x_4s_tricode_tricode_application'; // Table Name for which the records needs to be exported
+
+
+                               var sysparm_view = g_list.view;
+
+
+// If the records are less then export threshold   GwtPollDialog will export the records in .xls format
+
+
+
+                               if (num_rows < g_export_warn_threshold) {
+
+
+                                                               var dialog = new GwtPollDialog(tableName, sysparm_query, sysparm_rows, sysparm_view, 'unload_excel_xls');
+
+
+                                                               dialog.execute();
+
+
+                                                               return;
+
+
+                               }
+
+
+// If the records are more then   export threshold GwtExportScheduleDialog will export the records in .xlsx format
+
+
+
+                               var dialog = new GwtExportScheduleDialog(tableName, sysparm_query, sysparm_rows, sysparm_view, 'unload_excel_xls');
+
+
+                               dialog.execute();
+
+
+}
+
+]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+        <sys_created_on>2018-05-16 23:58:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_id>4c4020b2dbc693401bfdef92ca9619c7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Export to Excel</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_ui_action_4c4020b2dbc693401bfdef92ca9619c7</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-25 11:57:16</sys_updated_on>
+        <table>x_4s_tricode_tricode_application</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

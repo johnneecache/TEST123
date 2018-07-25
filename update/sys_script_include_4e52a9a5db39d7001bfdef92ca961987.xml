@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_4s_tricode.AzureUtils</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>AzureUtils</name>
+        <script><![CDATA[var AzureUtils = Class.create();
+AzureUtils.prototype = {
+	initialize: function() {
+	},
+	
+	getFileList: function(directory, fileExt) {
+		var fileArray = [];
+		var request = new sn_ws.RESTMessageV2();
+		request.setEndpoint(gs.getProperty('x_4s_tricode.azure_endpoint') + directory + gs.getProperty('x_4s_tricode.azure_auth_string') + "&restype=directory&comp=list");
+		
+		request.setHttpMethod('GET');
+		request.setRequestHeader("Accept","application/json");
+		
+		var response = request.execute();
+		var xmlDoc = new XMLDocument2();
+		
+		xmlDoc.parseXML(response.getBody());
+		
+		var hostList = xmlDoc.getNode('//Entries');
+		
+		var iter = hostList.getChildNodeIterator();
+		
+		while(iter.hasNext()) {
+			var n = iter.next();
+			
+			if (n.getNodeName() == "File") {
+				var firstChild = n.getFirstChild();
+				var fileName = "" + firstChild.getTextContent();
+				//gs.debug(fileExt.length);
+				//var extFile = fileName.toLowerCase();
+				if (fileExt.length > 0) {
+					for (var j = 0; j < fileExt.length; j++) {
+						var sCurExtension = fileExt[j];
+						if (fileName.substr(fileName.length - sCurExtension.length, sCurExtension.length).toLowerCase() == sCurExtension.toLowerCase()) {
+							fileArray.push(fileName);
+						}
+					}
+				}
+			}
+		}
+		
+		return fileArray;
+	},
+	
+	getFile: function(fileName, directory, tableName, recordSysID) {
+		var request = new sn_ws.RESTMessageV2();
+		
+		request.setEndpoint(gs.getProperty('x_4s_tricode.azure_endpoint') + directory + encodeURIComponent(fileName) + gs.getProperty('x_4s_tricode.azure_auth_string'));
+		
+		request.setHttpMethod('GET');
+		
+		request.saveResponseBodyAsAttachment(tableName, recordSysID, fileName);
+		var response = request.execute();
+		gs.info(response.getStatusCode(), "Tricorp integration");
+		return response.getStatusCode();
+		
+	},
+	
+	deleteFile: function(fileName, directory) {
+		var request = new sn_ws.RESTMessageV2();
+		
+		request.setEndpoint(gs.getProperty('x_4s_tricode.azure_endpoint') + directory + encodeURIComponent(fileName) + gs.getProperty('x_4s_tricode.azure_auth_string'));
+		
+		request.setHttpMethod('DELETE');
+		
+		var response = request.execute();
+		
+		gs.info(response.getStatusCode(), "Tricorp integration");
+	},
+	
+	type: 'AzureUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>azanias.sanchez@4thsource.com</sys_created_by>
+        <sys_created_on>2018-04-30 21:15:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4e52a9a5db39d7001bfdef92ca961987</sys_id>
+        <sys_mod_count>83</sys_mod_count>
+        <sys_name>AzureUtils</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_script_include_4e52a9a5db39d7001bfdef92ca961987</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-25 11:57:24</sys_updated_on>
+    </sys_script_include>
+</record_update>

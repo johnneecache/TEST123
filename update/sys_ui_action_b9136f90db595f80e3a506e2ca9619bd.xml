@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="81d75c2c4f892e0091347f75f110c70a" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>false</active>
+        <client>false</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Create Child</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var child = new GlideRecord("x_4s_tricode_tricode_application");
+
+child.u_type = current.u_type;
+child.parent_tricode = current.sys_id;
+child.u_clinic = current.u_clinic;
+child.u_lifecycle = current.u_lifecycle;
+child.u_comments = current.u_comments;
+
+
+
+child.u_child_tricode = current.u_child_tricode;
+child.u_active = current.u_active;
+child.u_prom = current.u_prom;
+child.u_has_records = current.u_has_records;
+child.parent_tricode = current.parent_tricode;
+child.parent = current.parent;
+child.u_comments = current.u_comments;
+child.u_reason_for_pending = current.u_reason_for_pending;
+child.u_anesthesiologist_20 = current.u_anesthesiologist_20;
+child.u_anesthesiologist_19 = current.u_anesthesiologist_19;
+child.u_anesthesiologist_15 = current.u_anesthesiologist_15;
+child.u_anesthesiologist_13 = current.u_anesthesiologist_13;
+child.u_anesthesiologist_18 = current.u_anesthesiologist_18;
+child.u_anesthesiologist_11 = current.u_anesthesiologist_11;
+child.u_anesthesiologist_16 = current.u_anesthesiologist_16;
+child.u_anesthesiologist_14 = current.u_anesthesiologist_14;
+child.u_anesthesiologist_12 = current.u_anesthesiologist_12;
+child.u_anesthesiologist_17 = current.u_anesthesiologist_17;
+child.u_anesthesiologist_10 = current.u_anesthesiologist_10;
+child.u_anesthesiologist_6 = current.u_anesthesiologist_6;
+child.u_anesthesiologist_4 = current.u_anesthesiologist_4;
+child.u_anesthesiologist_9 = current.u_anesthesiologist_9;
+child.u_anesthesiologist_7 = current.u_anesthesiologist_7;
+child.u_anesthesiologist_5 = current.u_anesthesiologist_5;
+child.u_anesthesiologist_3 = current.u_anesthesiologist_3;
+child.u_anesthesiologist_8 = current.u_anesthesiologist_8;
+child.u_anesthesiologist_2 = current.u_anesthesiologist_2;
+child.u_anesthesiologist_1 = current.u_anesthesiologist_1;
+child.u_attending2_18 = current.u_attending2_18;
+child.u_attending2_20 = current.u_attending2_20;
+child.u_attending2_19 = current.u_attending2_19;
+child.u_attending2_12 = current.u_attending2_12;
+child.u_attending2_17 = current.u_attending2_17;
+child.u_attending2_10 = current.u_attending2_10;
+child.u_attending2_15 = current.u_attending2_15;
+child.u_attending2_13 = current.u_attending2_13;
+child.u_attending2_11 = current.u_attending2_11;
+child.u_attending2_16 = current.u_attending2_16;
+child.u_attending2_14 = current.u_attending2_14;
+child.u_attending2_5 = current.u_attending2_5;
+child.u_attending2_3 = current.u_attending2_3;
+child.u_attending2_8 = current.u_attending2_8;
+child.u_attending2_2 = current.u_attending2_2;
+child.u_attending2_6 = current.u_attending2_6;
+child.u_attending2_4 = current.u_attending2_4;
+child.u_attending2_9 = current.u_attending2_9;
+child.u_attending2_7 = current.u_attending2_7;
+child.u_attending2_1 = current.u_attending2_1;
+child.u_attending1_17 = current.u_attending1_17;
+child.u_attending1_15 = current.u_attending1_15;
+child.u_attending1_13 = current.u_attending1_13;
+child.u_attending1_18 = current.u_attending1_18;
+child.u_attending1_16 = current.u_attending1_16;
+child.u_attending1_20 = current.u_attending1_20;
+child.u_attending1_14 = current.u_attending1_14;
+child.u_attending1_19 = current.u_attending1_19;
+child.u_attending1_12 = current.u_attending1_12;
+child.u_attending1_8 = current.u_attending1_8;
+child.u_attending1_10 = current.u_attending1_10;
+child.u_attending1_6 = current.u_attending1_6;
+child.u_attending1_4 = current.u_attending1_4;
+child.u_attending1_9 = current.u_attending1_9;
+child.u_attending1_11 = current.u_attending1_11;
+child.u_attending1_7 = current.u_attending1_7;
+child.u_attending1_5 = current.u_attending1_5;
+child.u_attending1_3 = current.u_attending1_3;
+child.u_attending1_2 = current.u_attending1_2;
+child.u_attending1_1 = current.u_attending1_1;
+child.u_u20 = current.u_u20;
+child.u_u19 = current.u_u19;
+child.u_u18 = current.u_u18;
+child.u_u17 = current.u_u17;
+child.u_u16 = current.u_u16;
+child.u_u15 = current.u_u15;
+child.u_u14 = current.u_u14;
+child.u_u13 = current.u_u13;
+child.u_u12 = current.u_u12;
+child.u_u11 = current.u_u11;
+child.u_20mod1 = current.u_20mod1;
+child.u_19mod1 = current.u_19mod1;
+child.u_18mod1 = current.u_18mod1;
+child.u_17mod1 = current.u_17mod1;
+child.u_16mod1 = current.u_16mod1;
+child.u_15mod1 = current.u_15mod1;
+child.u_14mod1 = current.u_14mod1;
+child.u_13mod1 = current.u_13mod1;
+child.u_11mod1 = current.u_11mod1;
+child.u_12mod1 = current.u_12mod1;
+child.u_dos_13 = current.u_dos_13;
+child.u_dos_18 = current.u_dos_18;
+child.u_dos_16 = current.u_dos_16;
+child.u_dos_20 = current.u_dos_20;
+child.u_dos_14 = current.u_dos_14;
+child.u_dos_19 = current.u_dos_19;
+child.u_dos_12 = current.u_dos_12;
+child.u_dos_17 = current.u_dos_17;
+child.u_dos_15 = current.u_dos_15;
+child.u_dos_4 = current.u_dos_4;
+child.u_dos_9 = current.u_dos_9;
+child.u_dos_11 = current.u_dos_11;
+child.u_dos_7 = current.u_dos_7;
+child.u_dos_5 = current.u_dos_5;
+child.u_dos_8 = current.u_dos_8;
+child.u_dos_10 = current.u_dos_10;
+child.u_dos_6 = current.u_dos_6;
+child.u_dos_3 = current.u_dos_3;
+child.u_dos_2 = current.u_dos_2;
+child.u_dos_1 = current.u_dos_1;
+child.u_proc3 = current.u_proc3;
+child.u_proc18 = current.u_proc18;
+child.u_proc20 = current.u_proc20;
+child.u_proc19 = current.u_proc19;
+child.u_proc17 = current.u_proc17;
+child.u_proc10 = current.u_proc10;
+child.u_proc15 = current.u_proc15;
+child.u_proc13 = current.u_proc13;
+child.u_proc9 = current.u_proc9;
+child.u_proc11 = current.u_proc11;
+child.u_proc16 = current.u_proc16;
+child.u_proc7 = current.u_proc7;
+child.u_proc14 = current.u_proc14;
+child.u_proc12 = current.u_proc12;
+child.u_proc8 = current.u_proc8;
+child.u_proc2 = current.u_proc2;
+child.u_proc6 = current.u_proc6;
+child.u_proc4 = current.u_proc4;
+child.u_proc1 = current.u_proc1;
+child.u_proc5 = current.u_proc5;
+child.u_dx20 = current.u_dx20;
+child.u_dx19 = current.u_dx19;
+child.u_dx12 = current.u_dx12;
+child.u_dx17 = current.u_dx17;
+child.u_dx15 = current.u_dx15;
+child.u_dx13 = current.u_dx13;
+child.u_dx18 = current.u_dx18;
+child.u_dx16 = current.u_dx16;
+child.u_dx14 = current.u_dx14;
+child.u_dx11 = current.u_dx11;
+child.u_poa1 = current.u_poa1;
+child.u_poa18 = current.u_poa18;
+child.u_poa16 = current.u_poa16;
+child.u_poa20 = current.u_poa20;
+child.u_poa19 = current.u_poa19;
+child.u_poa17 = current.u_poa17;
+child.u_poa6 = current.u_poa6;
+child.u_poa13 = current.u_poa13;
+child.u_poa9 = current.u_poa9;
+child.u_poa11 = current.u_poa11;
+child.u_poa7 = current.u_poa7;
+child.u_poa14 = current.u_poa14;
+child.u_poa12 = current.u_poa12;
+child.u_poa8 = current.u_poa8;
+child.u_poa10 = current.u_poa10;
+child.u_poa15 = current.u_poa15;
+child.u_poa4 = current.u_poa4;
+child.u_poa5 = current.u_poa5;
+child.u_poa3 = current.u_poa3;
+child.u_poa2 = current.u_poa2;
+child.u_admitting_dx = current.u_admitting_dx;
+child.u_drg = current.u_drg;
+child.u_cpt18 = current.u_cpt18;
+child.u_cpt20 = current.u_cpt20;
+child.u_cpt19 = current.u_cpt19;
+child.u_cpt17 = current.u_cpt17;
+child.u_cpt13 = current.u_cpt13;
+child.u_cpt11 = current.u_cpt11;
+child.u_cpt16 = current.u_cpt16;
+child.u_cpt14 = current.u_cpt14;
+child.u_cpt12 = current.u_cpt12;
+child.u_cpt15 = current.u_cpt15;
+child.u_icd20 = current.u_icd20;
+child.u_icd14 = current.u_icd14;
+child.u_icd19 = current.u_icd19;
+child.u_icd12 = current.u_icd12;
+child.u_icd17 = current.u_icd17;
+child.u_icd15 = current.u_icd15;
+child.u_icd13 = current.u_icd13;
+child.u_icd18 = current.u_icd18;
+child.u_icd11 = current.u_icd11;
+child.u_icd16 = current.u_icd16;
+child.u_html = current.u_html;
+child.u_view_document = current.u_view_document;
+child.u_icd7 = current.u_icd7;
+child.u_icd5 = current.u_icd5;
+child.u_icd8 = current.u_icd8;
+child.u_icd10 = current.u_icd10;
+child.u_icd6 = current.u_icd6;
+child.u_icd4 = current.u_icd4;
+child.u_icd9 = current.u_icd9;
+child.u_icd1 = current.u_icd1;
+child.u_icd3 = current.u_icd3;
+child.u_icd2 = current.u_icd2;
+child.u_reg_number = current.u_reg_number;
+child.u_last_name = current.u_last_name;
+child.u_first_name = current.u_first_name;
+child.u_u7 = current.u_u7;
+child.u_u5 = current.u_u5;
+child.u_u8 = current.u_u8;
+child.u_u10 = current.u_u10;
+child.u_u6 = current.u_u6;
+child.u_u9 = current.u_u9;
+child.u_u1 = current.u_u1;
+child.u_u3 = current.u_u3;
+child.u_u2 = current.u_u2;
+child.u_u4 = current.u_u4;
+child.u_6mod1 = current.u_6mod1;
+child.u_4mod1 = current.u_4mod1;
+child.u_9mod1 = current.u_9mod1;
+child.u_7mod1 = current.u_7mod1;
+child.u_10mod1 = current.u_10mod1;
+child.u_5mod1 = current.u_5mod1;
+child.u_3mod1 = current.u_3mod1;
+child.u_8mod1 = current.u_8mod1;
+child.u_2mod1 = current.u_2mod1;
+child.u_1mod1 = current.u_1mod1;
+child.u_cpt4 = current.u_cpt4;
+child.u_cpt9 = current.u_cpt9;
+child.u_cpt7 = current.u_cpt7;
+child.u_cpt5 = current.u_cpt5;
+child.u_cpt8 = current.u_cpt8;
+child.u_cpt10 = current.u_cpt10;
+child.u_cpt6 = current.u_cpt6;
+child.u_cpt1 = current.u_cpt1;
+child.u_cpt3 = current.u_cpt3;
+child.u_cpt2 = current.u_cpt2;
+child.u_dx5 = current.u_dx5;
+child.u_dx8 = current.u_dx8;
+child.u_dx10 = current.u_dx10;
+child.u_dx6 = current.u_dx6;
+child.u_dx4 = current.u_dx4;
+child.u_dx9 = current.u_dx9;
+child.u_dx7 = current.u_dx7;
+child.u_em = current.u_em;
+child.u_em3mod1 = current.u_em3mod1;
+child.u_dx3 = current.u_dx3;
+child.u_em2mod1 = current.u_em2mod1;
+child.u_meprs = current.u_meprs;
+child.u_dx2 = current.u_dx2;
+child.u_em1mod1 = current.u_em1mod1;
+child.u_em3 = current.u_em3;
+child.u_em2 = current.u_em2;
+child.u_fmp = current.u_fmp;
+child.u_dx1 = current.u_dx1;
+child.u_aien = current.u_aien;
+child.u_category_type = current.u_category_type;
+child.u_dob = current.u_dob;
+child.u_patient_ssn = current.u_patient_ssn;
+child.u_provider = current.u_provider;
+child.u_ien = current.u_ien;
+child.u_telephone = current.u_telephone;
+child.u_patient_name = current.u_patient_name;
+child.u_index_users = current.u_index_users;
+child.u_coder_users = current.u_coder_users;
+child.u_admin_users = current.u_admin_users;
+child.u_dmis = current.u_dmis;
+
+child.u_index_assignment_queue = current.u_index_assignment_queue;
+child.u_coder_assignment_queue = current.u_coder_assignment_queue;
+child.u_admin_assignment_queue = current.u_admin_assignment_queue;
+
+child.u_type = current.u_type;
+
+child.sys_created_by = current.sys_created_by;
+child.sys_updated_on = current.sys_updated_on;
+child.sys_mod_count = current.sys_mod_count;
+child.sys_created_on = current.sys_created_on;
+
+
+child.insert();
+
+// var sysID = x_4s_tricode_tricode_application.insert();
+// current.parent = sysID;
+
+gs.addInfoMessage("Child " + child.number + " created and is now ready for editing");
+action.setRedirectURL(child);
+// action.setReturnURL(current);]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+        <sys_created_on>2018-04-02 13:36:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>81d75c2c4f892e0091347f75f110c70a</sys_domain>
+        <sys_domain_path>!!#/!!)/</sys_domain_path>
+        <sys_id>b9136f90db595f80e3a506e2ca9619bd</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Create Child</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_ui_action_b9136f90db595f80e3a506e2ca9619bd</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-04-02 16:21:12</sys_updated_on>
+        <table>x_4s_tricode_tricode_application</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

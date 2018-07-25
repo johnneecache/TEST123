@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="f512d3841375130031b855912244b0be" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>button_1</action_name>
+        <active>true</active>
+        <client>false</client>
+        <comments>Tricode Child.</comments>
+        <condition>current.u_categorytype == '3' || current.u_categorytype == '4' || current.u_categorytype == '6';</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>true</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Create Child</name>
+        <onclick/>
+        <order>300</order>
+        <script><![CDATA[var child = new GlideRecord("x_4s_tricode_tricode_application_child");
+ 
+//child.u_type = current.u_type;
+child.u_group = current.u_group;
+child.u_active = current.u_active;
+child.parent_number = current.sys_id;
+child.u_clinic = current.u_clinic;
+child.u_lifecycle = current.u_lifecycle;
+child.u_comments = current.u_comments;
+child.u_child_tricode = current.u_child_tricode;
+child.u_active = current.u_active;
+child.u_prom = current.u_prom;
+child.u_has_records = current.u_has_records;
+child.parent = current.parent;
+child.u_comments = current.u_comments;
+child.u_reason_for_pending = current.u_reason_for_pending;
+child.u_reg_number = current.u_reg_number;
+//child.u_last_name = current.u_last_name;
+//child.u_first_name = current.u_first_name;
+child.u_aien_s = current.u_aien_s;
+child.u_cien_s = current.u_cien_s;
+child.u_patient_dob_s = current.u_patient_dob_s;
+child.u_patient_ssn_s = current.u_patient_ssn_s;
+child.u_provider_s = current.u_provider_s;
+child.ien = current.u_ien_s;
+child.u_patient_number_s = current.u_patient_number_s;
+child.u_patient_name_s = current.u_patient_name_s;
+child.u_index_users = current.u_index_users;
+child.u_coder_users = current.u_coder_users;
+child.u_admin_users = current.u_admin_users;
+child.u_dmis = current.u_dmis;
+child.u_index_assignment_queue = current.u_index_assignment_queue;
+child.u_coder_assignment_queue = current.u_coder_assignment_queue;
+child.u_admin_assignment_queue = current.u_admin_assignment_queue;
+child.u_type = current.u_type;
+child.sys_created_by = current.sys_created_by;
+child.sys_updated_on = current.sys_updated_on;
+child.sys_mod_count = current.sys_mod_count;
+child.sys_created_on = current.sys_created_on;
+child.u_provider_speciality = current.u_provider_speciality;
+child.u_fmp = current.u_fmp;
+child.u_meprs = current.u_meprs;
+child.u_caper_status = current.u_caper_status;
+ 
+child.insert();
+ 
+// var sysID = x_4s_tricode_tricode_application.insert();
+// current.parent = sysID;
+ 
+gs.addInfoMessage("Child " + child.number + " created and is now ready for editing");
+action.setRedirectURL(child);
+action.setReturnURL(current);]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+        <sys_created_on>2018-04-02 17:24:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_id>eeaf94a8dbd51f801bfdef92ca961969</sys_id>
+        <sys_mod_count>61</sys_mod_count>
+        <sys_name>Create Child</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_ui_action_eeaf94a8dbd51f801bfdef92ca961969</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-25 12:12:15</sys_updated_on>
+        <table>x_4s_tricode_tricode_application</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

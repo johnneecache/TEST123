@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="TriCode CPT PLA" max_length="40" name="x_4s_tricode_tricode_cpt_pla" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="LabName" max_length="255" name="u_labname" type="string"/>
+        <element label="manufacturerName" max_length="255" name="u_manufacturername" type="string"/>
+        <element label="plaCode" max_length="40" name="u_placode" type="string"/>
+        <element label="PLA Abbreviated Short Description" max_length="255" name="u_pla_abbr_short_description" type="string"/>
+        <element label="PLA Description" max_length="1000" name="u_pla_description" type="string"/>
+        <element display="true" label="PLA Id" max_length="40" name="u_pla_id" type="string"/>
+        <element label="PLA Short Description" max_length="255" name="u_pla_short_description" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element label="EXISTING" sequence="1" value="EXISTING"/>
+                <element label="REVISED" sequence="2" value="REVISED"/>
+                <element label="NEW" sequence="3" value="NEW"/>
+            </choice>
+        </element>
+        <element label="testName" max_length="255" name="u_testname" type="string"/>
+        <index name="index">
+            <element name="u_pla_id"/>
+        </index>
+    </element>
+</database>

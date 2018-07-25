@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Inbound Attachments" max_length="40" name="x_4s_tricode_inbound_attachments" type="collection"/>
+</database>

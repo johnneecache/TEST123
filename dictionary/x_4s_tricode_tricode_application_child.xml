@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="TriCode Application - Secondary" max_length="40" name="x_4s_tricode_tricode_application_child" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" hint="Number (number)" label="Secondary Number" max_length="40" name="number" type="string"/>
+        <element label="State" max_length="32" name="state" type="integer"/>
+        <element label="Tricode State" max_length="40" name="tricode_state" type="integer"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="10MOD1" max_length="32" name="u_10mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="11MOD1" max_length="32" name="u_11mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="12MOD1" max_length="32" name="u_12mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="13MOD1" max_length="32" name="u_13mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="14MOD1" max_length="32" name="u_14mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="15MOD1" max_length="32" name="u_15mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="16MOD1" max_length="32" name="u_16mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="17MOD1" max_length="32" name="u_17mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="18MOD1" max_length="32" name="u_18mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="19MOD1" max_length="32" name="u_19mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="1MOD1" max_length="32" name="u_1mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="20MOD1" max_length="32" name="u_20mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="2MOD1" max_length="32" name="u_2mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="3MOD1" max_length="32" name="u_3mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="4MOD1" max_length="32" name="u_4mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="5MOD1" max_length="32" name="u_5mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="6MOD1" max_length="32" name="u_6mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="7MOD1" max_length="32" name="u_7mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="8MOD1" max_length="32" name="u_8mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="9MOD1" max_length="32" name="u_9mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element default="Tricode Admin" hint="Admin Assignment Queue (u_admin_assignment_queue)" label="Admin Assignment Queue" max_length="32" name="u_admin_assignment_queue" reference="sys_user_group" reference_qual="name=Tricode Admin^ORname=Tricode Index^EQ" reference_qual_condition="name=Tricode Admin^ORname=Tricode Index^EQ" type="reference"/>
+        <element dependent="u_group" dependent_on_field="u_group" hint="Admin Users (u_admin_users)" label="Assigned Admin" max_length="32" name="u_admin_users" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="AIEN" max_length="254" name="u_aien_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 10" max_length="254" name="u_anesthesiologist_10_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 11" max_length="254" name="u_anesthesiologist_11_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 12" max_length="254" name="u_anesthesiologist_12_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 13" max_length="254" name="u_anesthesiologist_13_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 14" max_length="254" name="u_anesthesiologist_14_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 15" max_length="254" name="u_anesthesiologist_15_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 16" max_length="254" name="u_anesthesiologist_16_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 17" max_length="254" name="u_anesthesiologist_17_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 18" max_length="254" name="u_anesthesiologist_18_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 19" max_length="254" name="u_anesthesiologist_19_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 1" max_length="254" name="u_anesthesiologist_1_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 20" max_length="254" name="u_anesthesiologist_20_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 2" max_length="254" name="u_anesthesiologist_2_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 3" max_length="254" name="u_anesthesiologist_3_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 4" max_length="254" name="u_anesthesiologist_4_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 5" max_length="254" name="u_anesthesiologist_5_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 6" max_length="254" name="u_anesthesiologist_6_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 7" max_length="254" name="u_anesthesiologist_7_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 8" max_length="254" name="u_anesthesiologist_8_s" type="glide_encrypted"/>
+        <element label="Anesthesiologist 9" max_length="254" name="u_anesthesiologist_9_s" type="glide_encrypted"/>
+        <element label="Assigned to" max_length="40" name="u_assigned_to" type="string"/>
+        <element label="Attending 10" max_length="254" name="u_attending1_10_s" type="glide_encrypted"/>
+        <element label="Attending 11" max_length="254" name="u_attending1_11_s" type="glide_encrypted"/>
+        <element label="Attending 12" max_length="254" name="u_attending1_12_s" type="glide_encrypted"/>
+        <element label="Attending 13" max_length="254" name="u_attending1_13_s" type="glide_encrypted"/>
+        <element label="Attending 14" max_length="254" name="u_attending1_14_s" type="glide_encrypted"/>
+        <element label="Attending 15" max_length="254" name="u_attending1_15_s" type="glide_encrypted"/>
+        <element label="Attending 16" max_length="254" name="u_attending1_16_s" type="glide_encrypted"/>
+        <element label="Attending 17" max_length="254" name="u_attending1_17_s" type="glide_encrypted"/>
+        <element label="Attending 18" max_length="254" name="u_attending1_18_s" type="glide_encrypted"/>
+        <element label="Attending 19" max_length="254" name="u_attending1_19_s" type="glide_encrypted"/>
+        <element label="Attending 1" max_length="254" name="u_attending1_1_s" type="glide_encrypted"/>
+        <element label="Attending 20" max_length="254" name="u_attending1_20_s" type="glide_encrypted"/>
+        <element label="Attending 2" max_length="254" name="u_attending1_2_s" type="glide_encrypted"/>
+        <element label="Attending 3" max_length="254" name="u_attending1_3_s" type="glide_encrypted"/>
+        <element label="Attending 4" max_length="254" name="u_attending1_4_s" type="glide_encrypted"/>
+        <element label="Attending 5" max_length="254" name="u_attending1_5_s" type="glide_encrypted"/>
+        <element label="Attending 6" max_length="254" name="u_attending1_6_s" type="glide_encrypted"/>
+        <element label="Attending 7" max_length="254" name="u_attending1_7_s" type="glide_encrypted"/>
+        <element label="Attending 8" max_length="254" name="u_attending1_8_s" type="glide_encrypted"/>
+        <element label="Attending 9" max_length="254" name="u_attending1_9_s" type="glide_encrypted"/>
+        <element choice="1" hint="CAPER Status (u_caper_status)" label="CAPER Status" max_length="40" name="u_caper_status" type="choice">
+            <choice>
+                <element label="Original (initial after encounter)" sequence="10" value="Original (initial after encounter)"/>
+                <element label="Updated (encounter modified)" sequence="20" value="Updated (encounter modified)"/>
+            </choice>
+        </element>
+        <element choice="1" default="3" label="Category Type" max_length="40" name="u_categorytype" type="choice">
+            <choice>
+                <element label="IBWA" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element label="CIEN" max_length="254" name="u_cien_s" type="glide_encrypted"/>
+        <element hint="Name of Clinic (u_clinic)" label="Name of Clinic" max_length="32" name="u_clinic" reference="x_4s_tricode_tricode_clinic" reference_qual="u_clinicISNOTEMPTY^EQ" reference_qual_condition="u_clinicISNOTEMPTY^EQ" type="reference"/>
+        <element label="Closed by" max_length="40" name="u_closed_by" type="string"/>
+        <element label="Closed Date" max_length="40" name="u_closed_date" type="glide_date_time"/>
+        <element default="TriCode Coder" hint="Coder Assignment Queue (u_coder_assignment_queue)" label="Coder Assignment Queue" max_length="32" name="u_coder_assignment_queue" reference="sys_user_group" reference_qual="name=TriCode Coder^EQ" reference_qual_condition="name=TriCode Coder^EQ" type="reference"/>
+        <element hint="Coder Users (u_coder_users)" label="Assigned Coder" max_length="32" name="u_coder_users" reference="sys_user" reference_qual="titleLIKECoder^EQ" reference_qual_condition="titleLIKECoder^EQ" type="reference"/>
+        <element label="Comments" max_length="4000" name="u_comments" type="string"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 1" max_length="32" name="u_cpt_1" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 10" max_length="32" name="u_cpt_10" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 11" max_length="32" name="u_cpt_11" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 12" max_length="32" name="u_cpt_12" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 13" max_length="32" name="u_cpt_13" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 14" max_length="32" name="u_cpt_14" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 15" max_length="32" name="u_cpt_15" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 16" max_length="32" name="u_cpt_16" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 17" max_length="32" name="u_cpt_17" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 18" max_length="32" name="u_cpt_18" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 19" max_length="32" name="u_cpt_19" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 2" max_length="32" name="u_cpt_2" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 20" max_length="32" name="u_cpt_20" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 3" max_length="32" name="u_cpt_3" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 4" max_length="32" name="u_cpt_4" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 5" max_length="32" name="u_cpt_5" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 6" max_length="32" name="u_cpt_6" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 7" max_length="32" name="u_cpt_7" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 8" max_length="32" name="u_cpt_8" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="CPT 9" max_length="32" name="u_cpt_9" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element choice="1" hint="What Day ? (u_day)" label="What Day ?" max_length="40" name="u_day" type="choice">
+            <choice>
+                <element label="Day 1" sequence="1" value="day 1"/>
+                <element label="Day 2" sequence="2" value="day 2"/>
+                <element label="Day 3" sequence="3" value="day 3"/>
+                <element label="Day 4" sequence="4" value="day 4"/>
+                <element label="Day 5" sequence="5" value="day 5"/>
+                <element label="Day 6" sequence="6" value="day 6"/>
+                <element label="Day 7" sequence="7" value="day 7"/>
+                <element label="Day 8" sequence="8" value="day 8"/>
+                <element label="Day 9" sequence="9" value="day 9"/>
+                <element label="Day 10" sequence="10" value="day 10"/>
+                <element label="Day 11" sequence="11" value="day 11"/>
+                <element label="Day 12" sequence="12" value="day 12"/>
+                <element label="Day 13" sequence="13" value="day 13"/>
+                <element label="Day 14" sequence="14" value="day 14"/>
+                <element label="Day 15" sequence="15" value="day 15"/>
+                <element label="Day 16" sequence="16" value="day 16"/>
+                <element label="Day 17" sequence="17" value="day 17"/>
+                <element label="Day 18" sequence="18" value="day 18"/>
+                <element label="Day 19" sequence="19" value="day 19"/>
+                <element label="Day 20" sequence="20" value="day 20"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="DMIS Code" max_length="40" name="u_dmis" type="string"/>
+        <element label="Date of Service (DOS)" max_length="40" name="u_dos_1" type="glide_date"/>
+        <element label="Diagnosis Related groups (DRG)" max_length="254" name="u_drg_s" type="glide_encrypted"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 1" max_length="32" name="u_dx1" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 10" max_length="32" name="u_dx10" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 11" max_length="32" name="u_dx11" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 12" max_length="32" name="u_dx12" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 13" max_length="32" name="u_dx13" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_diagnosis_code = value;&#10;current.insert();" label="Diagnosis Codes (DX) 14" max_length="32" name="u_dx14" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_diagnosis_codeISNOTEMPTY^EQ" reference_qual_condition="u_diagnosis_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 15" max_length="32" name="u_dx15" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 16" max_length="32" name="u_dx16" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 17" max_length="32" name="u_dx17" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 18" max_length="32" name="u_dx18" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 19" max_length="32" name="u_dx19" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 2" max_length="32" name="u_dx2" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 20" max_length="32" name="u_dx20" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 3" max_length="32" name="u_dx3" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 4" max_length="32" name="u_dx4" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 5" max_length="32" name="u_dx5" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 6" max_length="32" name="u_dx6" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 7" max_length="32" name="u_dx7" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 8" max_length="32" name="u_dx8" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="Diagnosis Codes (DX) 9" max_length="32" name="u_dx9" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="EM 1" max_length="32" name="u_em1" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="EM1MOD1" max_length="32" name="u_em1mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="EM 2" max_length="32" name="u_em2" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="EM2MOD1" max_length="32" name="u_em2mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="EM 3" max_length="32" name="u_em3" reference="x_4s_tricode_tricode_cpt_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_modifier_code = value;&#10;current.insert();" label="EM3MOD1" max_length="32" name="u_em3mod1" reference="x_4s_tricode_tricode_cpt_modifiers" reference_qual="u_modifier_codeISNOTEMPTY^EQ" reference_qual_condition="u_modifier_codeISNOTEMPTY^EQ" type="reference"/>
+        <element hint="FMP (u_fmp)" label="FMP" max_length="40" name="u_fmp" type="string"/>
+        <element label="Admin Assignment Queue" max_length="32" name="u_group" reference="sys_user_group" reference_qual="name=Tricode Admin^ORname=Tricode Index^EQ" reference_qual_condition="name=Tricode Admin^ORname=Tricode Index^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="ICD 1" max_length="32" name="u_icd_1" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 10" max_length="32" name="u_icd_10" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 11" max_length="32" name="u_icd_11" reference="x_4s_tricode_tricode_icd_10_code" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 12" max_length="32" name="u_icd_12" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 13" max_length="32" name="u_icd_13" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 14" max_length="32" name="u_icd_14" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 15" max_length="32" name="u_icd_15" reference="x_4s_tricode_tricode_icd_10_code" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 16" max_length="32" name="u_icd_16" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 17" max_length="32" name="u_icd_17" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 18" max_length="32" name="u_icd_18" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 19" max_length="32" name="u_icd_19" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#13;&#10;current.insert();" label="ICD 2" max_length="32" name="u_icd_2" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 20" max_length="32" name="u_icd_20" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 3" max_length="32" name="u_icd_3" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 4" max_length="32" name="u_icd_4" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 5" max_length="32" name="u_icd_5" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 6" max_length="32" name="u_icd_6" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 7" max_length="32" name="u_icd_7" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 8" max_length="32" name="u_icd_8" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element dynamic_creation="true" dynamic_creation_script="current.u_code = value;&#10;current.insert();" label="ICD 9" max_length="32" name="u_icd_9" reference="x_4s_tricode_tricode_icd_10_code" reference_qual="u_codeISNOTEMPTY^EQ" reference_qual_condition="u_codeISNOTEMPTY^EQ" type="reference"/>
+        <element label="IEN" max_length="254" name="u_ien_s" type="glide_encrypted"/>
+        <element attributes="Assigned" choice="1" choice_field="u_lifecycle" choice_table="x_4s_tricode_tricode_application_child" default="1" label="Life-cycle_s" max_length="40" name="u_lifecycle" type="choice">
+            <choice>
+                <element label="New" sequence="10" value="1"/>
+                <element label="Assigned" sequence="20" value="2"/>
+                <element label="In Progress" sequence="30" value="3"/>
+                <element label="Pending" sequence="40" value="4"/>
+                <element label="Hold" sequence="50" value="5"/>
+                <element label="Review" sequence="60" value="6"/>
+                <element label="Closed" sequence="70" value="7"/>
+                <element label="Cancelled" sequence="80" value="8"/>
+            </choice>
+        </element>
+        <element hint="MEPRS (u_meprs)" label="MEPRS" max_length="40" name="u_meprs" type="string"/>
+        <element label="Patient DOB" max_length="254" name="u_patient_dob_s" type="glide_encrypted"/>
+        <element label="Patient Name" max_length="32" name="u_patient_name_s" type="glide_encrypted"/>
+        <element label="Patient Number" max_length="254" name="u_patient_number_s" type="glide_encrypted"/>
+        <element label="Present on Admission (POA) 1" max_length="40" name="u_poa1" type="boolean"/>
+        <element label="Present on Admission (POA) 10" max_length="40" name="u_poa10" type="boolean"/>
+        <element label="Present on Admission (POA) 11" max_length="40" name="u_poa11" type="boolean"/>
+        <element label="Present on Admission (POA) 12" max_length="40" name="u_poa12" type="boolean"/>
+        <element label="Present on Admission (POA) 13" max_length="40" name="u_poa13" type="boolean"/>
+        <element label="Present on Admission (POA) 14" max_length="40" name="u_poa14" type="boolean"/>
+        <element label="Present on Admission (POA) 15" max_length="40" name="u_poa15" type="boolean"/>
+        <element label="Present on Admission (POA) 16" max_length="40" name="u_poa16" type="boolean"/>
+        <element label="Present on Admission (POA) 17" max_length="40" name="u_poa17" type="boolean"/>
+        <element label="Present on Admission (POA) 18" max_length="40" name="u_poa18" type="boolean"/>
+        <element label="Present on Admission (POA) 19" max_length="40" name="u_poa19" type="boolean"/>
+        <element label="Present on Admission (POA) 2" max_length="40" name="u_poa2" type="boolean"/>
+        <element label="Present on Admission (POA) 20" max_length="40" name="u_poa20" type="boolean"/>
+        <element label="Present on Admission (POA) 3" max_length="40" name="u_poa3" type="boolean"/>
+        <element label="Present on Admission (POA) 4" max_length="40" name="u_poa4" type="boolean"/>
+        <element label="Present on Admission (POA) 5" max_length="40" name="u_poa5" type="boolean"/>
+        <element label="Present on Admission (POA) 6" max_length="40" name="u_poa6" type="boolean"/>
+        <element label="Present on Admission (POA) 7" max_length="40" name="u_poa7" type="boolean"/>
+        <element label="Present on Admission (POA) 8" max_length="40" name="u_poa8" type="boolean"/>
+        <element label="Present on Admission (POA) 9" max_length="40" name="u_poa9" type="boolean"/>
+        <element label="Medical Procedure 10" max_length="254" name="u_proc10_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 11" max_length="254" name="u_proc11_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 12" max_length="254" name="u_proc12_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 13" max_length="254" name="u_proc13_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 14" max_length="254" name="u_proc14_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 15" max_length="254" name="u_proc15_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 16" max_length="254" name="u_proc16_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 17" max_length="254" name="u_proc17_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 18" max_length="254" name="u_proc18_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 19" max_length="254" name="u_proc19_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 1" max_length="254" name="u_proc1_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 20" max_length="254" name="u_proc20_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 2" max_length="254" name="u_proc2_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 3" max_length="254" name="u_proc3_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 4" max_length="254" name="u_proc4_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 5" max_length="254" name="u_proc5_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 6" max_length="254" name="u_proc6_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 7" max_length="254" name="u_proc7_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 8" max_length="254" name="u_proc8_s" type="glide_encrypted"/>
+        <element label="Medical Procedure 9" max_length="254" name="u_proc9_s" type="glide_encrypted"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Provider" max_length="254" name="u_provider_s" type="glide_encrypted"/>
+        <element hint="Provider Speciality (u_provider_speciality)" label="Provider Speciality" max_length="32" name="u_provider_speciality" reference="x_4s_tricode_tricode_speciality_provider" reference_qual="u_description_of_provider_specialityISNOTEMPTY^EQ" reference_qual_condition="u_description_of_provider_specialityISNOTEMPTY^EQ" type="reference"/>
+        <element choice="1" label="Reason for Pending or Hold" max_length="40" name="u_reason_for_pending" type="string">
+            <choice>
+                <element label="Accident details" sequence="10" value="Accident details"/>
+                <element label="Additional Medical Information is required" sequence="20" value="Additional Medical Information is required"/>
+                <element label="Duplicate claim" sequence="30" value="Duplicate claim"/>
+                <element label="Eligibility Verification" sequence="40" value="Eligibility Verification"/>
+                <element label="Incorrect coding used" sequence="50" value="Incorrect coding used"/>
+                <element label="Medical coding errors" sequence="60" value="Medical coding errors"/>
+                <element label="Pre-existing conditions verification" sequence="70" value="Pre-existing conditions verification"/>
+                <element label="Verification of other insurance coverage" sequence="80" value="Verification of other insurance coverage"/>
+            </choice>
+        </element>
+        <element hint="Reg Number (u_reg_number)" label="Reg Number" max_length="40" name="u_reg_number" type="string"/>
+        <element label="Re-Open Date" max_length="40" name="u_reopen_date" type="string"/>
+        <element choice="1" label="Re-Open Reason" max_length="100" name="u_reopen_reason" type="choice">
+            <choice>
+                <element label="Accident details" sequence="10" value="Accident details"/>
+                <element label="Additional Medical Information is required" sequence="20" value="Additional Medical Information is required"/>
+                <element label="Duplicate claim" sequence="30" value="Duplicate claim"/>
+                <element label="Eligibility Verification" sequence="40" value="Eligibility Verification"/>
+                <element label="Incorrect coding used" sequence="50" value="Incorrect coding used"/>
+                <element label="Medical coding errors" sequence="60" value="Medical coding errors"/>
+                <element label="Pre-existing conditions verification" sequence="70" value="Pre-existing conditions verification"/>
+                <element label="Verification of other insurance coverage" sequence="80" value="Verification of other insurance coverage"/>
+            </choice>
+        </element>
+        <element choice="3" default="1" label="Type" max_length="40" name="u_type" type="choice">
+            <choice>
+                <element label="Standard" sequence="10" value="Standard"/>
+                <element label="Re-Open" sequence="20" value="Re-Open"/>
+            </choice>
+        </element>
+        <element label="U1" max_length="32" name="u_u1" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="U10" max_length="32" name="u_u10" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="U11" max_length="32" name="u_u11" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="U12" max_length="32" name="u_u12" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="U13" max_length="32" name="u_u13" reference="x_4s_tricode_tricode_cpt_pla" type="reference"/>
+        <element label="U14" max_length="32" name="u_u14" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="U15" max_length="32" name="u_u15" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="U16" max_length="32" name="u_u16" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="U17" max_length="32" name="u_u17" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="U18" max_length="32" name="u_u18" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="U19" max_length="32" name="u_u19" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="U2" max_length="32" name="u_u2" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="U20" max_length="32" name="u_u20" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="U3" max_length="32" name="u_u3" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="U4" max_length="32" name="u_u4" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="U5" max_length="32" name="u_u5" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="U6" max_length="32" name="u_u6" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="U7" max_length="32" name="u_u7" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="U8" max_length="32" name="u_u8" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="U9" max_length="32" name="u_u9" reference="x_4s_tricode_tricode_cpt_pla" reference_qual="u_pla_idISNOTEMPTY^EQ" reference_qual_condition="u_pla_idISNOTEMPTY^EQ" type="reference"/>
+        <index name="index">
+            <element name="u_group"/>
+        </index>
+    </element>
+</database>

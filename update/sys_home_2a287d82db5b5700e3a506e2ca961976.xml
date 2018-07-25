@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_home">
+    <sys_home action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition>gs.getSession().isLoggedIn() == true</condition>
+        <language>en</language>
+        <order>10</order>
+        <published>2018-07-16</published>
+        <short_description>Using  ${gs.getProperty('glide.product.name', 'TRicode')}</short_description>
+        <sys_class_name>sys_home</sys_class_name>
+        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+        <sys_created_on>2018-07-16 01:43:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2a287d82db5b5700e3a506e2ca961976</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Using  ${gs.getProperty('glide.product.name', 'TRicode')}</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_home_2a287d82db5b5700e3a506e2ca961976</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-25 11:52:55</sys_updated_on>
+        <text><![CDATA[<div>By logging in, you are accessing an Information System (IS) that is provided for U.S. Government (USG) authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: </div>
+<div> </div>
+<div>* Communications using, or data stored on, this IS are not private, are subject to routine monitoring, interception, and search, and may be disclosed or used for any USG authorized purposes. </div>
+<div>* This IS include security measures (e.g. authentication and access controls) to protect USG interests --not for your personal benefit or privacy.</div>
+<div>* This IS complies with the Privacy Act and HIPAA Laws and you are hereby notified that any review, dissemination, distribution, or duplication of encrypted data is strictly prohibited.</div>]]></text>
+    </sys_home>
+</record_update>

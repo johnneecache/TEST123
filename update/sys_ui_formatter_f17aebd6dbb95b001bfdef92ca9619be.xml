@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>inline_pdf_copy.xml</formatter>
+        <name>Inline PDF copy</name>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>azanias.sanchez@4thsource.com</sys_created_by>
+        <sys_created_on>2018-05-03 15:05:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f17aebd6dbb95b001bfdef92ca9619be</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Inline PDF copy</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_ui_formatter_f17aebd6dbb95b001bfdef92ca9619be</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-25 12:12:31</sys_updated_on>
+        <table>x_4s_tricode_tricode_application</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>

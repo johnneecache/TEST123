@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="f512d3841375130031b855912244b0be" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection/>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>scriptBack</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[varattR = new GlideRecord("sys_attachment");
+attR.addEncodedQuery("table_name=sys_data_source^table_sys_id=162a8f69dba513001bfdef92ca9619e0"); //only attachments for this record
+
+attR.query();
+gs.info("Copy Attachments to DataSource " + attR.getRowCount());
+
+while(attR.next())
+	{
+	var gr = new GlideRecord('sys_data_source');
+	
+	gr.initialize();
+	gr.import_set_table_label = "TriCode Application - Primary";
+	gr.type ="File";
+	gr.file_retrieval_method ="Attachment";
+	gr.format ="Excel";
+	gr.import_set_table_name = "x_4s_tricode_tricode_application";
+	gr.name = attR.file_name+"-Tricode Attachment";
+	varimpSysID = gr.insert();
+	gs.sleep(150);
+	varupdAttch = new GlideRecord('sys_attachment');
+	updAttch.addEncodedQuery("file_name="+attR.file_name);
+	updAttch.query();
+	if (updAttch.next()) {
+		gs.info("updAttch ---->"+updAttch.file_name);
+		updAttch.table_sys_id = impSysID;
+		updAttch.update();
+		
+	}
+	
+	gs.sleep(500);
+	
+	varimpSet = new GlideRecord('scheduled_import_set');
+	impSet.initialize();
+	impSet.name =attR.file_name+"-Tricode Attachment";
+	impSet.data_source = impSysID;
+	impSet.insert();
+	gs.sleep(200)
+	var rec = new GlideRecord('scheduled_import_set');
+	rec.get('name', impSet.name);
+	if (typeofSncTriggerSynchronizer != 'undefined')
+		
+	{
+		gs.info("Executed");
+		SncTriggerSynchronizer.executeNow(rec);
+	}
+	else
+		{
+		Packages.com.snc.automation.TriggerSynchronizer.executeNow(rec);
+	}
+}
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+        <sys_created_on>2018-05-01 14:51:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_id>cd911d35db311b001bfdef92ca9619c9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>scriptBack</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_script_cd911d35db311b001bfdef92ca9619c9</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-25 12:09:18</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=cd911d35db311b001bfdef92ca9619c9"/>
+</record_update>

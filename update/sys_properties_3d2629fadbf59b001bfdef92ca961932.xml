@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Azure auth string</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_4s_tricode.azure_auth_string</name>
+        <read_roles/>
+        <suffix>azure_auth_string</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>azanias.sanchez@4thsource.com</sys_created_by>
+        <sys_created_on>2018-05-04 18:44:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3d2629fadbf59b001bfdef92ca961932</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_4s_tricode.azure_auth_string</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_properties_3d2629fadbf59b001bfdef92ca961932</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-25 11:56:20</sys_updated_on>
+        <type>string</type>
+        <value>?sv=2017-07-29&amp;ss=bfqt&amp;srt=sco&amp;sp=rwdlacup&amp;se=2019-05-04T02:52:42Z&amp;st=2018-05-03T18:52:42Z&amp;spr=https&amp;sig=iEspVKMms9u40iGSw9jVrHSgHSTRLVyEgDLat9wjWIg%3D</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=3d2629fadbf59b001bfdef92ca961932"/>
+</record_update>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="f512d3841375130031b855912244b0be" table="sf_state_flow" version="2" view="RPT06058173df23210068c37a0d3df2636c">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b99f04ead7201100158ba6859e61035f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2013-10-23 21:00:06</sys_created_on>
+            <sys_id>719f04ead7201100158ba6859e610360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2013-10-23 21:00:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b99f04ead7201100158ba6859e61035f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2013-10-23 21:00:06</sys_created_on>
+            <sys_id>b19f04ead7201100158ba6859e610360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2013-10-23 21:00:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>comment</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b99f04ead7201100158ba6859e61035f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2013-10-23 21:00:06</sys_created_on>
+            <sys_id>f19f04ead7201100158ba6859e610360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2013-10-23 21:00:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>starting_state</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b99f04ead7201100158ba6859e61035f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2013-10-23 21:00:06</sys_created_on>
+            <sys_id>359f04ead7201100158ba6859e610360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2013-10-23 21:00:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ending_state</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b99f04ead7201100158ba6859e61035f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2013-10-23 21:00:06</sys_created_on>
+            <sys_id>759f04ead7201100158ba6859e610360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2013-10-23 21:00:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sf_state_flow</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-13 18:27:47</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>f3910e5ddb5fd300e3a506e2ca9619a5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>sf_state_flow</sys_name>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_ui_list_sf_state_flow_RPT06058173df23210068c37a0d3df2636c_f512d3841375130031b855912244b0be</sys_update_name>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-07-25 12:12:40</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt06058173df23210068c37a0d3df2636c" name="RPT06058173df23210068c37a0d3df2636c">6f910e5ddb5fd300e3a506e2ca96197f</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

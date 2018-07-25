@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_reopen_reason" table="x_4s_tricode_tricode_application_child" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_reopen_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accident details</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_application_child</name>
+            <sequence>10</sequence>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-04-26 01:40:28</sys_created_on>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>65fe208cdb755300e3a506e2ca961983</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-04-26 01:40:28</sys_updated_on>
+            <value>Accident details</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_reopen_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Additional Medical Information is required</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_application_child</name>
+            <sequence>20</sequence>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-04-26 01:40:53</sys_created_on>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>0f1f608cdb755300e3a506e2ca9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-04-26 01:40:53</sys_updated_on>
+            <value>Additional Medical Information is required</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_reopen_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Duplicate claim</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_application_child</name>
+            <sequence>30</sequence>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-04-26 01:42:51</sys_created_on>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>8a4f208cdb755300e3a506e2ca96198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-04-26 01:42:51</sys_updated_on>
+            <value>Duplicate claim</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_reopen_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Eligibility Verification</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_application_child</name>
+            <sequence>40</sequence>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-04-26 01:44:32</sys_created_on>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>3fefac4cdb755300e3a506e2ca96193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-04-26 01:44:32</sys_updated_on>
+            <value>Eligibility Verification</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_reopen_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Incorrect coding used</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_application_child</name>
+            <sequence>50</sequence>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-04-26 01:44:56</sys_created_on>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>a2003c8cdb755300e3a506e2ca961911</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-04-26 01:44:56</sys_updated_on>
+            <value>Incorrect coding used</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_reopen_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medical coding errors</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_application_child</name>
+            <sequence>60</sequence>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-04-26 01:45:27</sys_created_on>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>5210f88cdb755300e3a506e2ca9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-04-26 01:45:27</sys_updated_on>
+            <value>Medical coding errors</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_reopen_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pre-existing conditions verification</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_application_child</name>
+            <sequence>70</sequence>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-04-26 01:45:51</sys_created_on>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>a130f08cdb755300e3a506e2ca9619d2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-12 12:52:34</sys_updated_on>
+            <value>Pre-existing conditions verification</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_reopen_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Verification of other insurance coverage</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_application_child</name>
+            <sequence>80</sequence>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-04-26 01:46:22</sys_created_on>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>1f507c8cdb755300e3a506e2ca96195a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-12 13:00:20</sys_updated_on>
+            <value>Verification of other insurance coverage</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_reopen_reason</element>
+            <name>x_4s_tricode_tricode_application_child</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-04-26 01:40:28</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>12e03dc4db5f1300e3a506e2ca961948</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>u_reopen_reason</sys_name>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_choice_x_4s_tricode_tricode_application_child_u_reopen_reason</sys_update_name>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:51:58</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

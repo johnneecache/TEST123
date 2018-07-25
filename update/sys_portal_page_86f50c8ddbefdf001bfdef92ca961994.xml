@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2018-07-25 17:27:31">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_overview">1a656051d7030200eaae68150e610399</layout>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+        <sys_created_on>2018-07-25 01:04:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_id>86f50c8ddbefdf001bfdef92ca961994</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>PA Assignment (Primary)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_portal_page_86f50c8ddbefdf001bfdef92ca961994</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-25 12:03:17</sys_updated_on>
+        <title>PA Assignment (Primary)</title>
+        <user/>
+        <view>pa_assignment_(primary)</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="PA Assignment (Primary)">86f50c8ddbefdf001bfdef92ca961994</page>
+                <summary/>
+                <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                <sys_id>345adccddb2313401bfdef92ca9619c9</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">345adccddb2313401bfdef92ca9619c9</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>305adccddb2313401bfdef92ca9619cc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">345adccddb2313401bfdef92ca9619c9</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>305adccddb2313401bfdef92ca9619cd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">345adccddb2313401bfdef92ca9619c9</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>345adccddb2313401bfdef92ca9619cc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">345adccddb2313401bfdef92ca9619c9</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>345adccddb2313401bfdef92ca9619cd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>86f50c8ddbefdf001bfdef92ca961994</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">345adccddb2313401bfdef92ca9619c9</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>385adccddb2313401bfdef92ca9619cb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>ca529809db2313401bfdef92ca961913</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">345adccddb2313401bfdef92ca9619c9</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>385adccddb2313401bfdef92ca9619cc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">345adccddb2313401bfdef92ca9619c9</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>3c5adccddb2313401bfdef92ca9619cc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">345adccddb2313401bfdef92ca9619c9</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>b05adccddb2313401bfdef92ca9619ca</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">345adccddb2313401bfdef92ca9619c9</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>b05adccddb2313401bfdef92ca9619cb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>Coder Name (Interactive)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">345adccddb2313401bfdef92ca9619c9</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>b45adccddb2313401bfdef92ca9619c9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>com.glideapp.home.RenderHomepagePublishers</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">345adccddb2313401bfdef92ca9619c9</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>b45adccddb2313401bfdef92ca9619ca</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">345adccddb2313401bfdef92ca9619c9</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>b85adccddb2313401bfdef92ca9619c9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">345adccddb2313401bfdef92ca9619c9</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>b85adccddb2313401bfdef92ca9619ca</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">345adccddb2313401bfdef92ca9619c9</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>bc5adccddb2313401bfdef92ca9619c9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">345adccddb2313401bfdef92ca9619c9</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>bc5adccddb2313401bfdef92ca9619ca</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>sys_ui_hp_publisher</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="PA Assignment (Primary)">86f50c8ddbefdf001bfdef92ca961994</page>
+                <summary/>
+                <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                <sys_id>bc5adccddb2313401bfdef92ca9619c2</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">bc5adccddb2313401bfdef92ca9619c2</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>305adccddb2313401bfdef92ca9619c3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">bc5adccddb2313401bfdef92ca9619c2</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>305adccddb2313401bfdef92ca9619c4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">bc5adccddb2313401bfdef92ca9619c2</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>345adccddb2313401bfdef92ca9619c3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>com.glideapp.home.RenderHomepagePublishers</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">bc5adccddb2313401bfdef92ca9619c2</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>345adccddb2313401bfdef92ca9619c4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">bc5adccddb2313401bfdef92ca9619c2</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>385adccddb2313401bfdef92ca9619c3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">bc5adccddb2313401bfdef92ca9619c2</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>385adccddb2313401bfdef92ca9619c4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>2</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">bc5adccddb2313401bfdef92ca9619c2</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>3c5adccddb2313401bfdef92ca9619c3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">bc5adccddb2313401bfdef92ca9619c2</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>3c5adccddb2313401bfdef92ca9619c4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>Name of Clinic (Interactive)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">bc5adccddb2313401bfdef92ca9619c2</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>b05adccddb2313401bfdef92ca9619c5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>9d9bc84ddbab1f00e3a506e2ca96194c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">bc5adccddb2313401bfdef92ca9619c2</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>b05adccddb2313401bfdef92ca9619c6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">bc5adccddb2313401bfdef92ca9619c2</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>b45adccddb2313401bfdef92ca9619c6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">bc5adccddb2313401bfdef92ca9619c2</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>b85adccddb2313401bfdef92ca9619c5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">bc5adccddb2313401bfdef92ca9619c2</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>b85adccddb2313401bfdef92ca9619c6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>100</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">bc5adccddb2313401bfdef92ca9619c2</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>bc5adccddb2313401bfdef92ca9619c5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">bc5adccddb2313401bfdef92ca9619c2</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>bc5adccddb2313401bfdef92ca9619c6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>86f50c8ddbefdf001bfdef92ca961994</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>1</offset>
+                <page display_value="PA Assignment (Primary)">86f50c8ddbefdf001bfdef92ca961994</page>
+                <summary/>
+                <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                <sys_id>f05adccddb2313401bfdef92ca9619c7</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">f05adccddb2313401bfdef92ca9619c7</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>705adccddb2313401bfdef92ca9619c8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">f05adccddb2313401bfdef92ca9619c7</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>745adccddb2313401bfdef92ca9619c7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>8c4e888ddbab1f00e3a506e2ca961939</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">f05adccddb2313401bfdef92ca9619c7</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>745adccddb2313401bfdef92ca9619c8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">f05adccddb2313401bfdef92ca9619c7</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>785adccddb2313401bfdef92ca9619c8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">f05adccddb2313401bfdef92ca9619c7</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>7c5adccddb2313401bfdef92ca9619c7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">f05adccddb2313401bfdef92ca9619c7</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:33:42</sys_created_on>
+                        <sys_id>7c5adccddb2313401bfdef92ca9619c8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:33:42</sys_updated_on>
+                        <value>Total Active Assigned</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">f05adccddb2313401bfdef92ca9619c7</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:34:03</sys_created_on>
+                        <sys_id>c26ad08ddb2313401bfdef92ca96191b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:34:03</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">f05adccddb2313401bfdef92ca9619c7</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:34:03</sys_created_on>
+                        <sys_id>c26ad08ddb2313401bfdef92ca96191c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:34:03</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">f05adccddb2313401bfdef92ca9619c7</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:34:03</sys_created_on>
+                        <sys_id>c66ad08ddb2313401bfdef92ca96191a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:34:03</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">f05adccddb2313401bfdef92ca9619c7</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:34:03</sys_created_on>
+                        <sys_id>c66ad08ddb2313401bfdef92ca96191b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:34:03</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">f05adccddb2313401bfdef92ca9619c7</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:34:03</sys_created_on>
+                        <sys_id>c66ad08ddb2313401bfdef92ca96191c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:34:03</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">f05adccddb2313401bfdef92ca9619c7</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:34:03</sys_created_on>
+                        <sys_id>ca6ad08ddb2313401bfdef92ca96191a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:34:03</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">f05adccddb2313401bfdef92ca9619c7</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:34:03</sys_created_on>
+                        <sys_id>ca6ad08ddb2313401bfdef92ca96191b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:34:03</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">f05adccddb2313401bfdef92ca9619c7</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:34:03</sys_created_on>
+                        <sys_id>ce6ad08ddb2313401bfdef92ca96191a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:34:03</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2018-07-24 21:33:42">f05adccddb2313401bfdef92ca9619c7</portal_section>
+                        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+                        <sys_created_on>2018-07-25 02:34:03</sys_created_on>
+                        <sys_id>ce6ad08ddb2313401bfdef92ca96191b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+                        <sys_updated_on>2018-07-25 02:34:03</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

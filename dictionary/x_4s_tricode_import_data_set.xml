@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="pdf_inline_updates" max_length="40" name="x_4s_tricode_import_data_set" type="collection">
+        <element attributes="import_attribute_name=Attachment1_name,edge_encryption_enabled=true" label="Attachment1_name" max_length="40" name="u_attachment1_name" type="string"/>
+        <element attributes="import_attribute_name=Short Description,edge_encryption_enabled=true" label="Short Description" max_length="40" name="u_short_description" type="string"/>
+    </element>
+</database>

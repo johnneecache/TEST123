@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description>This UI Macro is to allow the first *.pdf attachment to be embedded into form.  The form selection is based on the formatter.</description>
+        <media_type/>
+        <name>inline_pdf</name>
+        <scoped_name>x_4s_tricode_inline_pdf</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+        <sys_created_on>2018-04-18 14:10:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c0fd4ee5db2513001bfdef92ca961963</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>inline_pdf</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_ui_macro_c0fd4ee5db2513001bfdef92ca961963</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-25 12:08:28</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	
+	<!-- 4S-JCD-4/18/2018 Added this bit because IE11 is a piece of crap -->
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	
+    <j:set var="jvar_sys_id" value="${sys_attachment.sys_id}" />
+    <g2:evaluate var="jvar_first_attachment" object="true">
+        var attach_id='';
+        //var pid = ${ref_parent}.sys_id;
+        //var pid = RP.getParameterValue("sys_id");
+        var pid = current.sys_id.toString();
+        var sys_attachment = new GlideRecord('sys_attachment'); 
+        sys_attachment.addQuery('table_sys_id',pid);
+        sys_attachment.query();
+        if(sys_attachment.next()) {   
+            attach_id = sys_attachment.sys_id.toString();
+        };
+		
+        attach_id;
+    </g2:evaluate>
+    
+<j2:choose>
+   <j2:when test="$[!empty(jvar_first_attachment)]">
+        <iframe id="inline_document" scrolling="no" style="width:100%;height:900px;border:none" src="sys_attachment.do?view=true&amp;sys_id=$[jvar_first_attachment]">
+        </iframe>
+</j2:when>
+    <j2:otherwise><strong>No PDF Attachment found. Please contact the Scanner Administrator.</strong></j2:otherwise>
+</j2:choose>
+    
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

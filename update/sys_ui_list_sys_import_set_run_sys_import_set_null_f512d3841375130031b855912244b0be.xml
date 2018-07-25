@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="sys_import_set" relationship="" sys_domain="f512d3841375130031b855912244b0be" table="sys_import_set_run" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="sys_import_set_run" element="NULL" name="sys_import_set_run" parent="sys_import_set" relationship="NULL" sys_domain="global" view="Default view">c648e7d50a0a0b3f009db11fdd58a8a1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2009-06-09 18:30:15</sys_created_on>
+            <sys_id>c648e7d80a0a0b3f00ebf4601d3addf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2009-06-09 18:30:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="sys_import_set_run" element="NULL" name="sys_import_set_run" parent="sys_import_set" relationship="NULL" sys_domain="global" view="Default view">c648e7d50a0a0b3f009db11fdd58a8a1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2009-06-09 18:30:15</sys_created_on>
+            <sys_id>c648e7dc0a0a0b3f00bfdcad2deaceba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2009-06-09 18:30:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>completed</element>
+            <list_id display_value="sys_import_set_run" element="NULL" name="sys_import_set_run" parent="sys_import_set" relationship="NULL" sys_domain="global" view="Default view">c648e7d50a0a0b3f009db11fdd58a8a1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2009-06-09 18:30:15</sys_created_on>
+            <sys_id>c648e7de0a0a0b3f00748aa1a3edcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2009-06-09 18:30:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>run_time</element>
+            <list_id display_value="sys_import_set_run" element="NULL" name="sys_import_set_run" parent="sys_import_set" relationship="NULL" sys_domain="global" view="Default view">c648e7d50a0a0b3f009db11fdd58a8a1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2009-06-09 18:30:15</sys_created_on>
+            <sys_id>c648e7e00a0a0b3f007b818a8eef332a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2009-06-09 18:30:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>set</element>
+            <list_id display_value="sys_import_set_run" element="NULL" name="sys_import_set_run" parent="sys_import_set" relationship="NULL" sys_domain="global" view="Default view">c648e7d50a0a0b3f009db11fdd58a8a1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2009-06-09 18:30:15</sys_created_on>
+            <sys_id>c648e7e20a0a0b3f0076d5e7f3e5cd55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2009-06-09 18:30:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>total</element>
+            <list_id display_value="sys_import_set_run" element="NULL" name="sys_import_set_run" parent="sys_import_set" relationship="NULL" sys_domain="global" view="Default view">c648e7d50a0a0b3f009db11fdd58a8a1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2009-06-09 18:30:15</sys_created_on>
+            <sys_id>c648e7e40a0a0b3f00f681169063f1d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2009-06-09 18:30:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inserts</element>
+            <list_id display_value="sys_import_set_run" element="NULL" name="sys_import_set_run" parent="sys_import_set" relationship="NULL" sys_domain="global" view="Default view">c648e7d50a0a0b3f009db11fdd58a8a1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2009-06-09 18:30:15</sys_created_on>
+            <sys_id>c648e7e70a0a0b3f0069ab6ac12aa2b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2009-06-09 18:30:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>updates</element>
+            <list_id display_value="sys_import_set_run" element="NULL" name="sys_import_set_run" parent="sys_import_set" relationship="NULL" sys_domain="global" view="Default view">c648e7d50a0a0b3f009db11fdd58a8a1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2009-06-09 18:30:15</sys_created_on>
+            <sys_id>c648e7e90a0a0b3f00024b78234f6298</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2009-06-09 18:30:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ignored</element>
+            <list_id display_value="sys_import_set_run" element="NULL" name="sys_import_set_run" parent="sys_import_set" relationship="NULL" sys_domain="global" view="Default view">c648e7d50a0a0b3f009db11fdd58a8a1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2009-06-09 18:30:15</sys_created_on>
+            <sys_id>c648e7eb0a0a0b3f007cd3ef4ae20cf3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2009-06-09 18:30:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>skipped</element>
+            <list_id display_value="sys_import_set_run" element="NULL" name="sys_import_set_run" parent="sys_import_set" relationship="NULL" sys_domain="global" view="Default view">c648e7d50a0a0b3f009db11fdd58a8a1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2009-06-09 18:30:15</sys_created_on>
+            <sys_id>c648e7ed0a0a0b3f005321f3a51043f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2009-06-09 18:30:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>errors</element>
+            <list_id display_value="sys_import_set_run" element="NULL" name="sys_import_set_run" parent="sys_import_set" relationship="NULL" sys_domain="global" view="Default view">c648e7d50a0a0b3f009db11fdd58a8a1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2009-06-09 18:30:15</sys_created_on>
+            <sys_id>c648e7ef0a0a0b3f00e8ab74b71e776b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2009-06-09 18:30:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_transform_map</element>
+            <list_id display_value="sys_import_set_run" element="NULL" name="sys_import_set_run" parent="sys_import_set" relationship="NULL" sys_domain="global" view="Default view">c648e7d50a0a0b3f009db11fdd58a8a1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2009-06-09 18:30:15</sys_created_on>
+            <sys_id>c648e7f40a0a0b3f005e817ed17cd7ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2009-06-09 18:30:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_import_set_run</name>
+            <parent>sys_import_set</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-24 14:45:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>26487970db2bdf001bfdef92ca9619f7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>sys_import_set_run</sys_name>
+            <sys_package/>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_ui_list_sys_import_set_run_sys_import_set_null_f512d3841375130031b855912244b0be</sys_update_name>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:52:45</sys_updated_on>
+            <sys_user display_value="Robert Thomas">81024838db179300e3a506e2ca9619a6</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

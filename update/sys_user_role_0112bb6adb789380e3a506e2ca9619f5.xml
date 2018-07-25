@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context display_value="Tricorp Encryption">eacef523db29d3001bfdef92ca9619d9</encryption_context>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_4s_tricode.user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>Carlos.Jimenez@4thsource.com</sys_created_by>
+        <sys_created_on>2018-03-15 17:14:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0112bb6adb789380e3a506e2ca9619f5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_4s_tricode.user</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_user_role_0112bb6adb789380e3a506e2ca9619f5</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-25 11:51:12</sys_updated_on>
+    </sys_user_role>
+</record_update>

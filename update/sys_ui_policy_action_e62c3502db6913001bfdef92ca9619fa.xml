@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>u_em2</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+        <sys_created_on>2018-04-20 02:10:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e62c3502db6913001bfdef92ca9619fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_em2</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e62c3502db6913001bfdef92ca9619fa</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-25 12:11:46</sys_updated_on>
+        <table>x_4s_tricode_tricode_application_child</table>
+        <ui_policy display_value="Read Only || Closed, Cancelled">c7a7e1c2db2913001bfdef92ca96196c</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

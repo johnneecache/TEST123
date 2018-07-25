@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="TriCode CPT Modifiers" max_length="40" name="x_4s_tricode_tricode_cpt_modifiers" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element display="true" label="Modifier Code" max_length="40" name="u_modifier_code" type="string"/>
+        <element label="Modifier Description" max_length="1000" name="u_modifier_description" type="string"/>
+        <element choice="1" label="Modifier Type" max_length="180" name="u_modifier_type" type="choice">
+            <choice>
+                <element label="Appendix A (CPT 2018 codes)" sequence="1" value="Appendix A"/>
+                <element label="Physical Status" sequence="2" value="Physical Status"/>
+                <element label="Approved for Ambulatory Surgery Center (ASC)" sequence="3" value="Approved for Ambulatory Surgery Center (ASC)"/>
+                <element label="Category II" sequence="4" value="Category II"/>
+                <element label="Level II (HCPCS/National)" sequence="5" value="Level II (HCPCS/National)"/>
+            </choice>
+        </element>
+        <element label="Short Description" max_length="255" name="u_short_discription" type="string"/>
+    </element>
+</database>

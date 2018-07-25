@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>pa_admin_team</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>Rtrevino@tricorp-itsolutions.com</sys_created_by>
+        <sys_created_on>2018-07-12 03:29:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>896a6db0db5b9300e3a506e2ca9619b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Pa_admin_team</sys_name>
+        <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+        <sys_update_name>sys_ui_view_896a6db0db5b9300e3a506e2ca9619b6</sys_update_name>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-25 12:03:30</sys_updated_on>
+        <title>Pa_admin_team</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

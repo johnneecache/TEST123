@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_anesthesiologist_13_s" label="Anesthesiologist 13" language="en" table="x_4s_tricode_tricode_application">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_anesthesiologist_13_s</element>
+            <help/>
+            <hint/>
+            <label>Anesthesiologist 13</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_application</name>
+            <plural>Anesthesiologist 13s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
+            <sys_created_on>2018-07-10 18:52:41</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>038aee98139793c031b855912244b087</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Anesthesiologist 13</sys_name>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_documentation_x_4s_tricode_tricode_application_u_anesthesiologist_13_s_en</sys_update_name>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:51:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Bulk Load" max_length="40" name="x_4s_tricode_bulk_load" type="collection">
+        <element attributes="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="Import Name" max_length="40" name="u_import_name" type="string"/>
+        <element label="Scheduled Import" max_length="32" name="u_scheduled_import" reference="scheduled_import_set" type="reference"/>
+        <index name="index">
+            <element name="u_scheduled_import"/>
+        </index>
+    </element>
+</database>

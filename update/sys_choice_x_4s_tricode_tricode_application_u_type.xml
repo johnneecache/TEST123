@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_type" table="x_4s_tricode_tricode_application" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Standard</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>Azure Import</sys_created_by>
+            <sys_created_on>2018-07-19 23:00:07</sys_created_on>
+            <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
+            <sys_domain_path>!!#/!!#/!!!/</sys_domain_path>
+            <sys_id>6b793197dbdf1b00e3a506e2ca96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Azure Import</sys_updated_by>
+            <sys_updated_on>2018-07-19 23:00:07</sys_updated_on>
+            <value>Standard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Standard</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-12 02:48:44</sys_created_on>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>f501ed78db1b9300e3a506e2ca96193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-12 02:48:44</sys_updated_on>
+            <value>Standard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Re-Open</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-12 02:49:11</sys_created_on>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>84212d78db1b9300e3a506e2ca9619c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-12 02:49:11</sys_updated_on>
+            <value>Re-Open</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_type</element>
+            <name>x_4s_tricode_tricode_application</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-12 02:48:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ae11ad78db1b9300e3a506e2ca96197d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_type</sys_name>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_choice_x_4s_tricode_tricode_application_u_type</sys_update_name>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-07-25 12:07:05</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

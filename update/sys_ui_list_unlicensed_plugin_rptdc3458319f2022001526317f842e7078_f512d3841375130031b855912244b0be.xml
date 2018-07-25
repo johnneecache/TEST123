@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="f512d3841375130031b855912244b0be" table="unlicensed_plugin" version="2" view="RPTdc3458319f2022001526317f842e7078">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>plugin.name</element>
+            <list_id display_value="unlicensed_plugin" element="NULL" name="unlicensed_plugin" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">22bf554a9f6022001526317f842e709f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-12 18:29:00</sys_created_on>
+            <sys_id>a2bf554a9f6022001526317f842e709f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-12 18:29:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>plugin.source</element>
+            <list_id display_value="unlicensed_plugin" element="NULL" name="unlicensed_plugin" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">22bf554a9f6022001526317f842e709f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-12 18:29:00</sys_created_on>
+            <sys_id>e2bf554a9f6022001526317f842e709f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-12 18:29:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>plugin.install_date</element>
+            <list_id display_value="unlicensed_plugin" element="NULL" name="unlicensed_plugin" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">22bf554a9f6022001526317f842e709f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-12 18:29:00</sys_created_on>
+            <sys_id>26bf554a9f6022001526317f842e709f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-12 18:29:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>plugin.license_model</element>
+            <list_id display_value="unlicensed_plugin" element="NULL" name="unlicensed_plugin" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">22bf554a9f6022001526317f842e709f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-12 18:29:00</sys_created_on>
+            <sys_id>66bf554a9f6022001526317f842e709f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-12 18:29:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>plugin.sys_created_by</element>
+            <list_id display_value="unlicensed_plugin" element="NULL" name="unlicensed_plugin" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">22bf554a9f6022001526317f842e709f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-12 18:29:00</sys_created_on>
+            <sys_id>a6bf554a9f6022001526317f842e709f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-12 18:29:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>unlicensed_plugin</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-13 18:27:51</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>bca14e5ddb5fd300e3a506e2ca96198e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>unlicensed_plugin</sys_name>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_ui_list_unlicensed_plugin_RPTdc3458319f2022001526317f842e7078_f512d3841375130031b855912244b0be</sys_update_name>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-07-25 12:08:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptdc3458319f2022001526317f842e7078" name="RPTdc3458319f2022001526317f842e7078">b0a14e5ddb5fd300e3a506e2ca96198e</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

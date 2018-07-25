@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_modifier_code" label="Modifier Code" language="en" table="x_4s_tricode_tricode_cpt_modifiers">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_modifier_code</element>
+            <help/>
+            <hint/>
+            <label>Modifier Code</label>
+            <language>en</language>
+            <name>x_4s_tricode_tricode_cpt_modifiers</name>
+            <plural>Modifier Codes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-05-22 14:54:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>950eddacdbde9340e3a506e2ca96196a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Modifier Code</sys_name>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_documentation_x_4s_tricode_tricode_cpt_modifiers_u_modifier_code_en</sys_update_name>
+            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+            <sys_updated_on>2018-07-25 12:04:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
