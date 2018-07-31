@@ -1394,7 +1394,7 @@
             <sys_created_on>2018-03-27 21:48:41</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_domain_path/>
             <sys_id>25e36eeadb0d1b801bfdef92ca961981</sys_id>
             <sys_mod_count>4</sys_mod_count>
             <sys_name>Services</sys_name>

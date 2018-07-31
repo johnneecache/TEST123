@@ -8,6 +8,7 @@
         <element attributes="import_attribute_name=PLA Description,edge_encryption_enabled=true" label="PLA Description" max_length="336" name="u_pla_description" type="string"/>
         <element attributes="import_attribute_name=PLA Id" label="PLA Id" max_length="40" name="u_pla_id" type="integer"/>
         <element attributes="import_attribute_name=PLA Short Description,edge_encryption_enabled=true" label="PLA Short Description" max_length="48" name="u_pla_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PLA Short Description (E)" max_length="40" name="u_pla_short_description__e_" type="string"/>
         <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
         <element attributes="import_attribute_name=testName,edge_encryption_enabled=true" label="testName" max_length="80" name="u_testname" type="string"/>
     </element>

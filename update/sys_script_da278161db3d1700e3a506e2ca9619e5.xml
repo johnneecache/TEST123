@@ -55,7 +55,7 @@ if (current.life_cycle.changesTo('7'))
         <sys_created_on>2018-04-30 19:21:50</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_domain_path/>
         <sys_id>da278161db3d1700e3a506e2ca9619e5</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name>Active Records</sys_name>

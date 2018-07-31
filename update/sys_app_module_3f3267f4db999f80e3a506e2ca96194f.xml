@@ -2,7 +2,7 @@
 <record_update sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>false</active>
-        <application display_value="TriCode">969b6f8adb4dd7801bfdef92ca9619be</application>
+        <application display_value="Tricode Records">969b6f8adb4dd7801bfdef92ca9619be</application>
         <assessment/>
         <content_page/>
         <device_type/>
@@ -29,7 +29,7 @@
         <sys_created_on>2018-04-04 02:09:35</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_domain_path/>
         <sys_id>3f3267f4db999f80e3a506e2ca96194f</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>TriCode Speciality Provider </sys_name>

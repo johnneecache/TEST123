@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>DRG</column_label>
+        <column_label>Diagnosis Related Group (DRG)</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -35,7 +35,7 @@
         <function_field>false</function_field>
         <internal_type display_value="">glide_encrypted</internal_type>
         <mandatory>false</mandatory>
-        <max_length>65536</max_length>
+        <max_length>254</max_length>
         <name>x_4s_tricode_tricode_application</name>
         <next_element/>
         <primary>false</primary>
@@ -55,16 +55,16 @@
         <sys_created_by>john.duchock@4thsource.com</sys_created_by>
         <sys_created_on>2018-07-10 20:11:47</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>a8fbf6d413d793c031b855912244b0e4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>DRG</sys_name>
+        <sys_id>8a3574fddb6f9f00e3a506e2ca9619f3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Diagnosis Related Group (DRG)</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_dictionary_x_4s_tricode_tricode_application_u_drg_s</sys_update_name>
-        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-        <sys_updated_on>2018-07-10 20:11:47</sys_updated_on>
+        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-07-30 00:13:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

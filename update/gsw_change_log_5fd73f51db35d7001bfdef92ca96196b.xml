@@ -3,7 +3,7 @@
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2018-04-30 13:30:13</change_date>
         <changed_by display_value="John Duchock">6dfc543a4f44be00643c2f1e0210c788</changed_by>
-        <content display_value="Step 1">15b618d2251d7200964f48ca4b89e802</content>
+        <content display_value="">15b618d2251d7200964f48ca4b89e802</content>
         <related_change_log_entry/>
         <related_task_entry/>
         <sys_class_name>gsw_change_log</sys_class_name>

@@ -27,7 +27,7 @@
         <sys_created_on>2018-03-27 18:32:40</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_domain_path/>
         <sys_id>8926f9a2dbc91b801bfdef92ca961980</sys_id>
         <sys_mod_count>16</sys_mod_count>
         <sys_name>Read only Patient </sys_name>
@@ -41,6 +41,6 @@
         <sys_updated_on>2018-04-27 14:54:28</sys_updated_on>
         <table>x_4s_tricode_tricode_application</table>
         <ui_type>0</ui_type>
-        <view display_value="Coder" name="Coder">Coder</view>
+        <view display_value="">Coder</view>
     </sys_ui_policy>
 </record_update>

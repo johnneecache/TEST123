@@ -1,6 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
     <sys_ui_list parent="" relationship="" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="x_4s_tricode_trijoin" version="2" view="RPT726d6344db069b00e3a506e2ca961978">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>trp_life_cycle</element>
+            <list_id display_value="x_4s_tricode_trijoin" element="NULL" name="x_4s_tricode_trijoin" parent="NULL" relationship="NULL" sys_domain="f512d3841375130031b855912244b0be" view="Default view">a9cd81b5db63df00e3a506e2ca961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-27 14:13:55</sys_created_on>
+            <sys_id>21cd81b5db63df00e3a506e2ca961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-27 14:13:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>trp_number</element>
+            <list_id display_value="x_4s_tricode_trijoin" element="NULL" name="x_4s_tricode_trijoin" parent="NULL" relationship="NULL" sys_domain="f512d3841375130031b855912244b0be" view="Default view">a9cd81b5db63df00e3a506e2ca961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-27 14:13:55</sys_created_on>
+            <sys_id>a1cd81b5db63df00e3a506e2ca961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-27 14:13:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>trp_parent_tricode</element>
+            <list_id display_value="x_4s_tricode_trijoin" element="NULL" name="x_4s_tricode_trijoin" parent="NULL" relationship="NULL" sys_domain="f512d3841375130031b855912244b0be" view="Default view">a9cd81b5db63df00e3a506e2ca961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-27 14:13:55</sys_created_on>
+            <sys_id>25cd81b5db63df00e3a506e2ca961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-27 14:13:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>trp_sys_created_by</element>
+            <list_id display_value="x_4s_tricode_trijoin" element="NULL" name="x_4s_tricode_trijoin" parent="NULL" relationship="NULL" sys_domain="f512d3841375130031b855912244b0be" view="Default view">a9cd81b5db63df00e3a506e2ca961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-27 14:13:55</sys_created_on>
+            <sys_id>a5cd81b5db63df00e3a506e2ca961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-27 14:13:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>trp_sys_id</element>
+            <list_id display_value="x_4s_tricode_trijoin" element="NULL" name="x_4s_tricode_trijoin" parent="NULL" relationship="NULL" sys_domain="f512d3841375130031b855912244b0be" view="Default view">a9cd81b5db63df00e3a506e2ca961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-27 14:13:55</sys_created_on>
+            <sys_id>29cd81b5db63df00e3a506e2ca961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-27 14:13:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>trp_sys_tags</element>
+            <list_id display_value="x_4s_tricode_trijoin" element="NULL" name="x_4s_tricode_trijoin" parent="NULL" relationship="NULL" sys_domain="f512d3841375130031b855912244b0be" view="Default view">a9cd81b5db63df00e3a506e2ca961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-27 14:13:55</sys_created_on>
+            <sys_id>a9cd81b5db63df00e3a506e2ca961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-27 14:13:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>trp_sys_updated_by</element>
+            <list_id display_value="x_4s_tricode_trijoin" element="NULL" name="x_4s_tricode_trijoin" parent="NULL" relationship="NULL" sys_domain="f512d3841375130031b855912244b0be" view="Default view">a9cd81b5db63df00e3a506e2ca961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-27 14:13:55</sys_created_on>
+            <sys_id>2dcd81b5db63df00e3a506e2ca961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-27 14:13:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>trp_sys_updated_on</element>
+            <list_id display_value="x_4s_tricode_trijoin" element="NULL" name="x_4s_tricode_trijoin" parent="NULL" relationship="NULL" sys_domain="f512d3841375130031b855912244b0be" view="Default view">a9cd81b5db63df00e3a506e2ca961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-27 14:13:55</sys_created_on>
+            <sys_id>adcd81b5db63df00e3a506e2ca961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-27 14:13:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>trp_u_admin_users</element>
+            <list_id display_value="x_4s_tricode_trijoin" element="NULL" name="x_4s_tricode_trijoin" parent="NULL" relationship="NULL" sys_domain="f512d3841375130031b855912244b0be" view="Default view">a9cd81b5db63df00e3a506e2ca961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-27 14:13:55</sys_created_on>
+            <sys_id>21cd81b5db63df00e3a506e2ca961917</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-27 14:13:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>trp_u_aien_s</element>
+            <list_id display_value="x_4s_tricode_trijoin" element="NULL" name="x_4s_tricode_trijoin" parent="NULL" relationship="NULL" sys_domain="f512d3841375130031b855912244b0be" view="Default view">a9cd81b5db63df00e3a506e2ca961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-27 14:13:55</sys_created_on>
+            <sys_id>a1cd81b5db63df00e3a506e2ca961917</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-27 14:13:55</sys_updated_on>
+        </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element/>
@@ -16,7 +166,7 @@
             <sys_created_on>2018-05-09 02:07:53</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_domain_path/>
             <sys_id>77f17308db069b00e3a506e2ca96195d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_4s_tricode_trijoin</sys_name>
@@ -28,37 +178,7 @@
             <sys_updated_by>rtrevino@tricorp-itsolutions.com</sys_updated_by>
             <sys_updated_on>2018-05-09 02:07:53</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt726d6344db069b00e3a506e2ca961978" name="RPT726d6344db069b00e3a506e2ca961978">5fbdbb8ddba35b00a159591e5e961949</view>
-            <view_name/>
-        </sys_ui_list>
-        <sys_ui_list action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element/>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <name>x_4s_tricode_trijoin</name>
-            <parent/>
-            <position/>
-            <relationship/>
-            <sum>false</sum>
-            <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>rtrevino@tricorp-itsolutions.com</sys_created_by>
-            <sys_created_on>2018-05-09 02:07:53</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
-            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
-            <sys_id>77f17308db069b00e3a506e2ca96195d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>x_4s_tricode_trijoin</sys_name>
-            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
-            <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
-            <sys_update_name>sys_ui_list_x_4s_tricode_trijoin_RPT726d6344db069b00e3a506e2ca961978_77f17308db069b00e3a506e2ca96195d</sys_update_name>
-            <sys_updated_by>rtrevino@tricorp-itsolutions.com</sys_updated_by>
-            <sys_updated_on>2018-05-09 02:07:53</sys_updated_on>
-            <sys_user/>
-            <view display_value="Rpt726d6344db069b00e3a506e2ca961978" name="RPT726d6344db069b00e3a506e2ca961978">5fbdbb8ddba35b00a159591e5e961949</view>
+            <view display_value="Rpt726d6344db069b00e3a506e2ca961978" name="RPT726d6344db069b00e3a506e2ca961978">19b4ad88dbdb1300e3a506e2ca9619b5</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

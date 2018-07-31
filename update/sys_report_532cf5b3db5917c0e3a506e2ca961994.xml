@@ -25,7 +25,7 @@
         <column>u_icd1</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Rick Trevino">8db7475adbbc13801bfdef92ca961953</created_by_user>
+        <created_by_user display_value="Rick Trevino">3662c0b4db179300e3a506e2ca9619de</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config/>
@@ -101,7 +101,7 @@
         <sys_created_on>2018-04-13 02:23:14</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_domain_path/>
         <sys_id>532cf5b3db5917c0e3a506e2ca961994</sys_id>
         <sys_mod_count>11</sys_mod_count>
         <sys_name>Pending</sys_name>

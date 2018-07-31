@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="TriCode CPT Code" max_length="40" name="x_4s_tricode_tricode_cpt_code" type="collection">
+    <element label="TriCode CPT Code" max_length="40" name="x_4s_tricode_tricode_cpt_code" sizeclass="27147" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
         <element label="Clinician Descriptor Id" max_length="40" name="u_clinician_descriptor_id" type="string"/>

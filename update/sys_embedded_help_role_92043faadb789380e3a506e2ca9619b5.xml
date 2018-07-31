@@ -2,7 +2,7 @@
 <record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="sn_dd_tricode_scriptedit" name="sn_dd_tricode_scriptedit">9a043faadb789380e3a506e2ca9619b3</role>
+        <role display_value="">9a043faadb789380e3a506e2ca9619b3</role>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>Carlos.Jimenez@4thsource.com</sys_created_by>
         <sys_created_on>2018-03-15 17:23:06</sys_created_on>

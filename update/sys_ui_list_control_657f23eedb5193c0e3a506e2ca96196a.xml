@@ -2,7 +2,6 @@
 <record_update sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="sys_ui_list_control">
     <sys_ui_list_control action="INSERT_OR_UPDATE">
         <columns_condition/>
-        <disable_listv3>false</disable_listv3>
         <edit_condition/>
         <edit_default_filter/>
         <edit_roles>x_4s_tricode.user</edit_roles>
@@ -16,7 +15,6 @@
         <list_edit_insert_row>false</list_edit_insert_row>
         <list_edit_ref_qual_tag/>
         <list_edit_type/>
-        <mode>grid</mode>
         <name>x_4s_tricode_tricode_application_child</name>
         <new_condition><![CDATA[answer=!parent.canWrite();]]></new_condition>
         <new_roles/>
@@ -28,13 +26,12 @@
         <omit_links>false</omit_links>
         <omit_new_button>true</omit_new_button>
         <related_list/>
-        <search_method>keywords</search_method>
         <sys_class_name>sys_ui_list_control</sys_class_name>
         <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
         <sys_created_on>2018-04-09 13:36:08</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_domain_path/>
         <sys_id>657f23eedb5193c0e3a506e2ca96196a</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name>x_4s_tricode_tricode_application_child</sys_name>

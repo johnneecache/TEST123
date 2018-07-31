@@ -26,7 +26,7 @@ var sections = g_form.getSections();
         <sys_created_on>2018-03-29 14:10:48</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_domain_path/>
         <sys_id>c4bd070fdbcd5b801bfdef92ca961925</sys_id>
         <sys_mod_count>24</sys_mod_count>
         <sys_name>Hide Admin tab</sys_name>

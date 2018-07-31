@@ -35,7 +35,7 @@
         <sys_created_on>2018-04-09 22:15:22</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_domain_path/>
         <sys_id>ff3701fedb1153c01bfdef92ca96192c</sys_id>
         <sys_mod_count>11</sys_mod_count>
         <sys_name>Hide Admin tab by Role &amp; Owner</sys_name>

@@ -3,7 +3,7 @@
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA New Tab">5edca7c3db9d53c01bfdef92ca961970</grid_canvas>
         <height>17</height>
-        <portal_widget display_value="Created 2018-04-12 21:38:50">3bbf7177db5917c0e3a506e2ca9619db</portal_widget>
+        <portal_widget display_value="Created 04-12-2018 21:38:50">3bbf7177db5917c0e3a506e2ca9619db</portal_widget>
         <posx>0</posx>
         <posy>13</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>

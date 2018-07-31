@@ -55,7 +55,7 @@
         <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
         <sys_created_on>2018-04-24 20:01:57</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>3bfb7309dba35b00a159591e5e96190a</sys_id>
+        <sys_id>2335f4fddb6f9f00e3a506e2ca9619ef</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Active</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
@@ -64,7 +64,7 @@
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_dictionary_x_4s_tricode_bulk_load_u_active</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-07-25 19:04:05</sys_updated_on>
+        <sys_updated_on>2018-07-27 12:32:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

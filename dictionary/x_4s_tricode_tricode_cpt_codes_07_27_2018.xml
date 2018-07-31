@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Tricode CPT Codes 07-27-2018" max_length="40" name="x_4s_tricode_tricode_cpt_codes_07_27_2018" sizeclass="27167" type="collection">
+        <element attributes="import_attribute_name=Clinician Descriptor,edge_encryption_enabled=true" label="Clinician Descriptor" max_length="482" name="u_clinician_descriptor" type="string"/>
+        <element attributes="import_attribute_name=Clinician Descriptor Id,edge_encryption_enabled=true" label="Clinician Descriptor Id" max_length="40" name="u_clinician_descriptor_id" type="string"/>
+        <element attributes="import_attribute_name=Concept Id,edge_encryption_enabled=true" label="Concept Id" max_length="40" name="u_concept_id" type="string"/>
+        <element attributes="import_attribute_name=CPT Code,edge_encryption_enabled=true" label="CPT Code" max_length="40" name="u_cpt_code" type="string"/>
+    </element>
+</database>

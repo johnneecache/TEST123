@@ -41,6 +41,7 @@
         <field>u_provider</field>
         <field_list/>
         <filter table="x_4s_tricode_tricode_application">u_active=true^u_type=2^EQ^GROUPBYu_provider^TRENDBYu_closed_date,date<item endquery="false" field="u_active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_type" goto="false" newquery="false" operator="=" or="false" value="2"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
             <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="u_provider"/>
             <item endquery="false" field="" goto="false" newquery="false" operator="TRENDBY" or="false" value="u_closed_date,date"/>
@@ -100,7 +101,7 @@
         <sys_created_on>2018-04-23 20:38:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_domain_path/>
         <sys_id>f2c65593dbad93001bfdef92ca961994</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Active Reopened Assignments</sys_name>

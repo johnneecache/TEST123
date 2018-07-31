@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="pa_dashboards_permissions">
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
-        <dashboard display_value="Portfolio Dashboard">2161d8f9dbd113c0e3a506e2ca961948</dashboard>
+        <dashboard display_value="">2161d8f9dbd113c0e3a506e2ca961948</dashboard>
         <delete>true</delete>
         <group/>
         <identity>pa_power_user</identity>

@@ -20,4 +20,5 @@
         <sys_updated_by>Israel.Alcantar@4thsource.com</sys_updated_by>
         <sys_updated_on>2018-05-15 19:55:28</sys_updated_on>
     </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=72bfdedadb4a9f00e3a506e2ca961965"/>
 </record_update>

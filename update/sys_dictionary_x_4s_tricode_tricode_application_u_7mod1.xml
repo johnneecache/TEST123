@@ -55,7 +55,7 @@
         <sys_created_by>john.duchock@4thsource.com</sys_created_by>
         <sys_created_on>2018-07-10 18:14:32</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>9c21e254139793c031b855912244b089</sys_id>
+        <sys_id>693574fddb6f9f00e3a506e2ca96192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>7 MOD1</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
@@ -63,8 +63,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_dictionary_x_4s_tricode_tricode_application_u_7mod1</sys_update_name>
-        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-        <sys_updated_on>2018-07-10 18:14:32</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-07-27 12:34:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

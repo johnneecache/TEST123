@@ -2,7 +2,7 @@
 <record_update sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="TriCode">969b6f8adb4dd7801bfdef92ca9619be</application>
+        <application display_value="Tricode Records">969b6f8adb4dd7801bfdef92ca9619be</application>
         <assessment/>
         <content_page/>
         <device_type/>
@@ -29,7 +29,7 @@
         <sys_created_on>2018-03-26 13:49:07</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_domain_path/>
         <sys_id>d5fba3cadb4dd7801bfdef92ca9619c8</sys_id>
         <sys_mod_count>18</sys_mod_count>
         <sys_name>Application (PRI) Records</sys_name>

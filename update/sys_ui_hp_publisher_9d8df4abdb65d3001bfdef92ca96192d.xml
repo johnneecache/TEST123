@@ -13,7 +13,7 @@
         <exclusion_choice_list/>
         <look_up_name>Coder Name (Interactive)</look_up_name>
         <name>Coder Name (Interactive)</name>
-        <reference_conditions table="sys_user">sys_domain=5f33c0b1dbb8df401bfdef92ca9619fd^EQ<item display_table="domain" display_value="Tricorp" endquery="false" field="sys_domain" goto="false" newquery="false" operator="=" or="false" value="5f33c0b1dbb8df401bfdef92ca9619fd"/>
+        <reference_conditions table="sys_user">sys_domain=5f33c0b1dbb8df401bfdef92ca9619fd^EQ<item endquery="false" field="sys_domain" goto="false" newquery="false" operator="=" or="false" value="5f33c0b1dbb8df401bfdef92ca9619fd"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_conditions>
         <reference_table>sys_user</reference_table>

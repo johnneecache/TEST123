@@ -2,7 +2,7 @@
 <record_update table="sys_scope_privilege">
     <sys_scope_privilege action="INSERT_OR_UPDATE">
         <operation>execute</operation>
-        <source_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</source_scope>
+        <source_scope/>
         <status>allowed</status>
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>azanias.sanchez@4thsource.com</sys_created_by>

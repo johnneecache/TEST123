@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Procedures" section_id="f5998626dbef17401bfdef92ca961997" sys_domain="f512d3841375130031b855912244b0be" table="x_4s_tricode_tricode_application_child" version="3" view="default">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_proc1_s</element>
+            <position>0</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>b72a8a26dbef17401bfdef92ca96198f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_proc2_s</element>
+            <position>1</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>3b2a8a26dbef17401bfdef92ca96198f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_proc3_s</element>
+            <position>2</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>bb2a8a26dbef17401bfdef92ca96198f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_proc4_s</element>
+            <position>3</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>3f2a8a26dbef17401bfdef92ca96198f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_proc5_s</element>
+            <position>4</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>bf2a8a26dbef17401bfdef92ca96198f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>332a8a26dbef17401bfdef92ca961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa1</element>
+            <position>6</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>b32a8a26dbef17401bfdef92ca961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa2</element>
+            <position>7</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>372a8a26dbef17401bfdef92ca961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa3</element>
+            <position>8</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>b72a8a26dbef17401bfdef92ca961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa4</element>
+            <position>9</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>3b2a8a26dbef17401bfdef92ca961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa5</element>
+            <position>10</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>bb2a8a26dbef17401bfdef92ca961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa6</element>
+            <position>11</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>3f2a8a26dbef17401bfdef92ca961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa7</element>
+            <position>12</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>bf2a8a26dbef17401bfdef92ca961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa8</element>
+            <position>13</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>332a8a26dbef17401bfdef92ca961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa9</element>
+            <position>14</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>b32a8a26dbef17401bfdef92ca961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa10</element>
+            <position>15</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>372a8a26dbef17401bfdef92ca961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa11</element>
+            <position>16</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>b72a8a26dbef17401bfdef92ca961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa12</element>
+            <position>17</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>3b2a8a26dbef17401bfdef92ca961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa13</element>
+            <position>18</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>bb2a8a26dbef17401bfdef92ca961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa14</element>
+            <position>19</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>3f2a8a26dbef17401bfdef92ca961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa15</element>
+            <position>20</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>bf2a8a26dbef17401bfdef92ca961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa16</element>
+            <position>21</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>332a8a26dbef17401bfdef92ca961992</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa17</element>
+            <position>22</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>b32a8a26dbef17401bfdef92ca961992</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa18</element>
+            <position>23</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>372a8a26dbef17401bfdef92ca961992</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa19</element>
+            <position>24</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>b72a8a26dbef17401bfdef92ca961992</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_poa20</element>
+            <position>25</position>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:33:18</sys_created_on>
+            <sys_id>3b2a8a26dbef17401bfdef92ca961992</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Procedures" display_value="Procedures" name="x_4s_tricode_tricode_application_child" sys_domain="f512d3841375130031b855912244b0be" view="30174876cb811200aa871831794c9cc4">f5998626dbef17401bfdef92ca961997</sys_ui_section>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:33:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Procedures</caption>
+            <header>false</header>
+            <name>x_4s_tricode_tricode_application_child</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
+            <sys_created_on>2018-07-30 02:30:42</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>f512d3841375130031b855912244b0be</sys_domain>
+            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>f5998626dbef17401bfdef92ca961997</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Procedures</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
+            <sys_update_name>sys_ui_section_f5998626dbef17401bfdef92ca961997</sys_update_name>
+            <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+            <sys_updated_on>2018-07-30 02:30:42</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default" name="default">30174876cb811200aa871831794c9cc4</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

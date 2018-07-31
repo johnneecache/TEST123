@@ -2,7 +2,7 @@
 <record_update table="sys_index">
     <sys_index action="INSERT_OR_UPDATE">
         <col_name_string>u_lifecycle,u_type</col_name_string>
-        <index_col_name>42fbbfc5dba35b00a159591e5e961932,8afbbfc5dba35b00a159591e5e961956</index_col_name>
+        <index_col_name>993534fddb6f9f00e3a506e2ca9619af,993534fddb6f9f00e3a506e2ca9619e0</index_col_name>
         <logical_table_name>x_4s_tricode_tricode_application_child</logical_table_name>
         <sys_class_name>sys_index</sys_class_name>
         <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>

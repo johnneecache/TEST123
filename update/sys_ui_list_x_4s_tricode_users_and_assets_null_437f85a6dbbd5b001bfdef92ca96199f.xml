@@ -16,37 +16,7 @@
             <sys_created_on>2018-05-03 22:26:58</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
-            <sys_id>437f85a6dbbd5b001bfdef92ca96199f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>x_4s_tricode_users_and_assets</sys_name>
-            <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
-            <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-            <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
-            <sys_update_name>sys_ui_list_x_4s_tricode_users_and_assets_null_437f85a6dbbd5b001bfdef92ca96199f</sys_update_name>
-            <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-            <sys_updated_on>2018-05-03 22:26:58</sys_updated_on>
-            <sys_user/>
-            <view display_value="Default view" name="NULL">Default view</view>
-            <view_name/>
-        </sys_ui_list>
-        <sys_ui_list action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element/>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <name>x_4s_tricode_users_and_assets</name>
-            <parent/>
-            <position/>
-            <relationship/>
-            <sum>false</sum>
-            <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>john.duchock@4thsource.com</sys_created_by>
-            <sys_created_on>2018-05-03 22:26:58</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
-            <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_domain_path/>
             <sys_id>437f85a6dbbd5b001bfdef92ca96199f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_4s_tricode_users_and_assets</sys_name>

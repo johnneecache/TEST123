@@ -9,15 +9,15 @@
         <sys_created_on>2018-05-22 21:18:10</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>68f5f6a0dbda97401bfdef92ca96198e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>x_4s_tricode_tricode_cpt_pla</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_index_x_4s_tricode_tricode_cpt_pla_u_pla_id</sys_update_name>
-        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
-        <sys_updated_on>2018-05-22 21:18:10</sys_updated_on>
+        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
+        <sys_updated_on>2018-07-25 11:59:29</sys_updated_on>
         <table/>
         <unique_index>false</unique_index>
     </sys_index>

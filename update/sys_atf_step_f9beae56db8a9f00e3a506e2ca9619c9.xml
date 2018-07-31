@@ -25,4 +25,5 @@
         <test display_value="Tricode Application - Primary">72bfdedadb4a9f00e3a506e2ca961965</test>
         <timeout/>
     </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=f9beae56db8a9f00e3a506e2ca9619c9"/>
 </record_update>

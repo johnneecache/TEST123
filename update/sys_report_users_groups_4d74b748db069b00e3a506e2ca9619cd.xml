@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
-        <group_id display_value="Tricode Coder" name="Tricode Coder">234c29eadb891b801bfdef92ca961925</group_id>
+        <group_id display_value="Tricode Coder" name="Tricode Coder">b9e4d570db1b9300e3a506e2ca96195e</group_id>
         <report_id display_value="Bi-Weekly 16-31 Closed Records for Coder Users ">c6c427a3dba91300e3a506e2ca961903</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>rtrevino@tricorp-itsolutions.com</sys_created_by>

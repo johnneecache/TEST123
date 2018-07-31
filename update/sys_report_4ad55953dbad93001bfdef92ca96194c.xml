@@ -100,7 +100,7 @@
         <sys_created_on>2018-04-23 20:34:30</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_domain_path/>
         <sys_id>4ad55953dbad93001bfdef92ca96194c</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Total Active Assignments</sys_name>

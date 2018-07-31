@@ -12,6 +12,9 @@
         <element label="PLA Short Description" max_length="255" name="u_pla_short_description" type="string"/>
         <element choice="1" label="Status" max_length="40" name="u_status" type="choice">
             <choice>
+                <element label="EXISTING" sequence="0" value="EXISTING"/>
+                <element label="New" sequence="0" value="New"/>
+                <element label="REVISED" sequence="0" value="REVISED"/>
                 <element label="EXISTING" sequence="1" value="EXISTING"/>
                 <element label="REVISED" sequence="2" value="REVISED"/>
                 <element label="NEW" sequence="3" value="NEW"/>

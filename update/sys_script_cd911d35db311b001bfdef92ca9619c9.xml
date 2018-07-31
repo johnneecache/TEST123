@@ -84,7 +84,7 @@ while(attR.next())
         <sys_created_on>2018-05-01 14:51:13</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_domain_path/>
         <sys_id>cd911d35db311b001bfdef92ca9619c9</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>scriptBack</sys_name>

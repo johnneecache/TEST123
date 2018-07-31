@@ -104,7 +104,7 @@ function getDSSysID(){
         <sys_created_on>2018-04-24 06:07:35</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_domain_path/>
         <sys_id>88d75357dba1d3001bfdef92ca96190a</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Import</sys_name>

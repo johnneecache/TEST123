@@ -100,7 +100,7 @@
         <sys_created_on>2018-05-02 11:55:05</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_domain_path/>
         <sys_id>1d45b946db7d1b001bfdef92ca9619b9</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name>Join Usage</sys_name>

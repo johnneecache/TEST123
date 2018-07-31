@@ -32,7 +32,7 @@ function doAlert(cpt17){
         <sys_created_on>2018-04-18 21:40:06</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_domain_path/>
         <sys_id>5ae4fb65db2913001bfdef92ca961928</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>CPT17 Primary</sys_name>

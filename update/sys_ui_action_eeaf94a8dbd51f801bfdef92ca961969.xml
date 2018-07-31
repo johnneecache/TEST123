@@ -83,7 +83,7 @@ action.setReturnURL(current);]]></script>
         <sys_created_on>2018-04-02 17:24:15</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-        <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+        <sys_domain_path/>
         <sys_id>eeaf94a8dbd51f801bfdef92ca961969</sys_id>
         <sys_mod_count>54</sys_mod_count>
         <sys_name>Create Child</sys_name>

@@ -6,12 +6,12 @@
             <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>
             <sys_created_on>2018-04-18 17:55:56</sys_created_on>
             <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_domain_path/>
             <sys_id>e2910fe5dba513001bfdef92ca9619d8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_4s_tricode_tricode_application" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="bbb41552db811b801bfdef92ca96195b">058552d2db051b801bfdef92ca96193b</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="bbb41552db811b801bfdef92ca96195b">a691cbe5dba513001bfdef92ca9619b4</sys_ui_section>
+            <sys_ui_form display_value="x_4s_tricode_tricode_application" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="5ad534f1dbaf9f00e3a506e2ca9619b8">058552d2db051b801bfdef92ca96193b</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_tricode_tricode_application" sys_domain="5f33c0b1dbb8df401bfdef92ca9619fd" view="5ad534f1dbaf9f00e3a506e2ca9619b8">a691cbe5dba513001bfdef92ca9619b4</sys_ui_section>
             <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
             <sys_updated_on>2018-04-18 17:55:56</sys_updated_on>
         </sys_ui_form_section>
@@ -23,7 +23,7 @@
             <sys_created_on>2018-03-27 02:07:22</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>5f33c0b1dbb8df401bfdef92ca9619fd</sys_domain>
-            <sys_domain_path>!!#/!!*/!!!/</sys_domain_path>
+            <sys_domain_path/>
             <sys_id>058552d2db051b801bfdef92ca96193b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_4s_tricode_tricode_application</sys_name>
@@ -36,7 +36,7 @@
             <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
             <sys_updated_on>2018-03-27 02:07:22</sys_updated_on>
             <sys_user/>
-            <view display_value="Index" name="index">bbb41552db811b801bfdef92ca96195b</view>
+            <view display_value="Index" name="index">5ad534f1dbaf9f00e3a506e2ca9619b8</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

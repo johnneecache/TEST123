@@ -33,15 +33,15 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>32</max_length>
         <name>x_4s_tricode_tricode_application</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_4s_tricode_tricode_icd_10_code">x_4s_tricode_tricode_icd_10_code</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -55,16 +55,16 @@
         <sys_created_by>john.duchock@4thsource.com</sys_created_by>
         <sys_created_on>2018-07-10 20:17:06</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>518d761813d793c031b855912244b027</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_id>d635b4fddb6f9f00e3a506e2ca96192c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>ICD 8</sys_name>
         <sys_package display_value="TRICODE" source="x_4s_tricode">8912fb2adb789380e3a506e2ca961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TRICODE">8912fb2adb789380e3a506e2ca961972</sys_scope>
         <sys_update_name>sys_dictionary_x_4s_tricode_tricode_application_u_icd8</sys_update_name>
-        <sys_updated_by>john.duchock@4thsource.com</sys_updated_by>
-        <sys_updated_on>2018-07-10 20:17:06</sys_updated_on>
+        <sys_updated_by>rthomas@tricorp-itsolutions.com</sys_updated_by>
+        <sys_updated_on>2018-07-30 00:42:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

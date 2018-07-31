@@ -2,7 +2,7 @@
 <record_update table="sys_index">
     <sys_index action="INSERT_OR_UPDATE">
         <col_name_string>u_group,u_admin_users</col_name_string>
-        <index_col_name>0288d7b7dba15300e3a506e2ca961922,1277c05edb8dd7801bfdef92ca96196b</index_col_name>
+        <index_col_name>9a35b4fddb6f9f00e3a506e2ca96191a,653574fddb6f9f00e3a506e2ca961930</index_col_name>
         <logical_table_name>x_4s_tricode_tricode_application</logical_table_name>
         <sys_class_name>sys_index</sys_class_name>
         <sys_created_by>rthomas@tricorp-itsolutions.com</sys_created_by>

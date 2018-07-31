@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="pa_dashboards_group">
     <pa_dashboards_group action="INSERT_OR_UPDATE">
-        <groups name="Tricode Admin">f7271096dbcdd7801bfdef92ca961909</groups>
+        <groups>f7271096dbcdd7801bfdef92ca961909</groups>
         <name>Admin</name>
         <order>10</order>
         <role_override>true</role_override>
